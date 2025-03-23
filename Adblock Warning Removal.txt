@@ -1,8 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Adblock Warning Removal List
 ! Expires: 7 days (update frequency)
-! Homepage: https://github.com/easylist/antiadblockfilters
-! Licence: https://easylist.to/pages/licence.html
 !
 ! *** antiadblockfilters:antiadblockfilters/antiadblock_arabic.txt ***
 !
