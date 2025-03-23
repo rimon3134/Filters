@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
 ! Title: RiMoN's Essentials
+! Homepage: https://github.com/uBlockO/uBO-Filters
+! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
 ! Description: An opinionated list for advanced hardening. Minimize connections to third-party sites.
 ! Expires: 7 days (update frequency)
 
 ! GENERAL BLOCKLIST
-! https://github.com/uBlock-user/uBO-Personal-Filters/blob/master/uPF.txt
-! https://github.com/crssi/Firefox/blob/master/uBO-Deny.txt
 ! $ping
 .checkfront.com/lib/Control.Geocoder*.js$script
 .checkfront.com/reserve/lib/jquery.cookie*.js$script
