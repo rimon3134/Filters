@@ -1,4 +1,4 @@
-! Title: RK's Mini DNS BlockList
+! Title: RK's Phantom Gateway
 ! Description: MiniMiZed yet Powerful DNS Hosts For DNS-Level Protection By RiMoN Khan!
 ! Credit: HaGezi & RiMoN Khan!
 !
