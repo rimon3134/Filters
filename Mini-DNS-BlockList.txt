@@ -1,4 +1,4 @@
-! Title: RK's Phantom Gateway
+! Title: RK's DNS Cloak
 ! Description: MiniMiZed yet Powerful DNS Hosts For DNS-Level Protection By RiMoN Khan!
 ! Credit: HaGezi & RiMoN Khan!
 !
