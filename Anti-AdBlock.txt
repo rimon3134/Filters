@@ -1,4 +1,4 @@
-! Title: RK's Anti-AdBlock
+! Title: RK's Anti-AdBlocker
 ! Description: Most PowerFul Anti-AdBlocker Out There By RiMoN!
 ! Credit: AdGuard, ABP, uBo and RK!
 !
