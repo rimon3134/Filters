@@ -1,4 +1,4 @@
-! Title: RK's Stealth Shield
+! Title: RK's Anti-AdBlock
 ! Description: Most PowerFul Anti-AdBlocker Out There By RiMoN!
 ! Credit: AdGuard, ABP, uBo and RK!
 !
