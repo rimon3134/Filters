@@ -1,5 +1,5 @@
 ! Title: RK's DNS BlockList
-! Description: MiniMiZed yet Powerful Lists For "DNS-Level" Protection By RiMoN Khan!
+! Description: MiniMiZed yet Powerful Lists For "DNS-Level" Protection/Security By RiMoN Khan!
 ! Credit: HaGezi & RiMoN Khan!
 !
 !
