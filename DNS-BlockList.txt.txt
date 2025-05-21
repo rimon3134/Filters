@@ -1,5 +1,5 @@
-! Title: RK's DNS BlockList
-! Description: A Minimized yet Powerful DNS-level Defense by RiMoN —Curated For Balance, Performance, And Protection.
+! Title: RK's PhantomList
+! Description: Silent Protection, Unseen Yet Constantly Defending. Curated by RIMON for Optimal Balance, Enhanced Performance, and Robust Security!
 ! Credits: HaGeZi & RiMoN Khan
 !
 !
