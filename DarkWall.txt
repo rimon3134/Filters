@@ -1,4 +1,4 @@
-! Title: RK's PhantomNet
+! Title: RK's DarkWall
 ! Description: A Minimized yet Powerful DNS-level Defense by RiMoN —Curated For Balance, Performance, And Protection.
 ! Credits: HaGeZi & RiMoN Khan
 !
