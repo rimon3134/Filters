@@ -1,5 +1,5 @@
-! Title: RK's Anti-AdBlock
-! Description: Precision-Crafted Rules By RiMoN To Neutralize Anti-Adblock Logic On ~95% Sites. 
+! Title: RK's ApexList
+! Description: The Ultimate Shield Against AdBlock Detection!
 ! Credits: AdGuard, ABP, And RiMoN Khan
 !
 !=====================================================!
