@@ -1,5 +1,5 @@
 ! Title: RK's BadBlock List
-! Description: A Minimized yet Powerful DNS-level Defense by RiMoN —Curated For Balance, Performance, And Protection.
+! Description: BadBlock by RiMoN —Curated For Balance, Performance, And Protection!
 ! Credits: Celenity & RiMoN Khan!
 !
 !
