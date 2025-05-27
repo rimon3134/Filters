@@ -3264,7 +3264,7 @@ $removeparam=CAGPSPN
 $removeparam=rt,domain=lendgo.com|bilibili.com
 ||lendgo.com^$removeparam=lt
 
-! https://github.com/uBlockOrigin/uBlock-issues/issues/1784
+! https://github.com/rimon3134/Filters/issues/1784
 $removeparam=lid,domain=baidu.com|clickserve.dartsearch.net|flipkart.com
 
 ! https://www•microcenter•com/site/content/specialofferssd240inf•aspx?referaldomain=youtube•com&web=EMAIL%20OPT%20IN%20-%20DLA_INFLUENCER_LinusTechTips_10252021
@@ -4315,7 +4315,7 @@ $doc,removeparam=wp_source,domain=ac24.cz|ambcrypto.com|glispa.com|whitepages.co
 ! https://github.com/rimon3134/Filters/163#discussioncomment-6066391
 ||manchestereveningnews.co.uk^$removeparam=kop,doc
 
-! https://github.com/uBlockOrigin/uBlock-issues/discussions/2683
+! https://github.com/rimon3134/Filters/discussions/2683
 ||sciencedirect.com/*?via%3D$removeparam=/^via%3D.*$/,doc
 
 ! https://github.com/rimon3134/Filters/163#discussioncomment-6077018
@@ -5159,7 +5159,7 @@ buffalonews.com##+js(set, lee_trkLinkSrc, noopFunc)
 ||rutube.ru/play/embed/$3p,frame,redirect=click2load.html
 ||s3.amazonaws.com/embed.animoto.com/$3p,frame,redirect=click2load.html
 !#if env_chromium
-! https://github.com/uBlockOrigin/uBlock-issues/issues/3088
+! https://github.com/rimon3134/Filters/issues/3088
 ||safe.txmblr.com^$3p,frame,redirect=click2load.html
 !#endif
 ||scribd.com/embeds/$3p,frame,redirect=click2load.html
@@ -9029,7 +9029,7 @@ zdnet.com##p strong:has-text(/^Also/):upward(p)
 ||addsearch.com^$3p
 9anime.*##+js(nosiif, (t))
 fmovies.*##+js(nosiif, try)
-!!! https://github.com/uBlockOrigin/uAssets/commit/9c48940838eb4bff98f2a1a9b9cba1b92c3c8c9a
+!!! https://github.com/rimon3134/Filters/commit/9c48940838eb4bff98f2a1a9b9cba1b92c3c8c9a
 ! ||tags.tiqcdn.com^
 ||paykickstart.com^$3p
 ||pressplay.io^$3p
@@ -9279,7 +9279,7 @@ indeed.com##.icl-Card
 ! Bing reverse image search broken by EL
 bing.com#@#a[href*="/aclick?ld="]
 bing.com##.ins_exp.vsp
-! https://github.com/uBlockOrigin/uAssets/issues/9093
+! https://github.com/rimon3134/Filters/issues/9093
 bing.com##:matches-path(~/shop) a[href*="/aclick?"]:not(.vsp_ads)
 ! https://github.com/easylist/easylist/issues/7240
 !#if env_firefox
@@ -11592,17 +11592,17 @@ www.amazon.*###universal-detail-ilm,.a-spacing-none.a-section > .sg-row,.AdHolde
 !=====================LAN-BLOCK================
 !
 !
-! https://github.com/uBlockOrigin/uBlock-issues/issues/1070#issuecomment-707237653
+! https://github.com/rimon3134/Filters/issues/1070#issuecomment-707237653
 ! https://github.com/uBlockOrigin/uBlock-discussions/discussions/910
 !#if cap_ipaddress
 *$strict3p,ipaddress=lan,domain=~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local
-! https://github.com/uBlockOrigin/uAssets/issues/28113
+! https://github.com/rimon3134/Filters/issues/28113
 @@||plex.direct^$domain=app.plex.tv
-! https://github.com/uBlockOrigin/uAssets/issues/28218
+! https://github.com/rimon3134/Filters/issues/28218
 @@||127.0.0.1:9666/jdcheck.js$script,domain=filecrypt.cc
-! https://github.com/uBlockOrigin/uAssets/issues/28345
+! https://github.com/rimon3134/Filters/issues/28345
 @@||media.southwestwifi.com^$domain=getconnected.southwestwifi.com
-! https://github.com/uBlockOrigin/uAssets/issues/28360
+! https://github.com/rimon3134/Filters/issues/28360
 @@||aainflight.com^$domain=aa.entertainment.viasat.com
 !#endif
 !#if !cap_ipaddress
@@ -11711,29 +11711,29 @@ www.amazon.*###universal-detail-ilm,.a-spacing-none.a-section > .sg-row,.AdHolde
 !
 ! ——— EXCEPTIONS
 !
-! https://github.com/uBlockOrigin/uAssets/issues/23456
+! https://github.com/rimon3134/Filters/issues/23456
 @@||127.0.0.1^$xhr,domain=figma.com
 !
-! https://github.com/uBlockOrigin/uAssets/issues/19005
+! https://github.com/rimon3134/Filters/issues/19005
 @@||127.0.0.1^$xhr,domain=battlelog.battlefield.com
 !
-! https://github.com/uBlockOrigin/uAssets/pull/20768
+! https://github.com/rimon3134/Filters/pull/20768
 @@||127.0.0.1^$3p,domain=musicbrainz.org
 !
-! https://github.com/uBlockOrigin/uAssets/pull/22475
+! https://github.com/rimon3134/Filters/pull/22475
 @@||127.0.0.1^$domain=client.foldingathome.org
 !
-! https://github.com/uBlockOrigin/uAssets/issues/21960
+! https://github.com/rimon3134/Filters/issues/21960
 @@||127.0.0.1^$domain=mega.nz
 !
-! https://github.com/uBlockOrigin/uAssets/commit/b0e28ffe
+! https://github.com/rimon3134/Filters/commit/b0e28ffe
 @@||127.0.0.1^$domain=intel.cn|intel.co.id|intel.co.jp|intel.co.kr|intel.com|intel.com.br|intel.com.tw|intel.de|intel.fr|intel.la|intel.vn
 !
-! https://github.com/uBlockOrigin/uAssets/issues/23388
+! https://github.com/rimon3134/Filters/issues/23388
 @@||localhost^$from=deutsche-rentenversicherung.de
 @@||127.0.0.1^$from=bund.de|organspende-register.de|bayernportal.de|mv-serviceportal.de|governikus.de|deutsche-rentenversicherung.de
 !
-! https://github.com/uBlockOrigin/uAssets/pull/24488
+! https://github.com/rimon3134/Filters/pull/24488
 @@||localhost^$websocket,domain=www.faceit.com
 
 ! Clicknload https://community.brave.com/t/filecrypt-co-functionality-is-broken-when-shields-are-up/597698/
@@ -11747,6 +11747,3 @@ www.amazon.*###universal-detail-ilm,.a-spacing-none.a-section > .sg-row,.AdHolde
 
 ! https://driverhub.asus.com/en (fixed in https://github.com/brave/adblock-lists/pull/2340)
 @@||127.0.0.1^$domain=driverhub.asus.com
-
-!
-! ——— END
