@@ -1,11 +1,11 @@
 ! Title: RK's ShadowList
-! Description: Built for privacy. Tuned for performance.  
+! Description: Built For Privacy and Tuned For Maximum Performance!  
 ! Credits: uBo, AdGuard And RiMoN Khan 
 !
 !
 !=====================================================!
 !                                                     !
-!~~~~~~~~~~~~~~~~Privacy-Essentials~~~~~~~~~~~~~~~~~~~!
+!~~~~~~~~~~~~~~~~~~RK'S-SHADOWLIST~~~~~~~~~~~~~~~~~~~~!
 !                                                     !
 !=====================================================!
 !
