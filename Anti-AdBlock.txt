@@ -1,6 +1,6 @@
 ! Title: RK's Anti-AdBlock
 ! Description: The Ultimate Shield Against AdBlock Detection By RiMoN!
-! Credits: AdGuard, ABP, ReeK, And RiMoN Khan!
+! Credits: AdGuard, ABP, And RiMoN Khan!
 !
 !=====================================================!
 !                                                     !
