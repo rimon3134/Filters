@@ -1,5 +1,5 @@
-! Title: RK's DNS BlockList
-! Description: Silent Protection by RIMON For Optimal Balance, Enhanced Performance, and Robust Security!
+! Title: RK's NetShield List
+! Description: Silent Protection by- RiMoN For Optimal Balance, Enhanced Performance, and Robust Security!
 ! Credits: HaGeZi & RiMoN Khan!
 !
 !
