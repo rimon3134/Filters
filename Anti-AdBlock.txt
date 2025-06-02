@@ -1,4 +1,4 @@
-! Title: RK's Anti-AdBlock
+! Title: RK's AdGhost List
 ! Description: Elite Anti-AdBlock Evasion & Clean Browsing – By RiMoN!
 ! Credits: AdGuard, ABP, And RiMoN Khan!
 !
