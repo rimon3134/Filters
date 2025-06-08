@@ -26889,18 +26889,3 @@ zonkafeedback*.amazonaws.com
 ||zynga1-a.akamaihd.net^
 ||zynga2-a.akamaihd.net^
 ||zynga3-a.akamaihd.net^
-!
-!=====================NO-AI-BULLSHIT==================
-!
-! Hide AI Overview elements
-google.com##.M8OgIe
-google.com##.rEow3c
-google.com##h1:has-text(AI Overview)
-google.com##div:has(h1:has-text(AI Overview))
-
-! Remove AI Overview dynamically
-google.com##+js(remove-elements, h1:has-text(AI Overview), .M8OgIe, .rEow3c)
-google.com##+js(remove-elements, div:has(h1:has-text(AI Overview)))
-
-! Block possible AI Overview network requests
-||google.com/*AI_Overview*$important
