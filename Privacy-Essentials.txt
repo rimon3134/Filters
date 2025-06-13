@@ -89,10 +89,9 @@
 ! ||cdn.embedly.com/widgets/media.html*$3p,frame,redirect=click2load.html
 ! GIFs
 ! ||gfycat.com/$3p,frame,redirect=click2load.html
-!                                                     !
-!                                                     !
-!~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~!
-!                                                     !
+!
+!@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@!
+!
 !!! ALLOWLIST
 @@||ajax.googleapis.com/ajax/libs/webfont/$script,domain=bootsnipp.com|regexpal.com|typepad.com
 @@||amazonaws.com^$font,3p,domain=dollartree.com|plex.tv
