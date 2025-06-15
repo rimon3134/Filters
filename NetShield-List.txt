@@ -1,4 +1,4 @@
- ! Title: RK's NetShield List
+! Title: RK's NetShield List
 ! Author: Team CGR (Broomance)
 ! Version: v1.0 - Private Build
 ! Entries: 669
