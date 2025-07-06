@@ -1,10 +1,12 @@
+! Title: RK's NetShield List
 ! Author: Rimon Hossain
+! Version: 2025v7.1  
 ! Description: SOC-Grade DNS Threat Filtering — Engineered for Precision. Tuned for Peak Performance!  
+! Targets: Adware, Scam, Spam, Phishing, Malware, Clickbait, Annoyances, Deceptive Domains & More 
 ! License: MIT  
 ! Note: Updated by Coffee, Chaos & Cosmic Coincidence 🤣☕✨
-! Targets: Adware, Scam, Spam, Phishing, Malware, Clickbait, Annoyances, Deceptive Domains & More 
-! Title: RK's NetShield List
-! Version: 2025v7.1  
+!
+!
 !
 ||0000o.xyz^
 ||000webhostapp.com^
