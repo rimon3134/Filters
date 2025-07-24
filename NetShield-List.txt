@@ -1,10 +1,11 @@
 ! Title: RK's NetShield List
 ! Author: Rimon Hossain
-! Version: 2025v7.16
-! Description: SOC-Grade Threat Filtering — Engineered for Precision. Tuned for Peak Performance!
-! Targets: Tracker, Adware, Scam, Spam, Phishing, Malware, Clickbait, Deceptive Domains & More....
+! Version: 2025v7.24
+! Description: Precision-Crafted, Bloat-Free DNS Filtering — Tuned For Peak Performance.
+! Targets: Adware, Tracker, Scam, Spam, Phishing, Malware, Clickbait, Deceptive Domains & More...
+! Exclusiveness: Support For BANGLADESH Included!
 ! License: MIT
-! Note: Updated by Coffee, Chaos & Cosmic Coincidence 🤣☕✨
+! Note: Brewed with Coffee, Chaos & Cosmic Coincidence ☕✨🤣
 !
 !
 ||0-size.com^
