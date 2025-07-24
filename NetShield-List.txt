@@ -1,6 +1,6 @@
 ! Title: RK's NetShield List
 ! Author: Rimon Hossain
-! Version: 2025v7.23
+! Version: 2025v7.25
 ! Description: Precision-Crafted, Bloat-Free DNS Filtering — Tuned For Peak Performance.
 ! Targets: Adware, Tracker, Scam, Spam, Phishing, Malware, Clickbait, Deceptive Domains & More...
 ! Exclusiveness: Support For BANGLADESH Included!
