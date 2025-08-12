@@ -1,4 +1,4 @@
-! Title: RK's Phantom List
+! Title: RK's NetShield List
 ! Author: Rimon Hossain
 ! Version: 2025v8.12
 ! Description: Precision-Crafted, Bloat-Free DNS Filtering — Tuned For Peak Performance.
