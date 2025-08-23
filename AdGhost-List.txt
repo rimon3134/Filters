@@ -1,6 +1,6 @@
 ! Title: RK's AdGhost List
 ! Author: Rimon Hossain
-! Version: 2025v8.03 
+! Version: 2025v8.24 
 ! Description: When You'd Rather Ghost Than Get Noticed. 🕶️
 ! License: MIT  
 ! Note: Brewed with Coffee, Chaos & Cosmic Coincidence ☕✨🤣
@@ -6687,4 +6687,5 @@ realty.ya.ru##.OffersSerp__item_type_ad
 [$path=/q]yandex.*#$?#body.page_qQuestionRoute div#page > div[class]:first-child > div[class]:first-child > section[class*=" "] > div[class] + div > div:not(:has(> div[id^="content-control-"])):not(:has(a[class])) { height: 0 !important; }
 turbopages.org##div[class*="type_adfox"]
 turbopages.org##.turbo-advert
+
 turbopages.org##.page__result > div[class*="type_native"]
