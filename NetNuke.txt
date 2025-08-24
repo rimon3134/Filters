@@ -1,4 +1,3 @@
-[Adblock Plus 2.0]
 ! Title: RK's NetNuke List
 ! Author: Rimon Hossain
 ! Version: 2025v8.25
