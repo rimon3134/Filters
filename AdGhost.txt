@@ -2720,6 +2720,7 @@ imgur.com#%#//scriptlet("set-constant", "ADBLOCKED", "false")
 camarchive.tv#%#//scriptlet("set-constant", "adsBlocked", "falseFunc")
 ||exosrv.com/*.js$script,xmlhttprequest,redirect=noopjs,domain=camarchive.tv
 vanis.io###ab-overlay
+||s0-greate.net/go/1445313^$popup
 3dzip.org##.san_wrapper
 3dzip.org#%#//scriptlet("set-constant", "google_jobrunner", "noopFunc")
 ustream.to###adblockz_alert
@@ -5359,4 +5360,5 @@ bigpuzzle.ru##td[valign="top"][width="240px"][height="600"]
 ||rockstargame.su/adb_script$script
 ||rusnext.ru/advar.js$script
 ||shellcat.ru^$third-party
+
 ||vazhno.ru/cdn-cgi/apps/head/*.js
