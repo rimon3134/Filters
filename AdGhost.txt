@@ -1,6 +1,6 @@
 ! Title: RK's AdGhost List
 ! Author: Rimon Hossain
-! Version: 2025v09.07 
+! Version: 2025v09.09 
 ! Description: When You'd Rather Ghost Than Get Noticed. 🕶️
 ! License: MIT  
 ! Note: Brewed with Coffee, Chaos & Cosmic Coincidence ☕✨🤣
@@ -5362,3 +5362,4 @@ bigpuzzle.ru##td[valign="top"][width="240px"][height="600"]
 ||shellcat.ru^$third-party
 
 ||vazhno.ru/cdn-cgi/apps/head/*.js
+
