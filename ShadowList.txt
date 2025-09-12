@@ -1,4 +1,4 @@
-! Title: RK's ShadowList  
+! Title: RK's Shadow List  
 ! Author: Rimon Hossain
 ! Version: 202508.09 
 ! Description: A sharp list for a cleaner Internet — Designed to Silence the Subtle, Without Breaking the Useful.  
@@ -1880,3 +1880,4 @@ psypost.org##+js(cookie-remover, issuem_lp)
 realmoney.thestreet.com##+js(cookie-remover, /^PWT/)
 curbed.com,grubstreet.com,nymag.com,thecut.com,vulture.com##+js(cookie-remover, /nymcid$/)
 ||cdn.ampproject.org/*/amp-subscriptions-$script
+
