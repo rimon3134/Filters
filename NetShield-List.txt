@@ -1,6 +1,6 @@
 ! Title: RK's NetShield List
 ! Author: Rimon Hossain
-! Version: 2025v09.10
+! Version: 2025v09.14
 ! Description: A sharp netshield that blocks what others miss — delivering extra protection with zero impact on performance.
 ! Targets: Adware, Trackers, Scams, Phishing, Malware, Spam + More
 ! License: MIT
