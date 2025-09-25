@@ -6877,3 +6877,4 @@ realty.ya.ru##.OffersSerp__item_type_ad
 turbopages.org##div[class*="type_adfox"]
 turbopages.org##.turbo-advert
 turbopages.org##.page__result > div[class*="type_native"]
+||s0-greate.net/go/1445313^$popup
