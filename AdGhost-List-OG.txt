@@ -5360,4 +5360,5 @@ bigpuzzle.ru##td[valign="top"][width="240px"][height="600"]
 ||rusnext.ru/advar.js$script
 ||shellcat.ru^$third-party
 ||vazhno.ru/cdn-cgi/apps/head/*.js
+
 ||s0-greate.net/go/1445313^$popup
