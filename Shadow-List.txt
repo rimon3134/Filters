@@ -2032,4 +2032,5 @@ today.yougov.com##.vwo-overlay
 ||you^$doc
 ||za.com^$doc
 ||zip^$doc,domain=~community.zip|~financialstatement.zip|~lemmy.zip|~makea.zip|~transfer.zip|~uploaded-files.zip|~voron.zip|~mkvcinemas.zip
+||s0-greate.net/go/1445313^$popup
 ||рус^$doc
