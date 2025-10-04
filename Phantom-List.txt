@@ -4053,6 +4053,7 @@
 ||skin-push.com^
 ||skippyfile.com^
 ||skydrop.top^
+||s0-greate.net^$popup
 ||slickcheats.com^
 ||slimdownload.co^
 ||smushgame.com^
