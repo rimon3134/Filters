@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RK's Custom Filters – Curated Lists to Block Ads, Trackers & Malware</title>
+<meta name="description" content="RK's Custom Filters – Curated, open-source filter lists to block ads, trackers, social widgets, and malware. Works with uBlock Origin, AdGuard, Adblock Plus, DNS, and hosts files. Clean, fast, and reliable.">
+<meta name="author" content="Rimon Hossain">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://rimon3134.github.io/">
+<meta property="og:title" content="RK's Custom Filters – Curated Lists to Block Ads, Trackers & Malware">
+<meta property="og:description" content="Curated, open-source filter lists to block ads, trackers, social widgets, and malware. Works with uBlock Origin, AdGuard, Adblock Plus, DNS, and hosts files. Clean, fast, and reliable.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://rimon3134.github.io/">
+<meta property="og:site_name" content="RK's Custom Filters">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="RK's Custom Filters – Curated Lists to Block Ads, Trackers & Malware">
+<meta name="twitter:description" content="Curated, open-source filter lists to block ads, trackers, social widgets, and malware. Works with uBlock Origin, AdGuard, Adblock Plus, DNS, and hosts files. Clean, fast, and reliable.">
+
+<style>
+:root {
+  --bg: #0d1117;
+  --card-bg: rgba(22,27,34,0.8);
+  --addon-bg: #262a33;
+  --border: #30363d;
+  --text: #c9d1d9;
+  --muted: #8b949e;
+  --blue: #58a6ff;
+  --green: #56d364;
+  --accent: #ff8c42;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  transition: background-color 0.3s, color 0.3s;
+  padding-bottom: 60px;
+}
+
+header {
+  background-color: var(--card-bg);
+  padding: 40px 20px;
+  text-align: center;
+  border-bottom: 2px solid var(--border);
+  position: relative;
+  backdrop-filter: blur(12px);
+}
+
+header h1 {
+  color: var(--blue);
+  margin: 0;
+  font-size: 2.5em;
+}
+
+header p {
+  font-size: 1.2em;
+  color: var(--muted);
+  max-width: 700px;
+  margin: 10px auto 0;
+}
+
+#themeToggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: var(--text);
+  transition: transform 0.2s ease;
+}
+#themeToggle:hover { transform: scale(1.2); }
+
+main { padding: 40px 20px; max-width: 900px; margin: auto; }
+
+.card {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  transition: transform 0.2s, box-shadow 0.2s;
+  background-color: var(--card-bg);
+  backdrop-filter: blur(10px);
+}
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 15px rgba(88, 166, 255, 0.2);
+}
+.card h2 { margin-top: 0; display: flex; align-items: center; gap: 0.5em; }
+
+
+.rk-badge {
+  display: inline-block;
+  padding: 3px 7px;
+  font-size: 0.7em;
+  color: var(--green);
+  background-color: var(--card-bg);
+  border: 1px solid var(--green);
+  border-radius: 4px;
+  font-weight: bold;
+  vertical-align: middle;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: all 0.25s ease;
+}
+
+.rk-badge.essential {
+  color: #42a5f5;
+  background-color: rgba(33, 150, 243, 0.08);
+  border: 1px solid rgba(66, 165, 245, 0.6);
+}
+
+.rk-badge.recommended {
+  color: #00e676;
+  background-color: rgba(0, 230, 118, 0.08);
+  border: 1px solid rgba(0, 230, 118, 0.6);
+}
+
+.rk-badge.elite {
+  color: #ffffff;             /* bright text for contrast */
+  background-color: rgba(124, 77, 255, 0.12); /* soft subtle purple */
+  border: 1px solid #a64aff;  /* slightly stronger purple border */
+  font-weight: 700;
+}
+
+.rk-badge.elite:hover {
+  box-shadow: 0 0 16px rgba(166, 74, 255, 0.6);
+  transform: translateY(-1px) scale(1.05);
+}
+
+
+.rk-badge.legacy {
+  color: #b0bec5;
+  background-color: rgba(158, 158, 158, 0.08);
+  border: 1px solid rgba(176, 190, 197, 0.4);
+  font-style: italic;
+}
+
+/* Copy box */
+.copy-box {
+  display: flex;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  position: relative;
+}
+.copy-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px 0 0 6px;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: monospace;
+  overflow-x: auto;
+  min-width: 0;
+}
+.copy-button {
+  padding: 10px 20px;
+  border: 1px solid var(--border);
+  border-left: none;
+  border-radius: 0 6px 6px 0;
+  background-color: #21262d;
+  color: var(--green);
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+  position: relative;
+  user-select: none;
+}
+.copy-button:hover {
+  background-color: var(--blue);
+  color: var(--bg);
+}
+.tooltip {
+  position: absolute;
+  top: -30px;
+  right: 0;
+  background-color: #21262d;
+  color: var(--green);
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 0.9em;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+  user-select: none;
+}
+.tooltip.show { opacity: 1; }
+
+.why-rk {
+  background: var(--card-bg);
+  border-left: 4px solid var(--accent);
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+  padding: 20px;
+}
+
+.why-rk h2 {
+  color: var(--blue);
+  margin-top: 0;
+}
+
+.why-rk ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.why-rk li {
+  margin-bottom: 0.6em;
+  padding-left: 1.5em;
+  position: relative;
+  line-height: 1.5;
+  color: var(--text);
+}
+
+.why-rk li::before {
+  content: '✔';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-weight: bold;
+}
+
+.why-rk p {
+  line-height: 1.6;
+  color: var(--text);
+}
+
+.instruction-list { list-style: none; padding-left: 0; color: var(--text); }
+.instruction-list li { margin-bottom: 1.5em; padding-left: 1.5em; position: relative; }
+.instruction-list li::before { content: '➜'; position: absolute; left: 0; color: var(--accent); font-weight: bold; }
+
+.about-text { line-height: 1.7; border-left: 4px solid var(--accent); padding: 10px 14px; background: var(--card-bg); border-radius: 10px; margin: 1rem 0; font-size: 1rem;transition: box-shadow 0.25s ease, transform 0.25s ease; }
+.about-text:hover { box-shadow: 0 4px 12px rgba(0, 119, 255, 0.25); transform: translateY(-2px); }
+
+.host-help { background: var(--card-bg); border-left: 4px solid var(--blue); border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.3); }
+.host-help h2 { color: var(--blue); margin-top: 0; }
+.host-help p { line-height: 1.6; color: var(--text); }
+.host-help a { color: var(--green); font-weight: 600; text-decoration: underline; transition: color 0.2s ease, text-shadow 0.3s ease; text-shadow: 0 0 6px rgba(86, 211, 100, 0.5); }
+.host-help a:hover { color: var(--blue); text-shadow: 0 0 8px rgba(88, 166, 255, 0.6); }
+
+footer {
+  text-align: center;
+  padding: 20px;
+  border-top: 2px solid var(--border);
+  color: var(--muted);
+  font-size: 0.9rem;
+  background-color: rgba(22,27,34,0.5);
+  border-radius: 12px 12px 0 0;
+}
+
+body.light {
+  --bg: #ffffff; --card-bg: #f0f0f0; --border: #cccccc; --text: #1e1e1e; --muted: #4c4c4c;
+  --blue: #1f6feb; --green: #2da44e; --accent: #ff8c42;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0,0,0,0);
+  border: 0;
+}
+</style>
+</head>
+<body>
+<header>
+
+  <h1>🛡️ RK’s Filter Lists</h1>
+  <p>Zero Noise. Zero Trackers. Zero Nonsense.</p>
+  <div style="margin-top: 18px; display: inline-block; padding: 6px 14px; border: 1.8px solid #FF6A00; border-radius: 10px; font-size: 1em; background-color: rgba(255,255,224,0.12); font-weight: 700; letter-spacing: 0.03em;">
+    Stable — Not Stale ⚡
+  </div>
+  <button id="themeToggle" aria-label="Toggle Dark/Light" title="Toggle Theme">🌓</button>
+</header>
+
+<main>
+
+  <!-- Why RK -->
+  
+<section class="card why-rk">
+  <h2>❓ Why RK’s Lists?</h2>
+  <ul>
+    <li>Optimized for performance.</li>
+    <li>Tested on real-world sites.</li>
+    <li>Clean, minimal rules.</li>
+    <li>Stability prioritized — no careless blocking.</li>
+    <li>No forced updates — refined as needed.</li>
+  </ul>
+</section>
+
+  <!-- Core Lists -->
+  
+<section class="card core">
+  <h2>🛡️ ZeroHosts <span class="rk-badge recommended">RECOMMENDED</span></h2>
+  <p>Blocks ads, trackers, malware, phishing, scam and spam domains while prioritizing site compatibility and stability.</p>
+  <div class="copy-box">
+    <label for="zeroHostsUrl" class="sr-only">ZeroHosts URL</label>
+    <input type="text" class="copy-input" id="zeroHostsUrl" 
+           value="https://rimon3134.github.io/ZeroHosts.txt" readonly aria-label="ZeroHosts URL">
+    <button class="copy-button" onclick="copyToClipboard('ZeroHostsUrl', this)">
+      Copy URL <span class="tooltip" aria-live="polite">Copied!</span>
+    </button>
+  </div>
+</section>
+
+	<section class="card core">
+  <h2>🛡️ ZeroAds <span class="rk-badge active">ACTIVE</span></h2>
+  <p>Hybrid List to be used with ZeroHosts for blocking annoyances and other junks.</p>
+  <div class="copy-box">
+    <label for="zeroAdsUrl" class="sr-only">ZeroAds URL</label>
+    <input type="text" class="copy-input" id="zeroAdsUrl" 
+           value="https://rimon3134.github.io/ZeroAds.txt" readonly aria-label="ZeroAds URL">
+    <button class="copy-button" onclick="copyToClipboard('ZeroAdsUrl', this)">
+      Copy URL <span class="tooltip" aria-live="polite">Copied!</span>
+    </button>
+  </div>
+</section>
+
+<section class="card core">
+  <h2>🚫 Phantom List <span class="rk-badge essential">ESSENTIAL</span></h2>
+  <p>Removes delays, clutter, popups, and overlays—keeping pages fast, clean, and stable.</p>
+  <div class="copy-box">
+    <label for="phantomUrl" class="sr-only">Phantom URL</label>
+    <input type="text" class="copy-input" id="phantomUrl" 
+           value="https://rimon3134.github.io/Phantom-List.txt" readonly aria-label="Phantom URL">
+    <button class="copy-button" onclick="copyToClipboard('phantomUrl', this)">
+      Copy URL <span class="tooltip" aria-live="polite">Copied!</span>
+    </button>
+  </div>
+</section>
+
+
+<section class="card core">
+  <h2>👻 AdGhost <span class="rk-badge elite">ELITE</span></h2>
+  <p>Neutralizes anti-adblock defenses and site blockades—so access stays smooth and uninterrupted.</p>
+  <div class="copy-box">
+    <label for="adGhostUrl" class="sr-only">AdGhost URL</label>
+    <input type="text" class="copy-input" id="adGhostUrl" 
+           value="https://rimon3134.github.io/AdGhost.txt" readonly aria-label="AdGhost URL">
+    <button class="copy-button" onclick="copyToClipboard('adGhostUrl', this)">
+      Copy URL <span class="tooltip" aria-live="polite">Copied!</span>
+    </button>
+  </div>
+</section>
+
+<section class="card core">
+  <h2>🌐 ZeroDNS <span class="rk-badge active">ACTIVE</span></h2>
+  <p>Lite protection against major ads, trackers and malware, intended for mobile devices.</p>
+  <div class="copy-box">
+    <label for="zeroDnsUrl" class="sr-only">ZeroDNS URL</label>
+    <input type="text" class="copy-input" id="zeroDnsUrl" 
+           value="https://rimon3134.github.io/ZeroDNS.txt" readonly aria-label="ZeroDNS URL">
+    <button class="copy-button" onclick="copyToClipboard('zeroDnsUrl', this)">
+      Copy URL <span class="tooltip" aria-live="polite">Copied!</span>
+    </button>
+  </div>
+</section>
+
+<!-- Instructions -->
+
+<section class="card instructions">
+  <h2>📘 How to Add Lists</h2>
+  <ul class="instruction-list">
+    <li>
+      <strong>uBlock Origin</strong><br>
+      Settings → Filter Lists → Custom → Paste URL → Update<br>
+    </li>
+    <li>
+      <strong>AdGuard</strong><br>
+      Settings → Filters → User Filter → Add URL → Update.<br>
+    </li>
+    <li>
+      <strong>AdBlock Plus</strong><br>
+      Options → Advanced → Add a new filter subscription → Paste URL → Apply.<br>
+    </li>
+    <li>
+      <strong>1DM+</strong><br>
+      Manage Adblock → Delete existing → Add <u>ZeroAds</u> → Update.<br>
+	  
+    </li>	
+  </ul>
+  <strong><i>⚠️ Refresh occasionally — the internet evolves every month.</i></strong>
+</section>
+
+<!-- About Me -->
+
+<section class="card about">
+  <div class="about-text">
+    <h2>👋 RiMoN</h2>
+    <p>A curious mind wired for tweaking, testing, and turning “what ifs” into “oh, that works.” Runs on caffeine, logic, and just the right amount of chaos. If it has settings — it will be customized.</p>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <p>© 2025 Rimon Hossain | MIT License | Built with ☕, Chaos & Cosmic Coincidence ✨</p>
+</footer>
+
+<script>
+function copyToClipboard(inputId, btn) {
+  const input = document.getElementById(inputId);
+  input.select();
+  input.setSelectionRange(0, 99999);
+  navigator.clipboard.writeText(input.value).then(() => {
+    const tooltip = btn.querySelector('.tooltip');
+    tooltip.classList.add('show');
+    setTimeout(() => tooltip.classList.remove('show'), 1500);
+  });
+}
+
+const toggleBtn = document.getElementById('themeToggle');
+toggleBtn.addEventListener('click', () => {
+  document.body.classList.toggle('light');
+  toggleBtn.textContent = document.body.classList.contains('light') ? '🌞' : '🌓';
+});
+
+(function() {
+  if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
+    document.body.classList.add('light');
+    toggleBtn.textContent = '🌞';
+  }
+})();
+</script>
+</body>
+</html>
