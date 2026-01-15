@@ -19,110 +19,177 @@
 <meta name="twitter:description" content="Curated, open-source filter lists to block ads, trackers, social widgets, and malware. Works with uBlock Origin, AdGuard, Adblock Plus, DNS, and hosts files. Clean, fast, and reliable.">
 
 <style>
-
 :root {
-  --bg: #0a0c10;
-  --surface: rgba(255,255,255,0.05);
-  --surface-strong: rgba(255,255,255,0.12);
-  --border: rgba(255,255,255,0.15);
-  --text: #e4e6eb;
-  --muted: #9ca3af;
-  --primary: #00d2ff;
-  --primary-glow: rgba(0,210,255,0.45);
+  --bg: #0d1117;
+  --card-bg: rgba(22,27,34,0.8);
+  --addon-bg: #262a33;
+  --border: #30363d;
+  --text: #c9d1d9;
+  --muted: #8b949e;
+  --blue: #58a6ff;
+  --green: #56d364;
   --accent: #ff8c42;
-  --radius: 18px;
-  --trans: 0.25s ease;
 }
 
 body {
   margin: 0;
-  font-family: 'Inter', sans-serif;
-  background: var(--bg);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg);
   color: var(--text);
+  transition: background-color 0.3s, color 0.3s;
+  padding-bottom: 60px;
 }
 
-
 header {
+  background-color: var(--card-bg);
+  padding: 40px 20px;
   text-align: center;
-  padding: 60px 20px;
-  background: linear-gradient(145deg, #0a0f14, #0f1116);
-  border-bottom: 1px solid var(--border);
-  box-shadow: 0 4px 30px rgba(0,0,0,0.4);
+  border-bottom: 2px solid var(--border);
+  position: relative;
+  backdrop-filter: blur(12px);
 }
 
 header h1 {
-  font-size: 2.8rem;
-  font-weight: 700;
-  color: var(--primary);
-  text-shadow: 0 0 10px var(--primary-glow);
+  color: var(--blue);
+  margin: 0;
+  font-size: 2.5em;
 }
 
 header p {
-  margin-top: 10px;
-  font-size: 1.2rem;
+  font-size: 1.2em;
   color: var(--muted);
+  max-width: 700px;
+  margin: 10px auto 0;
 }
 
-.badge-top {
-  display: inline-block;
-  margin-top: 18px;
-  padding: 8px 18px;
-  border-radius: var(--radius);
-  border: 2px solid var(--accent);
-  background: rgba(255,140,66,0.08);
-  font-weight: 600;
-  letter-spacing: 0.5px;
+#themeToggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: var(--text);
+  transition: transform 0.2s ease;
 }
+#themeToggle:hover { transform: scale(1.2); }
 
-
-main {
-  max-width: 880px;
-  margin: auto;
-  padding: 40px 20px;
-}
-
+main { padding: 40px 20px; max-width: 900px; margin: auto; }
 
 .card {
-  background: var(--surface);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
   border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 25px;
-  margin-bottom: 28px;
-  backdrop-filter: blur(14px);
-  transition: var(--trans);
+  transition: transform 0.2s, box-shadow 0.2s;
+  background-color: var(--card-bg);
+  backdrop-filter: blur(10px);
 }
-
 .card:hover {
-  background: var(--surface-strong);
-  transform: translateY(-4px);
-  box-shadow: 0 0 22px var(--primary-glow);
+  transform: scale(1.02);
+  box-shadow: 0 0 15px rgba(88, 166, 255, 0.2);
 }
-
-.card h2 {
-  margin-top: 0;
-  display: flex;
-  align-items: center;
-  gap: 0.4em;
-  font-size: 1.5rem;
-}
+.card h2 { margin-top: 0; display: flex; align-items: center; gap: 0.5em; }
 
 
 .rk-badge {
-  padding: 3px 8px;
-  font-size: 0.7rem;
-  border-radius: 6px;
-  border: 1px solid var(--primary);
-  color: var(--primary);
+  display: inline-block;
+  padding: 3px 7px;
+  font-size: 0.7em;
+  color: var(--green);
+  background-color: var(--card-bg);
+  border: 1px solid var(--green);
+  border-radius: 4px;
+  font-weight: bold;
+  vertical-align: middle;
   text-transform: uppercase;
-  font-weight: 700;
   letter-spacing: 0.5px;
+  transition: all 0.25s ease;
 }
 
-.rk-badge.essential { border-color: #42a5f5; color: #42a5f5; }
-.rk-badge.recommended { border-color: #00e676; color: #00e676; }
-.rk-badge.elite { border-color: #d188ff; color: #d188ff; }
-.rk-badge.active { border-color: #00d2ff; color: #00d2ff; }
+.rk-badge.essential {
+  color: #42a5f5;
+  background-color: rgba(33, 150, 243, 0.08);
+  border: 1px solid rgba(66, 165, 245, 0.6);
+}
 
+.rk-badge.recommended {
+  color: #00e676;
+  background-color: rgba(0, 230, 118, 0.08);
+  border: 1px solid rgba(0, 230, 118, 0.6);
+}
+
+.rk-badge.elite {
+  color: #ffffff;             /* bright text for contrast */
+  background-color: rgba(124, 77, 255, 0.12); /* soft subtle purple */
+  border: 1px solid #a64aff;  /* slightly stronger purple border */
+  font-weight: 700;
+}
+
+.rk-badge.elite:hover {
+  box-shadow: 0 0 16px rgba(166, 74, 255, 0.6);
+  transform: translateY(-1px) scale(1.05);
+}
+
+
+.rk-badge.legacy {
+  color: #b0bec5;
+  background-color: rgba(158, 158, 158, 0.08);
+  border: 1px solid rgba(176, 190, 197, 0.4);
+  font-style: italic;
+}
+
+/* Copy box */
+.copy-box {
+  display: flex;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  position: relative;
+}
+.copy-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px 0 0 6px;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: monospace;
+  overflow-x: auto;
+  min-width: 0;
+}
+.copy-button {
+  padding: 10px 20px;
+  border: 1px solid var(--border);
+  border-left: none;
+  border-radius: 0 6px 6px 0;
+  background-color: #21262d;
+  color: var(--green);
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+  position: relative;
+  user-select: none;
+}
+.copy-button:hover {
+  background-color: var(--blue);
+  color: var(--bg);
+}
+.tooltip {
+  position: absolute;
+  top: -30px;
+  right: 0;
+  background-color: #21262d;
+  color: var(--green);
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 0.9em;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+  user-select: none;
+}
+.tooltip.show { opacity: 1; }
 
 .why-rk {
   background: var(--card-bg);
@@ -132,10 +199,9 @@ main {
   padding: 20px;
 }
 
-header h1 {
+.why-rk h2 {
   color: var(--blue);
-  margin: 0;
-  font-size: 2.5em;
+  margin-top: 0;
 }
 
 .why-rk ul {
@@ -165,167 +231,114 @@ header h1 {
   color: var(--text);
 }
 
+.instruction-list { list-style: none; padding-left: 0; color: var(--text); }
+.instruction-list li { margin-bottom: 1.5em; padding-left: 1.5em; position: relative; }
+.instruction-list li::before { content: '➜'; position: absolute; left: 0; color: var(--accent); font-weight: bold; }
 
-.copy-box {
-  display: flex;
-  margin-top: 15px;
-}
+.about-text { line-height: 1.7; border-left: 4px solid var(--accent); padding: 10px 14px; background: var(--card-bg); border-radius: 10px; margin: 1rem 0; font-size: 1rem;transition: box-shadow 0.25s ease, transform 0.25s ease; }
+.about-text:hover { box-shadow: 0 4px 12px rgba(0, 119, 255, 0.25); transform: translateY(-2px); }
 
-.copy-input {
-  flex: 1;
-  padding: 12px;
-  border-radius: 10px 0 0 10px;
-  border: 1px solid var(--border);
-  background: rgba(0,0,0,0.4);
-  color: var(--text);
-  font-family: monospace;
-}
-
-.copy-button {
-  padding: 12px 18px;
-  background: var(--primary);
-  border: none;
-  color: #000;
-  border-radius: 0 10px 10px 0;
-  cursor: pointer;
-  font-weight: bold;
-  transition: var(--trans);
-}
-
-.copy-button:hover {
-  background: #35e1ff;
-  box-shadow: 0 0 12px var(--primary-glow);
-}
-
-.tooltip {
-  display: none;
-  margin-left: 10px;
-  color: var(--primary);
-  font-size: 0.9rem;
-}
-
-
-.instruction-list {
-  list-style: none;
-  padding: 0;
-}
-
-.instruction-list li {
-  margin-bottom: 1.3em;
-  padding-left: 1.2em;
-  position: relative;
-}
-
-.instruction-list li::before {
-  content: "➤";
-  color: var(--accent);
-  position: absolute;
-  left: 0;
-}
-
-.card ul li {
-  line-height: 1.5;
-}
-
-
-.about-text {
-  background: rgba(255,255,255,0.04);
-  border-left: 4px solid var(--accent);
-  padding: 18px;
-  border-radius: 12px;
-}
+.host-help { background: var(--card-bg); border-left: 4px solid var(--blue); border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.3); }
+.host-help h2 { color: var(--blue); margin-top: 0; }
+.host-help p { line-height: 1.6; color: var(--text); }
+.host-help a { color: var(--green); font-weight: 600; text-decoration: underline; transition: color 0.2s ease, text-shadow 0.3s ease; text-shadow: 0 0 6px rgba(86, 211, 100, 0.5); }
+.host-help a:hover { color: var(--blue); text-shadow: 0 0 8px rgba(88, 166, 255, 0.6); }
 
 footer {
-  margin-top: 40px;
   text-align: center;
-  padding: 18px;
+  padding: 20px;
+  border-top: 2px solid var(--border);
   color: var(--muted);
   font-size: 0.9rem;
-  border-top: 1px solid var(--border);
+  background-color: rgba(22,27,34,0.5);
+  border-radius: 12px 12px 0 0;
 }
-
 
 body.light {
-  --bg: #f6f7f8;
-  --surface: rgba(255,255,255,0.6);
-  --surface-strong: rgba(255,255,255,0.85);
-  --border: #d0d0d0;
-  --text: #1c1c1c;
-  --muted: #555;
-  --primary: #007aff;
-  --primary-glow: rgba(0,122,255,0.35);
-  --accent: #ff7a1a;
+  --bg: #ffffff; --card-bg: #f0f0f0; --border: #cccccc; --text: #1e1e1e; --muted: #4c4c4c;
+  --blue: #1f6feb; --green: #2da44e; --accent: #ff8c42;
 }
 
-
+.sr-only {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0,0,0,0);
+  border: 0;
+}
 </style>
 </head>
-
 <body>
-
 <header>
+
   <h1>🛡️ RK's Filter Lists</h1><br>
   <em>Precision-built filters — fast, reliable, and intentional.
   Take full control of your web experience.</em>
   <br>
-  <div class="badge-top">Stable — Not Stale ⚡</div>
+  <div style="margin-top: 18px; display: inline-block; padding: 6px 14px; border: 1.8px solid #FF6A00; border-radius: 10px; font-size: 1em; background-color: rgba(255,255,224,0.12); font-weight: 700; letter-spacing: 0.03em;">
+    Stable — Not Stale ⚡
+  </div>
+  <button id="themeToggle" aria-label="Toggle Dark/Light" title="Toggle Theme">🌓</button>
 </header>
-
 
 <main>
 
-<!-- Why RK -->
-
-
+  <!-- Why RK -->
+  
    <section class="card why-rk">
    <h2>❓ Why RK’s Lists?</h2>
-   <p>The modern web is noisy by design: ads, popups, overlays, telemetry, AI scripts, and anti-adblock mechanisms compete for attention on every page.<br>
-    RK’s Custom Filter Lists were created for one purpose— <b>Silence the noise. Preserve functionality. Deliver speed without compromise.</b></p>
-    <strong>Every list is crafted intentionally:</strong>
+   <p>The modern web is noisy by design: ads, popups, overlays, telemetry, AI scripts, and anti-adblock mechanisms compete for attention on every page.</p>
+   <p> RK’s Custom Filter Lists were created for one purpose— Silence the noise. Preserve functionality. Deliver speed without compromise.</p>
+   <p> Every list is crafted intentionally:</p>
     <ul>
     <li>Performance-focused.</li>
+	<li>Fewer rules, same or better results.</li>
     <li>Tested against real-world sites.</li>
     <li>Minimal, clean rules.</li>
     <li>Stability-first — no reckless blocking.</li>
     <li>No forced updates — refined as needed.</li>
-    </ul>
-    <p>This isn’t about blocking <b>everything</b>. It’s about blocking <b>what actually matters!</b></p>
-    </section>
+   </ul>
+   <p><b>This isn’t just filtering. It’s regaining control</b></p>
+</section>
 
-
-<!-- Core Lists -->
-
+  <!-- Core Lists -->
   
-<section class="card">
+<section class="card core">
   <h2>🛡️ ZeroHosts <span class="rk-badge recommended">RECOMMENDED</span></h2>
   <p>Blocks ads, trackers, malware, phishing, scam and spam domains while prioritizing site compatibility and stability.</p>
   <div class="copy-box">
-    <input id="ZeroHostsUrl" class="copy-input" value="https://rimon3134.github.io/Filters/ZeroHosts.txt" readonly>
-    <button class="copy-button" onclick="copyURL('ZeroHostsUrl', this)">Copy</button>
-    <span class="tooltip">Copied!</span>
+    <label for="ZeroHostsUrl" class="sr-only">ZeroHosts URL</label>
+    <input type="text" class="copy-input" id="ZeroHostsUrl" 
+           value="https://rimon3134.github.io/Filters/ZeroHosts.txt" readonly aria-label="ZeroHosts URL">
+    <button class="copy-button" onclick="copyToClipboard('ZeroHostsUrl', this)">
+      Copy URL <span class="tooltip" aria-live="polite">Copied!</span>
+    </button>
   </div>
 </section>
 
-
 	<section class="card core">
   <h2>🛡️ ZeroAds <span class="rk-badge active">ACTIVE</span></h2>
-  <p>Hybrid List to be used with ZeroHosts for blocking annoyances and other junks.</p>
+  <p>Domain-only rules are insufficient for modern web annoyances. ZeroAds is a must for full protection.</p>
   <div class="copy-box">
+    <label for="ZeroAdsUrl" class="sr-only">ZeroAds URL</label>
     <input type="text" class="copy-input" id="ZeroAdsUrl" 
-           value="https://rimon3134.github.io/Filters/ZeroAds.txt" readonly>
-    <button class="copy-button" onclick="copyURL('ZeroAdsUrl', this)">Copy</button>
-    <span class="tooltip">Copied!</span>
+           value="https://rimon3134.github.io/Filters/ZeroAds.txt" readonly aria-label="ZeroAds URL">
+    <button class="copy-button" onclick="copyToClipboard('ZeroAdsUrl', this)">
+      Copy URL <span class="tooltip" aria-live="polite">Copied!</span>
+    </button>
   </div>
 </section>
 
 <section class="card core">
   <h2>🚫 Phantom List <span class="rk-badge essential">ESSENTIAL</span></h2>
-  <p>Removes delays, clutter, widgets, cookies, paywalls and overlays—keeping pages fast, clean, and stable.</p>
+  <p>Removes delays, clutter, widgets, cookies, paywalls, AI junks and overlays—with Extended Security.</p>
   <div class="copy-box">
+    <label for="PhantomUrl" class="sr-only">Phantom URL</label>
     <input type="text" class="copy-input" id="PhantomUrl" 
-           value="https://rimon3134.github.io/Filters/Phantom-List.txt" readonly>
-    <button class="copy-button" onclick="copyURL('PhantomUrl', this)">Copy</button>
-    <span class="tooltip">Copied!</span>
+           value="https://rimon3134.github.io/Filters/Phantom-List.txt" readonly aria-label="Phantom URL">
+    <button class="copy-button" onclick="copyToClipboard('PhantomUrl', this)">
+      Copy URL <span class="tooltip" aria-live="polite">Copied!</span>
+    </button>
   </div>
 </section>
 
@@ -334,34 +347,41 @@ body.light {
   <h2>👻 AdGhost <span class="rk-badge elite">ELITE</span></h2>
   <p>Neutralizes anti-adblock defenses and site blockades—so access stays smooth and uninterrupted.</p>
   <div class="copy-box">
+    <label for="AdGhostUrl" class="sr-only">AdGhost URL</label>
     <input type="text" class="copy-input" id="AdGhostUrl" 
-           value="https://rimon3134.github.io/Filters/AdGhost.txt" readonly>
-    <button class="copy-button" onclick="copyURL('AdGhostUrl', this)">Copy</button>
-    <span class="tooltip">Copied!</span>
+           value="https://rimon3134.github.io/Filters/AdGhost.txt" readonly aria-label="AdGhost URL">
+    <button class="copy-button" onclick="copyToClipboard('AdGhostUrl', this)">
+      Copy URL <span class="tooltip" aria-live="polite">Copied!</span>
+    </button>
   </div>
 </section>
 
 <section class="card core">
-  <h2>🌐 ZeroDNS <span class="rk-badge recommended">RECOMMENDED</span></h2>
-  <p>Lite protection against major ads, trackers and malware, intended for mobile devices.</p>
+  <h2>🌐 ZeroDNS <span class="rk-badge active">ACTIVE</span></h2>
+  <p>ZeroDNS focuses on high-priority domains, ads, trackers, and telemetry. Mobile-friendly, fast (~30K entries).</p>
   <div class="copy-box">
+    <label for="ZeroDnsUrl" class="sr-only">ZeroDNS URL</label>
     <input type="text" class="copy-input" id="ZeroDnsUrl" 
-           value="https://rimon3134.github.io/Filters/ZeroDNS.txt" readonly>
-    <button class="copy-button" onclick="copyURL('ZeroDnsUrl', this)">Copy</button>
-    <span class="tooltip">Copied!</span>
+           value="https://rimon3134.github.io/Filters/ZeroDNS.txt" readonly aria-label="ZeroDNS URL">
+    <button class="copy-button" onclick="copyToClipboard('ZeroDnsUrl', this)">
+      Copy URL <span class="tooltip" aria-live="polite">Copied!</span>
+    </button>
   </div>
 </section>
 
 <section class="card core">
   <h2>🌐 uHosts <span class="rk-badge active">ACTIVE</span></h2>
-  <p>Optimized ZeroHosts for uBlock Origin. Stable, site-compatible, and optimized for performance without aggressive blocking.</p>
+  <p>Optimized ZeroHosts for uBlock Origin. Lean, stable, fully site-compatible.</p>
   <div class="copy-box">
+    <label for="uHostsUrl" class="sr-only">uHosts URL</label>
     <input type="text" class="copy-input" id="uHostsUrl" 
-           value="https://rimon3134.github.io/Filters/uHosts.txt" readonly>
-    <button class="copy-button" onclick="copyURL('uHostsUrl', this)">Copy</button>
-    <span class="tooltip">Copied!</span>
+           value="https://rimon3134.github.io/Filters/uHosts.txt" readonly aria-label="uHosts URL">
+    <button class="copy-button" onclick="copyToClipboard('uHostsUrl', this)">
+      Copy URL <span class="tooltip" aria-live="polite">Copied!</span>
+    </button>
   </div>
 </section>
+
 
 <!-- Instructions -->
 
@@ -369,24 +389,24 @@ body.light {
   <h2>📘 How to Add Lists</h2>
   <ul class="instruction-list">
     <li>
-      <strong>uBlock Origin</strong><br>
-      Settings → Filter Lists → Custom → Paste URL → Update.<br>
+    <strong>uBlock Origin</strong><br>
+    Settings → Filter Lists → Custom → Paste URL → Update.<br>
     </li>
     <li>
-      <strong>AdGuard</strong><br>
-      Settings → Filters → User Filter → Add URL → Update.<br>
+    <strong>AdGuard</strong><br>
+    Settings → Filters → Custom → Add URL → Save → Update.<br>
     </li>
     <li>
-      <strong>AdBlock Plus</strong><br>
-      Options → Advanced → Add a new filter subscription → Paste URL → Apply.<br>
+    <strong>AdBlock Plus</strong><br>
+    Options → Advanced → Add new subscription → Paste → Apply.<br>
     </li>
     <li>
-      <strong>1DM+</strong><br>
-      Manage Adblock → Delete existing → Add Filters → Force Update.<br>
-	  <u>ZeroHosts, ZeroAds, and AdGhost are recommended.</u>
-    </li>	
+    <strong>1DM+</strong><br>
+    Manage Adblock Hosts & Filters → Remove stock lists → Add → Force update.<br>
+    <p>ZeroHosts, ZeroAds, and AdGhost are recommended.</p>	  </li>
+	  	
   </ul>
-  <strong><i>⚠️ Refresh occasionally — the internet evolves every month!</i></strong>
+  <strong><i>🔄 Refresh occasionally — the web evolves constantly.</i></strong>
 </section>
 
 <!-- About Me -->
@@ -405,14 +425,29 @@ body.light {
 </footer>
 
 <script>
-function copyURL(id, btn) {
-  const input = document.getElementById(id);
-  navigator.clipboard.writeText(input.value);
-  const tip = btn.nextElementSibling;
-  tip.style.display = "inline";
-  setTimeout(() => tip.style.display = "none", 1200);
+function copyToClipboard(inputId, btn) {
+  const input = document.getElementById(inputId);
+  input.select();
+  input.setSelectionRange(0, 99999);
+  navigator.clipboard.writeText(input.value).then(() => {
+    const tooltip = btn.querySelector('.tooltip');
+    tooltip.classList.add('show');
+    setTimeout(() => tooltip.classList.remove('show'), 1500);
+  });
 }
-</script>
 
+const toggleBtn = document.getElementById('themeToggle');
+toggleBtn.addEventListener('click', () => {
+  document.body.classList.toggle('light');
+  toggleBtn.textContent = document.body.classList.contains('light') ? '🌞' : '🌓';
+});
+
+(function() {
+  if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
+    document.body.classList.add('light');
+    toggleBtn.textContent = '🌞';
+  }
+})();
+</script>
 </body>
 </html>
