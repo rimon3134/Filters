@@ -8,9 +8,10 @@
 ---
 
 ## 🔗 Live Page
-🌐 **Interactive Hub:**  
-👉 [https://rimon3134.github.io](https://rimon3134.github.io/Filters)  
+🌐 **Interactive Hub**  
+👉 <a href="https://rimon3134.github.io/Filters"><strong>https://rimon3134.github.io/Filters</strong></a>  
 <sub>Access live lists, examples, extended documentation, and updates.</sub>
+
 
 ---
 
