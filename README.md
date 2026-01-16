@@ -16,9 +16,9 @@
 ---
 
 ## 📊 Badges
-[![Repo Size](https://img.shields.io/github/repo-size/rimon3134/rimon3134.github.io?style=flat-square)](https://github.com/rimon3134/rimon3134.github.io) 
-[![License](https://img.shields.io/github/license/rimon3134/rimon3134.github.io?style=flat-square)](https://github.com/rimon3134/rimon3134.github.io/blob/main/LICENSE) 
-[![Last Commit](https://img.shields.io/github/last-commit/rimon3134/rimon3134.github.io?style=flat-square)](https://github.com/rimon3134/rimon3134.github.io/commits/main)
+[![Repo Size](https://img.shields.io/github/repo-size/rimon3134/Filters?style=flat-square)](https://github.com/rimon3134/Filters) 
+[![License](https://img.shields.io/github/license/rimon3134/Filters?style=flat-square)](https://github.com/rimon3134/Filters/blob/main/LICENSE) 
+[![Last Commit](https://img.shields.io/github/last-commit/rimon3134/Filters?style=flat-square)](https://github.com/rimon3134/Filters/commits/main)
 
 ---
 
