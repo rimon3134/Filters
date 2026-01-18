@@ -1,128 +1,141 @@
-# 🛡️ RK's Custom Filter Lists
+# 🛡️ RK’s Custom Filter Lists
 
-<em>Zero Noise. Zero Trackers. Zero Nonsense.</em>  
-Precision-built filters — clean, fast, and intentional.  
-Take full control of your web experience. ⚡
-
----
-
-## 🌐 Filter List URLs
-👉 [https://rimon3134.github.io/Filters](https://rimon3134.github.io/Filters)  
-<sub>Interactive hub with live lists, RAW Links, and extended documentation.</sub>
+*Zero Noise. Zero Trackers. Zero Nonsense.*  
+Precision-built filter lists focused on **performance, stability, and real-world usability**.  
+Take full control of your web experience — **intentionally**.
 
 ---
 
-## 📊 Quick Stats
-[![Repo Size](https://img.shields.io/github/repo-size/rimon3134/Filters?style=flat-square)](https://github.com/rimon3134/Filters) 
-[![License](https://img.shields.io/github/license/rimon3134/Filters?style=flat-square)](https://github.com/rimon3134/Filters/blob/main/LICENSE) 
-[![Last Commit](https://img.shields.io/github/last-commit/rimon3134/Filters?style=flat-square)](https://github.com/rimon3134/Filters/commits/main)
+> [!IMPORTANT]
+> ## 🌐 Filters & Subscriptions
+> 👉 https://rimon3134.github.io/Filters/
+>
+> Use **RAW filter URLs only** when subscribing.
 
 ---
 
-## ✨ Why RK’s Lists?
-The modern web is noisy — ads, trackers, popups, overlays, telemetry, AI scripts, and anti-adblock mechanisms compete for your attention.  
+## 📊 Repository Status
 
-**RK’s Custom Filter Lists exist to:**
-- 🔹 Silence the noise  
-- 🔹 Preserve site functionality  
-- 🔹 Keep performance high  
-
-> _Not about blocking everything — only what matters._
+![Repo Size](https://img.shields.io/github/repo-size/rimon3134/rimon3134.github.io?style=flat-square)
+![License](https://img.shields.io/github/license/rimon3134/rimon3134.github.io?style=flat-square)
+![Last Commit](https://img.shields.io/github/last-commit/rimon3134/rimon3134.github.io?style=flat-square)
 
 ---
 
-## 📦 Core Lists
+## ✨ Why RK’s Filter Lists?
 
-### 🏠 ZeroHosts (Multiple Versions)
+The modern web is overloaded — ads, trackers, popups, overlays, telemetry, AI scripts, autoplay media, and anti-adblock mechanisms compete aggressively for control.
 
-Comprehensive hosts-level protection — pick the version that fits your setup.
+**RK’s Custom Filter Lists are built to:**
 
-| Version | Status | Description |
-|---------|:------:|-------------|
-| **AdBlock** | 🟢 Active | Optimized for uBo/ABP/AdGuard and such. Filters ads, trackers, malware, phishing, scam, and spam domains. |
-| **Hosts** | 🟢 Active | Standard hosts file version — stable, site-compatible, lightweight. |
-| **RAW** | 🟢 Active | Raw, unprocessed list — ideal for advanced users or custom scripts. |
+- 🔹 Eliminate noise without breaking sites  
+- 🔹 Target same-domain annoyances most lists miss  
+- 🔹 Preserve speed, layout, and usability  
+
+> _Not about blocking everything — only what actually matters._
 
 ---
 
-### 🔀 Hybrid & Modern Lists
+## 📦 Core Filter Collections
+
+### 🏠 Hosts-Based Lists
 
 | List | Status | Description |
 |------|:------:|-------------|
-| **ZeroAds** | 🔵 Essential | Path-aware, token-based rules: block popups, redirects, overlays, widgets. |
-| **Phantom List** | 🔵 Essential | Removes heavy scripts, modules, and clutter — fast, distraction-free browsing. |
-| **AdGhost** | 🟣 Elite | Neutralizes anti-adblock overlays, forced dialogs, and intrusive scripts. |
-| **ZeroDNS** | 🟠 Lite | High-priority domain blocking — mobile and low-resource friendly. |
-| **uHosts** | 🟢 Active | Optimized version of ZeroHosts for uBlock Origin — minimal false positives. |
-
-> Each card represents a **layered defense**: Hosts → DNS → Hybrid.
+| **ZeroHosts** | 🟢 Stable | Broad hosts-based protection against ads, trackers, malware, phishing, scam, and spam domains.<br>Lean, conservative, and site-safe. |
+| **ZeroDNS** | 🟠 Lite | Compact ZeroHosts variant targeting high-priority ad, tracker, and telemetry domains.<br>Mobile-friendly and low-resource. |
 
 ---
 
-## ⚡ Highlights / Features
-| Feature | RK’s Lists | Standard Lists |
-|---------|------------|----------------|
-| Domain-only coverage | ✅ | ✅ |
-| Path + token hybrid rules | ✅ | ❌ |
-| Modern annoyance blocking | ✅ | ❌ |
-| Minimal false positives | ✅ | ⚠️ |
-| Mobile-ready | ✅ | Partial |
+### 🔀 Hybrid / Cosmetic Lists
+
+| List | Status | Description |
+|------|:------:|-------------|
+| **ZeroAds** | 🔵 Core | Hybrid rules blocking popups, redirects, overlays, and embedded junk that domain lists miss. |
+| **AdGhost** | 🟣 Advanced | Neutralizes anti-adblock overlays, forced dialogs, and access walls **before rendering**. |
+| **Phantom List** | 🔵 Core | Removes heavy widgets, slow modules, and render-blocking scripts for faster loads. |
+| **uHosts** | 🟢 Active | ZeroHosts optimized specifically for **uBlock Origin** with minimal false positives. |
+
+---
+
+## ⚡ Feature Comparison
+
+| Capability | RK’s Lists | Typical Large Lists |
+|----------|------------|---------------------|
+| Domain-level blocking | ✅ | ✅ |
+| Path & token rules | ✅ | ❌ |
+| Same-domain annoyance control | ✅ | ❌ |
+| Low false positives | ✅ | ⚠️ |
+| Mobile compatibility | ✅ | Partial |
 | Layered architecture | ✅ | ❌ |
-| Real-world tested | ✅ | ✅ |
+| Actively maintained | ✅ | Varies |
 
-> RK’s lists block **what matters**, without slowing you down.
+> RK’s lists prioritize **precision over volume**.
 
 ---
 
-## 🛠️ Installation / Quick Add
+## 🛠️ Quick Installation
 
 | Platform | Steps |
-|----------|-------|
-| **uBlock Origin** | Settings → Filter Lists → Custom → + Add → Paste URL → Update |
-| **AdGuard** | Settings → Filters → Custom → Add URL → Save → Update |
-| **AdBlock Plus** | Options → Advanced → Add new subscription → Paste → Apply |
-| **1DM+** | Manage Adblock Hosts & Filters → Remove defaults → Add → Force Update |
+|--------|-------|
+| **uBlock Origin** | Settings → Filter Lists → Custom → Add → Paste RAW URL → Update |
+| **AdGuard** | Settings → Filters → Custom → Add URL → Save |
+| **AdBlock Plus** | Advanced → Add new subscription → Paste → Apply |
+| **1DM+ / Mobile** | Manage Filters → Add Custom → Force Update |
 
-> 🔄 Refresh occasionally — the web evolves constantly.
-
----
-
-## 👤 About RiMoN
-Optimizer. Debugger. Pattern-breaker.  
-Believes digital experience should be **fast, quiet, and fully under your control**.  
+> 🔄 Update periodically — the web mutates fast.
 
 ---
 
 ## 🧰 System-Level Filtering
-Beyond the browser: block telemetry, shady endpoints, background connections, and silent I/O.  
-<em>Your system deserves the same clarity your browser gets.</em>
+
+These lists are not browser-only.  
+They can be adapted for **DNS-level**, **OS-level**, and **network-level** filtering to block telemetry, background connections, and silent endpoints.
+
+_Your system deserves the same clarity as your browser._
+
+---
+
+## 👤 About RiMoN
+
+**Optimizer · Debugger · Pattern-Breaker**
+
+Focused on making the web **faster, quieter, and user-controlled**.
+
+No hype.  
+No surveillance.  
+No nonsense.
 
 ---
 
 ## 📝 Contributing
-- Fork → Test → PR  
-- Keep hybrid rules **precise & intentional**  
-- Avoid overlapping ZeroDNS, ZeroHosts, and hybrid rules  
-- Submit issues for bugs or suggested additions  
+
+Contributions are welcome if they follow the philosophy:
+
+- Precision over aggression  
+- No redundant overlap between lists  
+- Hybrid rules must be **intentional & tested**  
+- Submit issues for breakage, false positives, or improvements  
 
 ---
 
 ## ❓ FAQ
 
-**Q: Why not rely only on generic large lists?**  
-A: Domain-only lists miss same-domain annoyances like popups, redirects, and overlays. Hybrid rules handle them.
+**Why not rely only on massive generic lists?**  
+Domain-only lists miss same-domain popups, overlays, and script-based annoyances.
 
-**Q: Will sites break?**  
-A: Minimal false positives — hybrid rules carefully tested. Aggressive elements removed **before rendering**.
+**Will sites break?**  
+False positives are minimized. Hybrid rules are tested and designed to fail safely.
 
-**Q: Mobile compatibility?**  
-A: Yes — ZeroDNS is mobile-optimized; hybrid lists work in uBlock Origin, AdGuard, and compatible apps.
+**Mobile compatibility?**  
+Yes. Lists are mobile-aware and compatible with uBlock Origin, AdGuard, and similar tools.
 
-**Q: Update frequency?**  
-A: As needed — sometimes multiple times a day, sometimes weekly.
+**Update frequency?**  
+As needed — sometimes multiple times daily, sometimes weekly.
 
 ---
 
 ## ⚖️ License
+
 MIT License © 2026 **Rimon Hossain**  
-<sub>Crafted with discipline, intention, and a pinch of midnight chaos ✨</sub>
+_Crafted with discipline, intention, and a pinch of midnight chaos ✨_
