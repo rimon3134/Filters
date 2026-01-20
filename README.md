@@ -6,7 +6,7 @@ Take full control of your web experience — **intentionally**.
 
 ---
 
-> This repository powers the **Filters Web Page**:
+✋ <strong>This repository powers the **Filters Web Page**:</strong>
 
 > <a href="https://rimon3134.github.io/Filters"><strong>https://rimon3134.github.io/Filters</strong></a>
 
