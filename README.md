@@ -8,7 +8,7 @@ Take full control of your web experience — **intentionally**.
 
 > This repository powers the **Filters Web Page**:
 
->  **https://rimon3134.github.io/Filters**
+> <a href="https://rimon3134.github.io/Filters"><strong>https://rimon3134.github.io/Filters</strong></a>
 
 All documentation, install instructions, RAW filter URLs, and updates are provided via a
 **well-structured HTML page (`index.html`)**.
