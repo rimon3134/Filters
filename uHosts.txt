@@ -1,6 +1,6 @@
 ! Title: 🛡️ RK’s uHosts — uBo Optimized Filters
 ! Author: Rimon Hossain
-! Version: 2026.01.23
+! Version: 2026.01.23.1
 ! Description: uHosts — a carefully curated adblock network filter list for "uBlock Origin" that blocks ads, trackers, malware, phishing, scam and spam domains initially missed by uBo's built-in lists.
 ! Homepage: https://rimon3134.github.io
 ! RAW: https://raw.githubusercontent.com/rimon3134/Filters/main/uHosts.txt

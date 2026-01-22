@@ -1,6 +1,6 @@
 ! Title: 🚫 RK’s Phantom List
 ! Author: Rimon Hossain
-! Version: 2026.01.23
+! Version: 2026.01.23.1
 ! Description: RK's Phantom-List — Removes overlays, social widgets, cookies, delays, and UI clutter — keeping pages fast, readable, and distraction-free.
 ! Homepage: https://rimon3134.github.io
 ! RAW: https://raw.githubusercontent.com/rimon3134/Filters/main/Phantom-List.txt
@@ -637,9 +637,9 @@ asus.com##+js(set-cookie, isReadCookiePolicyDNT, true)
 aviasales.ru##.s__y2gjNiIS0o1RA_5Ebnkw
 axios.com##.\!bg-blue-core
 axios.com##body,html:style(overflow: auto !important; position: initial !important;)
-baidu.com###con-ar > [tpl="ai_accompanies"]               ! AI accompanies container
-baidu.com###content_left > .c-group-wrapper:has([tpl="ai_ask"]) ! AI Q&A section
-baidu.com###s_tab_inner > a[href*="chat.baidu.com"]       ! AI chat tab
+baidu.com###con-ar > [tpl="ai_accompanies"]            
+baidu.com###content_left > .c-group-wrapper:has([tpl="ai_ask"]) 
+baidu.com###s_tab_inner > a[href*="chat.baidu.com"]  
 bang-movies.com##+js(remove-attr, onclick|target, .thumb-in > a, complete)
 bbc.com##+js(adjust-setTimeout, viewClickAttributeId)
 bbc.com##+js(remove-class, tp-modal-open|tp-body-scroll-prevented, body)
@@ -653,13 +653,19 @@ bbc.com##.nw-c-breaking-news-banner
 bbc.com##body:style(overflow: auto !important;)
 benable.com#@#.social-container
 benable.com#@#.social-icons
-bing.com###b-scopeListItem-conv                          ! Copilot tab
-bing.com###chat_upsell_bubble_icon                       ! Chat upsell icon
+bing.com###b-scopeListItem-conv     
+bing.com###b-scopeListItem-conv        
+bing.com###chat_upsell_bubble_icon           
+bing.com###chat_upsell_bubble_icon              
 bing.com##+js(prevent-setInterval, logQueue, 10000)
-bing.com##.b_insights                                    ! Insights panel
-bing.com##.cdxCopilotIconBg                               ! Copilot bubble
-bing.com##.copans_container                               ! AI answer container
-bing.com##a[href*="/discussions/"]                       ! Forum/discussion links
+bing.com##.b_insights                
+bing.com##.b_insights                             
+bing.com##.cdxCopilotIconBg           
+bing.com##.cdxCopilotIconBg                       
+bing.com##.copans_container            
+bing.com##.copans_container                   
+bing.com##a[href*="/discussions/"]    
+bing.com##a[href*="/discussions/"]                
 bleepingcomputer.com##+js(set-cookie, sc_cookie_consent, 0)
 blessedprint.com##.t972
 blog.mozilla.org##.ft-c-post-share
@@ -1060,16 +1066,23 @@ scribd.com##+js(set-constant, docManager.doDynamicBlurring, noopFunc)
 scribd.com##.between_page_portal_root
 scribd.com##button[data-e2e="doc-actions-share-button-sticky_metadata_column"]
 scribd.com##div[data-testid="sticky-wrapper"]
-search.brave.com###llm-snippet                             ! LLM snippet / AI answer
+search.brave.com###llm-snippet          
+search.brave.com###llm-snippet                             
 search.brave.com###usage-metrics-notice
-search.brave.com##.discussion-result                       ! Forum/discussion result
+search.brave.com##.discussion-result            
+search.brave.com##.discussion-result                      
 search.brave.com##.download-cta
-search.brave.com##.llm.suggestion:has-text(Answer with AI) ! AI suggestion label
-search.brave.com##.video-result                             ! Video clutter
-search.brave.com##a[href*="/discussions/"]                ! Links to discussions
-search.yahoo.com##.chat-bubble                             ! AI chat bubble
-search.yahoo.com##.compList                               ! Component list / clutter
-search.yahoo.com##.related-video-block                     ! Related video block
+search.brave.com##.llm.suggestion:has-text(Answer with AI) 
+search.brave.com##.video-result   
+search.brave.com##.video-result                       
+search.brave.com##a[href*="/discussions/"]    
+search.brave.com##a[href*="/discussions/"]                
+search.yahoo.com##.chat-bubble    
+search.yahoo.com##.chat-bubble                      
+search.yahoo.com##.compList  
+search.yahoo.com##.compList                          
+search.yahoo.com##.related-video-block   
+search.yahoo.com##.related-video-block              
 shein.com##[class^="_shein_privacy_"]
 shein.com##body:style(overflow: auto !important; position: initial !important;)
 siberianhealth.com##.top-informer-container
@@ -1173,14 +1186,20 @@ wordreference.com##a[title$=" App"]
 wordreference.com##body:style(overflow: auto !important;)
 wowroms.com##body:style(overflow: auto !important;)
 www.amazon.com##+js(remove-node-text, script, /introSplashVideo.+renderStoresWidgetsPendingList/s)
-www.google.*##.g:has(a[href*="/forum"])                ! Generic forum results
-www.google.*##.g:has(a[href*="quora.com"])             ! Quora results
-www.google.*##.g:has(a[href*="reddit.com"])             ! Reddit results
-www.google.*##.g:has(a[href*="stackexchange.com"])     ! StackExchange results
-www.google.*##.related-question-pair                    ! People Also Ask
-www.google.*##[data-hveid="CAIQAQ"]                     ! AI Overview container
-www.google.*##[data-mcpr]                               ! AI Overview fallback
-www.google.*##button:has(path[d^="M17.5 12c0-3.04 2.46-5.5"])  ! AI chat / overview button
+www.google.*##.g:has(a[href*="/forum"])
+www.google.*##.g:has(a[href*="quora.com"])
+www.google.*##.g:has(a[href*="quora.com"])        
+www.google.*##.g:has(a[href*="reddit.com"])
+www.google.*##.g:has(a[href*="reddit.com"])         
+www.google.*##.g:has(a[href*="stackexchange.com"])  
+www.google.*##.related-question-pair    
+www.google.*##.related-question-pair        
+www.google.*##[data-hveid="CAIQAQ"]
+www.google.*##[data-hveid="CAIQAQ"]  
+www.google.*##[data-mcpr]  
+www.google.*##[data-mcpr]            
+www.google.*##button:has(path[d^="M17.5 12c0-3.04 2.46-5.5"])
+www.google.*##button:has(path[d^="M17.5 12c0-3.04 2.46-5.5"])  
 www.insmind.com##.agree
 www.youtube.com###actions.ytd-watch-metadata button > div[class$="text-content"]:not(:has-text(/[\d]/))
 www.youtube.com###actions.ytd-watch-metadata ytd-button-renderer .yt-spec-button-shape-next__icon:style(margin-right: -6px !important; margin-left: -6px !important;)
@@ -2337,8 +2356,10 @@ youtube.com##ytd-search yt-lockup-view-model:has([href$="&start_radio=1"][aria-l
 ##a[onclick^="window.open('http://vkontakte.ru/share.php"]
 ##bb-cookie-disclaimer
 ##bb-paywall
-##button:has-text("Chat with AI")                          ! Chat with AI buttons
-##button:has-text("Try AI")                                ! Try AI buttons
+##button:has-text("Chat with AI")       
+##button:has-text("Chat with AI")                     
+##button:has-text("Try AI")   
+##button:has-text("Try AI")                          
 ##button[aria-label="Share"]
 ##button[data-a-target="share-button"]
 ##button[data-test="article-share"]
@@ -2348,13 +2369,20 @@ youtube.com##ytd-search yt-lockup-view-model:has([href$="&start_radio=1"][aria-l
 ##div.module-newsletter
 ##div.ot-sdk-container
 ##div[aria-label="Cookie banner"]
-##div[class*="ai-chat"]                                   ! Generic AI chat blocks
-##div[class*="ai-popup"]                                  ! Generic AI popups
-##div[class*="assistant-widget"]                          ! Assistant widget
-##div[class*="chat-widget"]                                ! Chat widget
-##div[class*="copilot-container"]                         ! Copilot container
-##div[class*="newsletter"]                                 ! Newsletter banners
-##div[class*="signup"]                                     ! Signup prompts
+##div[class*="ai-chat"]
+##div[class*="ai-chat"]                                 
+##div[class*="ai-popup"]   
+##div[class*="ai-popup"]                                 
+##div[class*="assistant-widget"] 
+##div[class*="assistant-widget"]                         
+##div[class*="chat-widget"]
+##div[class*="chat-widget"]                          
+##div[class*="copilot-container"]
+##div[class*="copilot-container"]                    
+##div[class*="newsletter"] 
+##div[class*="newsletter"]                            
+##div[class*="signup"]
+##div[class*="signup"]                            
 ##div[data-identity="social-share-links"]
 ##div[data-widget-definition="share_page"]
 ##div[id^="___plusone_"]
@@ -2362,16 +2390,21 @@ youtube.com##ytd-search yt-lockup-view-model:has([href$="&start_radio=1"][aria-l
 ##div[x-show="cookies"]
 ##hl-newsletter-cta
 ##iframe[name="googlefcPresent"]
-##iframe[src*="ai-assistant"]                              ! iFrame assistant
-##iframe[src*="chatbot"]                                   ! iFrame chatbot
-##iframe[src*="copilot"]                                   ! iFrame copilot
+##iframe[src*="ai-assistant"]   
+##iframe[src*="ai-assistant"]                       
+##iframe[src*="chatbot"]     
+##iframe[src*="chatbot"]                             
+##iframe[src*="copilot"]        
+##iframe[src*="copilot"]                              
 ##iframe[src*="sasomange.rs/widget1.sasomange.rs"]
-##li:has-text("AI Answer")                                  ! AI answer in lists
+##li:has-text("AI Answer")  
+##li:has-text("AI Answer")                          
 ##lib-cookies-consent
 ##santa-notice
 ##section[data-component="Com3Cookie"]
 ##sibbo-cmp-layout
-##span:has-text("AI Suggestion")                            ! AI suggestion label
+##span:has-text("AI Suggestion")  
+##span:has-text("AI Suggestion")                      
 ##span[data-link="#share-facebook"]
 ##span[data-link="#share-twitter"]
 ##ung-anonymous-consent-management
