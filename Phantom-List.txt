@@ -1,7 +1,7 @@
 ! Title: 🚫 RK’s Phantom List
 ! Author: Rimon Hossain
-! Version: 2026.01.22
-! Description: RK's Phantom-List — Removes overlays, social widgets, cookies consent, delays, and UI clutter — keeping pages fast, readable, and distraction-free.
+! Version: 2026.01.23
+! Description: RK's Phantom-List — Removes overlays, social widgets, cookies, delays, and UI clutter — keeping pages fast, readable, and distraction-free.
 ! Homepage: https://rimon3134.github.io
 ! RAW: https://raw.githubusercontent.com/rimon3134/Filters/main/Phantom-List.txt
 ! License: MIT
@@ -9,53 +9,53 @@
 !
 !
 !
-||7tiv.net^$document,3p
-||7z9g.mjt.lu^$document,3p
+||7tiv.net^$3p,document
+||7z9g.mjt.lu^$3p,document
 ||a.mailmunch.co/app/$script,3p
-||aan.amazon.com^$document,3p
-||ablink.account.quizlet.com^$document,3p
-||ablink.info.wise.com^$document,3p
-||acemlnb.com^$document,3p
-||acs2.tc^$document,3p
-||activehosted.com^$document,3p
-||adcrun.ch^$document,3p
+||aan.amazon.com^$3p,document
+||ablink.account.quizlet.com^$3p,document
+||ablink.info.wise.com^$3p,document
+||acemlnb.com^$3p,document
+||acs2.tc^$3p,document
+||activehosted.com^$3p,document
+||adcrun.ch^$3p,document
 ||addtoany.com^$3p
-||adf.ly^$document,3p
-||adj.st^$document,3p
+||adf.ly^$3p,document
+||adj.st^$3p,document
 ||airtable.com/embed*$3p,frame,redirect=click2load.html
-||aka.ms^$document,3p
+||aka.ms^$3p,document
 ||allfont.net^$font,3p
-||amplify.link^$document,3p
-||amplitude-studios.us12.list-manage.com^$document,3p
-||amzn.eu^$document,3p
-||amzn.to^$document,3p
+||amplify.link^$3p,document
+||amplitude-studios.us12.list-manage.com^$3p,document
+||amzn.eu^$3p,document
+||amzn.to^$3p,document
 ||anchor.fm/$3p,frame,redirect=click2load.html
 ||anchor.fm/embed/$3p,frame,redirect=click2load.html
 ||anyclip.com^$3p,from=~click2houston.com|~clickondetroit.com|~clickorlando.com|~dictionary.com|~heute.at|~ksat.com|~news4jax.com|~video.timeout.com|~wsls.com
 ||app.mailjet.com^$3p,script
-||apple.news^$document,3p
+||apple.news^$3p,document
 ||art19.com/shows/$3p,frame,redirect=click2load.html
 ||assets.klicktipp.com^
 ||assets.pinterest.com/js/pinit_main.js^$script
 ||assets.rivian.com^$font,3p
 ||at.alicdn.com^$font,3p
-||autolinkmaker.itunes.apple.com^$document,3p
-||awstrack.me^$document,3p
+||autolinkmaker.itunes.apple.com^$3p,document
+||awstrack.me^$3p,document
 ||bandcamp.com/EmbeddedPlayer/$3p,frame,redirect=click2load.html
-||bc.vc^$document,3p
-||bestbuy.7tiv.net^$document,3p
+||bc.vc^$3p,document
+||bestbuy.7tiv.net^$3p,document
 ||bigidcmp.cloud^$3p
-||bit.ly^$document,3p
+||bit.ly^$3p,document
 ||blueskyweb.xyz/embed^$3p,frame,redirect=click2load.html
-||brevo.com^$document,3p
+||brevo.com^$3p,document
 ||bsky.app/embed^$3p,frame,redirect=click2load.html
-||buff.ly^$document,3p
+||buff.ly^$3p,document
 ||bunnyfonts.b-cdn.net^$font,3p
-||c.apple.com^$document,3p
-||campaign.aliexpress.com.edgekey.net^$document,3p
-||campaign.aliexpress.com^$document,3p
+||c.apple.com^$3p,document
+||campaign.aliexpress.com.edgekey.net^$3p,document
+||campaign.aliexpress.com^$3p,document
 ||canva.com/design/embed^$3p,frame,redirect=click2load.html
-||cb.sailthru.com^$document,3p
+||cb.sailthru.com^$3p,document
 ||cdn-cookieyes.com/client_data/$script,css
 ||cdn.kik.com/kik/*/kik-share.js^$script
 ||cdn.larapush.com^$3p
@@ -63,45 +63,53 @@
 ||cdn.privacy-mgmt.com^$3p,from=~weather.com|~weather.co.uk|~weather.com.au|~weather.ca|~weather.co.nz|~weather.co.in|~weather.co.jp|~weather.co.za|~weather.com.sg|~weather.com.hk|~weather.com.ph|~weather.com.my|~weather.com.br|~weather.com.mx|~weather.com.ar|~weather.com.cl|~weather.com.co|~weather.com.pe
 ||cdn.shopify.com/extensions/*/assets/inbox-chat-loader.js^$script
 ||chatango.com^$3p
-||chatbox-web.apple.com.akadns.net^$document,3p
-||chatbox-web.apple.com^$document,3p
+||chatbox-web.apple.com.akadns.net^$3p,document
+||chatbox-web.apple.com^$3p,document
 ||chatbro.com^
 ||checkout.shopify.com/$3p,frame,redirect=click2load.html
-||chtbl.com^$document,3p
-||clck.ru^$document,3p
-||click.aliexpress.com^$document,3p
-||click.discord.com^$document,3p
-||click.e.krogermail.com^$document,3p
-||click.e1.victoriassecret.com^$document,3p
-||click.email.oldnavy.com^$document,3p
-||click.email.pamperedchef.com^$document,3p
-||click.email.sonypictures.com^$document,3p
-||click.emails.paypal.com^$document,3p
-||click.hulumail.com^$document,3p
-||click.mailing.ticketmaster.com^$document,3p
-||click.nvgaming.nvidia.com^$document,3p
-||click.playstationemail.com^$document,3p
-||click.redditmail.com^$document,3p
-||click.s.kohls.com^$document,3p
-||click.subscription.in.gov^$document,3p
-||click.victoriassecret.com^$document,3p
-||click.virt.s4.exacttarget.com^$document,3p
-||clickmeter.com^$document,3p
-||clicks.cameo.com.cdn.cloudflare.net^$document,3p
-||clicks.cameo.com^$document,3p
-||clicks.mozilla.org^$document,3p
-||clk.im^$document,3p
-||clk.sh^$document,3p
-||clksite.com^$document,3p
+||chtbl.com^$3p,document
+||clck.ru^$3p,document
+||click-sap.sfmc-marketing.com^$3p,document
+||click.activecampaign.com^$3p,document
+||click.aliexpress.com^$3p,document
+||click.campaignmonitor.com^$3p,document
+||click.constantcontact.com^$3p,document
+||click.discord.com^$3p,document
+||click.e.krogermail.com^$3p,document
+||click.e1.victoriassecret.com^$3p,document
+||click.email.oldnavy.com^$3p,document
+||click.email.pamperedchef.com^$3p,document
+||click.email.sonypictures.com^$3p,document
+||click.emails.paypal.com^$3p,document
+||click.getresponse.com^$3p,document
+||click.hulumail.com^$3p,document
+||click.mailchimp.com^$3p,document
+||click.mailerlite.com^$3p,document
+||click.mailing.ticketmaster.com^$3p,document
+||click.nvgaming.nvidia.com^$3p,document
+||click.playstationemail.com^$3p,document
+||click.redditmail.com^$3p,document
+||click.s.kohls.com^$3p,document
+||click.subscription.in.gov^$3p,document
+||click.victoriassecret.com^$3p,document
+||click.virt.s4.exacttarget.com^$3p,document
+||clickmeter.com^$3p,document
+||clicks.cameo.com.cdn.cloudflare.net^$3p,document
+||clicks.cameo.com^$3p,document
+||clicks.mozilla.org^$3p,document
+||clicky.me^$3p,document
+||clk.im^$3p,document
+||clk.sh^$3p,document
+||clksite.com^$3p,document
 ||cloud.webtype.com^$font,3p
 ||clyde-fonts.s3.amazonaws.com^$font,3p
-||cmail19.com^$document,3p
+||cmail19.com^$3p,document
 ||cmp.osano.com^$frame
 ||cmp.setupcmp.com^
-||cname.createsend.com^$document,3p
+||cname.createsend.com^$3p,document
 ||code.ionicframework.com^$font,3p
 ||codepen.io/hubspot/embed/$3p,frame,redirect=click2load.html,domain=~theodinproject.com
-||coherentpath.link^$document,3p
+||coherentpath.link^$3p,document
 ||comm-files-universityofconn.netdna-ssl.com^$font,3p
 ||condenast.io^
 ||connect.facebook.net^$3p,from=~facebook.com|~fb.com
@@ -121,10 +129,10 @@
 ||cookielaw.org^
 ||cookiepro.com^$3p
 ||coolfontsapi.b-cdn.net^$font,3p
-||cp.oldnavy.com^$document,3p
+||cp.oldnavy.com^$3p,document
 ||cscript-cdn-irl.cassiecloud.com/loader.js^$script
-||ct.sendgrid.net^$document,3p
-||cutt.ly^$document,3p
+||ct.sendgrid.net^$3p,document
+||cutt.ly^$3p,document
 ||d1d5duwb3jk17d.cloudfront.net^$font,3p
 ||d1t6urij26il7f.cloudfront.net^$font,3p
 ||d25purrcgqtc5w.cloudfront.net^$font,3p
@@ -133,12 +141,12 @@
 ||d3498ple9xfqkw.cloudfront.net^$font,3p
 ||d3gur3gjo809sk.cloudfront.net^$font,3p
 ||d3s44e87wooplq.cloudfront.net^$font,3p
-||dai.ly^$document,3p
+||dai.ly^$3p,document
 ||dailymotion.com/embed^$3p,frame,redirect=click2load.html
 ||dexscreener.com/$3p,frame,redirect=click2load.html
-||dft.ba^$document,3p
+||dft.ba^$3p,document
 ||discuss.privacyguides.net/embed/$3p,frame,redirect=click2load.html
-||dlvr.it^$document,3p
+||dlvr.it^$3p,document
 ||docs.google.com/$3p,frame,redirect=click2load.html
 ||docs.google.com/document/d/e/$3p,frame,redirect=click2load.html
 ||docs.google.com/forms/$3p,frame,redirect=click2load.html
@@ -148,21 +156,21 @@
 ||docs.microsoft.com/powerbi/embed*$3p,frame,redirect=click2load.html
 ||drh-fonts.img.digitalrivercontent.net^$font,3p
 ||drive.google.com/file/$3p,frame,redirect=click2load.html
-||ds-global3.l7.search.ystg1.b.yahoo.com^$document,3p
+||ds-global3.l7.search.ystg1.b.yahoo.com^$3p,document
 ||dzen.ru/embed*$3p,frame,redirect=click2load.html
-||e.customeriomail.com^$document,3p
-||edge-w-balw.customer.io^$document,3p
-||edge-west.customer.io^$document,3p
+||e.customeriomail.com^$3p,document
+||edge-w-balw.customer.io^$3p,document
+||edge-west.customer.io^$3p,document
 ||edgefonts.net^$font,3p
 ||effectivegatecpm.com^$popup
 ||ekr.zdassets.com^
-||email-link.adtidy.info^$document,3p
-||email.getalby.com^$document,3p
-||email.gruv.com^$document,3p
-||email.marketing.strikingly.com^$document,3p
-||email.plex.tv^$document,3p
-||email.tx.studentbeans.com^$document,3p
-||emails.khanacademy.org^$document,3p
+||email-link.adtidy.info^$3p,document
+||email.getalby.com^$3p,document
+||email.gruv.com^$3p,document
+||email.marketing.strikingly.com^$3p,document
+||email.plex.tv^$3p,document
+||email.tx.studentbeans.com^$3p,document
+||emails.khanacademy.org^$3p,document
 ||embed.acast.com/$3p,frame,redirect=click2load.html
 ||embed.bsky.app^$3p,frame,redirect=click2load.html
 ||embed.documentcloud.org/$3p,frame,redirect=click2load.html
@@ -173,14 +181,14 @@
 ||embed.tiktok.com^$3p,frame,redirect=click2load.html
 ||embed.typeform.com/$3p,frame,redirect=click2load.html
 ||encore.scdn.co^$font,3p
-||exacttarget.com.edgekey.net^$document,3p
-||exacttarget.com^$document,3p
+||exacttarget.com.edgekey.net^$3p,document
+||exacttarget.com^$3p,document
 ||ey43.com^$popup
 ||f.kinja-static.com^$font,3p
 ||facebook.com/plugins/post.php^$3p,frame,redirect=click2load.html
 ||facebook.com/plugins/video.php^$3p,frame,redirect=click2load.html
 ||facebook.com/v2.9/plugins/like.php^
-||fb.me^$document,3p
+||fb.me^$3p,document
 ||flamelab.io/flamelab.js^$script
 ||font-public.canva.com^$font,3p
 ||font.im^$font,3p
@@ -271,48 +279,52 @@
 ||fontstorage.com^$font,3p
 ||fortawesome.com^$font,3p
 ||freeprivacypolicy.com^$3p
-||fur.ly^$document,3p
+||fur.ly^$3p,document
 ||g1.nyt.com^$font,3p
 ||gatekeeperconsent.com^$3p
 ||gel.files.bbci.co.uk^$font,3p
-||geniuslink.com^$document,3p
-||geo.itunes.apple.com^$document,3p
-||geo.music.apple.com^$document,3p
-||georiot.com^$document,3p
+||geniuslink.com^$3p,document
+||geo.itunes.apple.com^$3p,document
+||geo.music.apple.com^$3p,document
+||georiot.com^$3p,document
 ||getsitecontrol.com^$3p
 ||gfonts.jwwb.nl^$font,3p
 ||giphy.com/embed^$3p,frame,redirect=click2load.html
 ||gladly.com/chat-sdk/$script
 ||glitch.com/embed/$3p,frame,redirect=click2load.html
-||glnk.io^$document,3p
+||glnk.io^$3p,document
+||global-aebridge.aliexpress.com.gds.alibabadns.com^$3p,document
+||global-aebridge.aliexpress.com^$3p,document
 ||global.ketchcdn.com/web/v*/config/*/boot.js^$script,from=13wham.com|22thepoint.com|abc3340.com|abc45.com|abc6onyourside.com|abc7amarillo.com|abcnews4.com|accuweather.com|bakersfieldnow.com|boxingscene.com|cbs12.com|cbs2iowa.com|cbs4local.com|cbs6albany.com|cbsaustin.com|chattanoogacw.com|cnycentral.com|cw14online.com|cw18milwaukee.com|cw23tv.com|cw34.com|cw35.com|cw9tv.com|cwalbany.com|cwbaltimore.com|cwcentralpa.com|cwcincinnati.com|cwcolumbus.com|cwlasvegas.com|cwomaha.tv|cwtreasurevalley.com|dayton247now.com|debrox.com|drinkag1.com|eodev.com|fox11online.com|fox17.com|fox23maine.com|fox28savannah.com|fox38corpuschristi.com|fox42kptm.com|fox47.com|fox49.tv|fox4beaumont.com|fox56.com|foxbaltimore.com|foxchattanooga.com|foxillinois.com|foxkansas.com|foxnebraska.com|foxreno.com|foxrichmond.com|foxrochester.com|foxsanantonio.com|idahonews.com|katu.com|katv.com|kcby.com|kdsm17.com|keprtv.com|kfdm.com|kfoxtv.com|khqa.com|kimatv.com|kmph.com|kmyu.tv|kocb.com|komonews.com|kpic.com|krcgtv.com|krcrtv.com|ktul.com|ktvl.com|ktvo.com|ktxs.com|kunptv.com|kunwtv.com|kutv.com|kval.com|local12.com|local21news.com|loeb.com|midmichigannow.com|mycbs4.com|myfox28columbus.com|mynbc15.com|mynews4.com|myrdctv.com|mytv30web.com|mytvbaltimore.com|mytvbuffalo.com|mytvcharleston.com|mytvdayton.com|mytvrichmond.com|mytvwichita.com|mytvz.com|nbc16.com|nbc24.com|nbcmontana.com|nebraska.tv|nevadasportsnet.com|news3lv.com|news4sanantonio.com|newschannel20.com|newschannel9.com|newsweek.com|nosdevoirs.fr|okcfox.com|raleighcw.com|seattlerefined.com|siouxlandnews.com|southernoregoncw.com|star64.tv|tailscale.com|telemundoaustin.com|tennis.com|thecw38.com|thecw46.com|thecwtc.com|thecwtv.tv|thenationaldesk.com|turnto10.com|upnorthlive.com|utv44.com|vultr.com|wabm68.com|wach.com|watchdaytime.com|wchstv.com|wcti12.com|wcyb.com|weartv.com|wfgxtv.com|wfxl.com|wgme.com|wgxa.tv|wjactv.com|wjla.com|wlos.com|wpde.com|wpgh53.com|wsbt.com|wset.com|wtov9.com|wtwc40.com|wutv29.com|wwmt.com
 ||gn-flagpoles.api.bbci.co.uk^
-||go.bsky.app^$document,3p
-||go.microsoft.com.edgekey.net^$document,3p
-||go.microsoft.com^$document,3p
-||go.skimresources.com^$document,3p
-||goo.gl^$document,3p
+||go.bsky.app^$3p,document
+||go.microsoft.com.edgekey.net^$3p,document
+||go.microsoft.com^$3p,document
+||go.skimresources.com^$3p,document
+||goo.gl^$3p,document
 ||google.com/maps/embed$3p,frame,redirect=click2load.html
-||gph.is^$document,3p
+||gph.is^$3p,document
 ||grvmedia.com^$3p
 ||gstatic.com/glue/cookienotificationbar/cookienotificationbar.
 ||gubagoo.io^
-||ha-link.sailthru.com^$document,3p
+||ha-link.sailthru.com^$3p,document
+||haproxy-prod-link-nlb-9484743b55d7f6b1.elb.us-east-1.amazonaws.com^$3p,document
 ||helpscout.net^$3p
 ||hpefonts.s3.amazonaws.com^$font,3p
 ||hs-banner.com^
 ||hs-scripts.com^$3p
 ||html5-player.libsyn.com/embed/$3p,frame,redirect=click2load.html
-||i.cvs.com.edgekey.net^$document,3p
-||i.cvs.com^$document,3p
+||i.cvs.com.edgekey.net^$3p,document
+||i.cvs.com^$3p,document
 ||i.piano.io^$font,3p
 ||iconmonstr.com^$font,3p
 ||iframe.videodelivery.net/$3p,frame,redirect=click2load.html
 ||images.dmca.com/badges/dmcabadgehelper.min.js^$3p,script
-||info-link.stripe.com^$document,3p
-||info.tailscale.com^$document,3p
+||info-link.stripe.com^$3p,document
+||info.tailscale.com^$3p,document
 ||infosec.exchange/$3p,frame,redirect=click2load.html
 ||inmobi.com^$3p
+||insite.intelli-shop.com^$3p,document
 ||instagram.com/p/^$3p,frame,redirect=click2load.html
 ||instagram.com/reel/^$3p,frame,redirect=click2load.html
 ||instiengage.com^$3p
@@ -322,44 +334,65 @@
 ||intercomcdn.com^
 ||invl.me^$popup
 ||ionicframework.com^$font,3p
-||is.gd^$document,3p
+||is.gd^$3p,document
 ||issuu.com/embed^$3p,frame,redirect=click2load.html
 ||itv.com/itvstatic/assets/cookies-prompt/$script,css
 ||iubenda.com^
 ||iubenda.com^$3p
+||j.gs^$3p,document
 ||jr.prahmnatured.com^$popup
 ||judge.me^$3p
 ||kick.com/embed^$3p,frame,redirect=click2load.html
 ||krakenoptimize.com^$3p
-||kutt.it^$document,3p
-||l.instagram.com^$document,3p
-||l.messenger.com^$document,3p
+||kutt.it^$3p,document
+||l.e.starbucks.com^$3p,document
+||l.info.ms.aa.com^$3p,document
+||l.instagram.com^$3p,document
+||l.messenger.com^$3p,document
 ||lightboxcdn.com/vendor/$script,3p
 ||linearicons.com^$font,3p
-||link.rottentomatoes.com^$document,3p
-||linkclick.tailorbrands.com^$document,3p
-||linkmaker.itunes.apple.com.edgekey.net^$document,3p
-||links.mozilla.org^$document,3p
-||list-manage.com^$document,3p
+||link.email.getthefuturist.com^$3p,document
+||link.email.stackcommerce.com^$3p,document
+||link.fndrsp.net^$3p,document
+||link.info.email.aa.com^$3p,document
+||link.p.email.roku.com^$3p,document
+||link.rottentomatoes.com^$3p,document
+||linkclick.tailorbrands.com^$3p,document
+||linkmaker.itunes.apple.com.edgekey.net^$3p,document
+||links.activecampaign.com^$3p,document
+||links.campaignmonitor.com^$3p,document
+||links.constantcontact.com^$3p,document
+||links.e.helloworldemail.com^$3p,document
+||links.getresponse.com^$3p,document
+||links.m.helloworldemail.com^$3p,document
+||links.mailchimp.com^$3p,document
+||links.mailerlite.com^$3p,document
+||links.mozilla.org^$3p,document
+||list-manage.com^$3p,document
 ||livechatinc.com^$3p
-||ln.is^$document,3p
-||lnk.bio^$document,3p
-||lnk.to^$document,3p
-||lnkd.in^$document,3p
+||ln.is^$3p,document
+||lnk.bio^$3p,document
+||lnk.to^$3p,document
+||lnkd.in^$3p,document
 ||loom.com/embed/$3p,frame,redirect=click2load.html
 ||mailerlite.com^$3p
-||mailgun.org^$document,3p
+||mailgun.org^$3p,document
+||mailtrackemailout1.namecheap.com^$3p,document
 ||maps.google.com/maps/embed*$3p,frame,redirect=click2load.html
 ||media.tdameritrade.com^$font,3p
 ||medium.com/media^$3p,frame,redirect=click2load.html
 ||microsoft.com/mscc/
 ||minted-fonts.mintedcdn.net^$font,3p
 ||mixcloud.com/widget/$3p,frame,redirect=click2load.html
-||mjt.lu^$document,3p
+||mjt.lu^$3p,document
 ||mojidepa.com^$font,3p
+||moourl.com^$3p,document
+||msha.ke^$3p,document
+||mx.technolutions.net^$3p,document
 ||myfontastic.com^$font,3p
+||network.bazaarvoice.com^$3p,document
 ||nimblefonts.nimbledeals.com^$font,3p
-||notifications.google.com^$document,3p
+||notifications.google.com^$3p,document
 ||notion.so/embed^$3p,frame,redirect=click2load.html
 ||ok.ru/videoembed^$3p,frame,redirect=click2load.html
 ||onedrive.live.com/embed^$3p,frame,redirect=click2load.html
@@ -367,9 +400,12 @@
 ||onetrust.com^$3p
 ||onlinewebfonts.com^$font,3p
 ||open.spotify.com/embed/$3p,frame,redirect=click2load.html
-||outgoing.prod.webservices.mozgcp.net^$document,3p
+||outgoing.nonprod.webservices.mozgcp.net^$3p,document
+||outgoing.prod.webservices.mozgcp.net^$3p,document
 ||p-n.io^
 ||patreon.com/embed^$3p,frame,redirect=click2load.html
+||permissionslipcr.us2.list-manage.com^$3p,document
+||phreesia.net^$3p,document
 ||placeholder.com^$3p
 ||platform.linkedin.com^
 ||platform.twitter.com/js/button.$3p
@@ -395,7 +431,7 @@
 ||player.vimeo.com/video^$3p,frame,redirect=click2load.html,domain=~bing.com|~google.com|~duckduckgo.com|~openai.com|~video.search.yahoo.com|~window-swap.com
 ||pls.webtype.com^$font,3p
 ||pmc-pp-tou.*.amazonaws.com/privacy-notice.js^$script
-||po.st^$document,3p
+||po.st^$3p,document
 ||podbean.com/player-v2/$3p,frame,redirect=click2load.html
 ||podname.com^$3p
 ||podomatic.com/$3p,frame,redirect=click2load.html
@@ -405,29 +441,35 @@
 ||privacymanager.io^$3p
 ||privy.com^$3p
 ||prod-cdn-library-abblibrary-ebgjc7dxe6ghgfem.a01.azurefd.net^$font,3p
+||prod.braze-cdn.prod.webservices.mozgcp.net^$3p,document
+||prod.outgoing.prod.webservices.mozgcp.net^$3p,document
+||proxy-prod-mail.mail.studentaid.gov^$3p,document
 ||pstatic09.mgo-images.com^$font,3p
 ||purechat.com^
 ||push-sdk.com^
 ||pushowl.com^$3p
 ||pushpushgo.com^
-||q.gs^$document,3p
+||q.gs^$3p,document
 ||qmerce.com/assets/$3p,frame,redirect=click2load.html
-||qr.ae^$document,3p
+||qr.ae^$3p,document
 ||quizlet.com/$3p,frame,redirect=click2load.html
-||r.search.yahoo.com^$document,3p
+||r.search.yahoo.com^$3p,document
+||r.us-east-1.awstrack.me^$3p,document
+||r.us-west-2.awstrack.me^$3p,document
 ||rbds-static.redbull.com^$font,3p
 ||realtype.jp^$font,3p
-||rebrand.ly^$document,3p
+||rebrand.ly^$3p,document
 ||reddit.com/mediaembed/$3p,frame,redirect=click2load.html
 ||reddit.com/svc/shreddit/experiences?names=app_selector$xhr
-||redirect.salesforce.com^$document,3p
-||referrals.brave.com^$document,3p
-||referrals.bravesoftware.com^$document,3p
+||redirect.salesforce.com^$3p,document
+||referrals.brave.com^$3p,document
+||referrals.bravesoftware.com^$3p,document
 ||rockomni.com^$font,3p
-||rtrck.co^$document,3p
+||rtrck.co^$3p,document
 ||rumble.com/embed^$3p,frame,redirect=click2load.html
 ||rutube.ru/play/embed/$3p,frame,redirect=click2load.html
 ||s.click.aliexpress.com^$popup
+||s.id^$3p,document
 ||s0-greate.net^$popup
 ||safe.txmblr.com^$3p,frame,redirect=click2load.html
 ||sammobile.com/wp-content/plugins/sam-push-notifications/$script
@@ -435,47 +477,65 @@
 ||sasomange.rs/widget1.sasomange.rs$frame
 ||scribd.com/embeds/$3p,frame,redirect=click2load.html
 ||securiti.ai/consent/
-||sendgrid.net^$document,3p
+||sendgrid.net^$3p,document
 ||share.pluso.ru^
 ||sharedid.org^
 ||shareron.xyz^
 ||sharethis.com^
 ||shop.pe/widget/$script
-||short.cm^$document,3p
-||shorte.st^$document,3p
-||shorturl.at^$document,3p
-||shrinkme.io^$document,3p
+||short.cm^$3p,document
+||shorte.st^$3p,document
+||shorturl.at^$3p,document
+||shrinkme.io^$3p,document
 ||sirdata.io^$3p
 ||sleeknote.com^$3p
 ||slideshare.net/slideshow/embed_code/$3p,frame,redirect=click2load.html
 ||smartsuppchat.com^$3p
-||snrlink-page.com^$document,3p
+||snrlink-page.com^$3p,document
+||soo.gd^$3p,document
 ||soundcloud.com/widgets/$3p,frame,redirect=click2load.html
-||spgo.io^$document,3p
+||spgo.io^$3p,document
 ||sprinklr.com$3p
 ||square-fonts-production-f.squarecdn.com^$font,3p
 ||ssstik.io/js/micromodal.min.js^$script
+||stage.outgoing.nonprod.webservices.mozgcp.net^$3p,document
 ||static-web-assets.gnl-common.bbcverticals.com^$font,3p
 ||static-webfonts.myfonts.com^$font,3p
 ||static.vidgyor.com/player/$3p,frame,redirect=click2load.html
 ||stay22.com/embed/$3p,frame,redirect=click2load.html
 ||strava.com/embed^$3p,frame,redirect=click2load.html
+||su.pr^$3p,document
 ||subscribers.com^$3p
+||subscription.in.gov^$3p,document
 ||substack.com/embed^$3p,frame,redirect=click2load.html
+||survey.medallia.com^$3p,document
+||survey3.medallia.com^$3p,document
 ||swiftypecdn.com^$3p,from=~swiftype.com
-||t.co^$document,3p
-||t.ly^$document,3p
-||t2m.io^$document,3p
+||t.co^$3p,document
+||t.ly^$3p,document
+||t2m.io^$3p,document
 ||tawk.to^
 ||thefontzone.com^$font,3p
+||thirdparty.bnc.lt^$3p,document
 ||threads.net/@*/post/^$3p,frame,redirect=click2load.html
 ||tidio.co^$3p
-||tiny.cc^$document,3p
-||tinyurl.com^$document,3p
+||tiny.cc^$3p,document
+||tinyurl.com^$3p,document
+||track.activecampaign.com^$3p,document
+||track.campaignmonitor.com^$3p,document
+||track.constantcontact.com^$3p,document
+||track.customer.io^$3p,document
+||track.getresponse.com^$3p,document
+||track.mail.studentaid.gov^$3p,document
+||track.mailchimp.com^$3p,document
+||track.mailerlite.com^$3p,document
+||tracking.indianaonline.org^$3p,document
+||tracking.socketlabs.com^$3p,document
 ||traderjoexyz.com/$3p,frame,redirect=click2load.html
 ||transcend-cdn.com^
-||trib.al^$document,3p
+||trib.al^$3p,document
 ||trinitymedia.ai/player/trinity-player.php*$3p,frame,redirect=click2load.html
+||trk.thewanderclub.com^$3p,document
 ||truendo.com^$3p
 ||truepush.com^$3p
 ||truevaultcdn.com^$3p
@@ -489,13 +549,22 @@
 ||typekit.net^$font,3p
 ||typography.doordash.com^$font,3p
 ||typotheque.com^$font,3p
+||u12253253.ct.sendgrid.net^$3p,document
+||u14209785.ct.sendgrid.net^$3p,document
+||url296.jerseymikes.com^$3p,document
+||url3025.hello.klarna.com^$3p,document
+||us-east-1.awstrack.me^$3p,document
+||us-west-2.awstrack.me^$3p,document
+||us12.list-manage.com^$3p,document
+||use-aebridge.aliexpress.com^$3p,document
 ||use.typekit.net^$font,3p
 ||usefulcontentsites.com^
 ||usercentrics.eu^$3p,from=~rts.ch
 ||userway.org^$3p
-||v.gd^$document,3p
-||v.ht^$document,3p
+||v.gd^$3p,document
+||v.ht^$3p,document
 ||view.genial.ly$3p,frame,redirect=click2load.html
+||view.subscription.in.gov^$3p,document
 ||vk.com/js/api/openapi.js^$script
 ||vk.com/js/api/share.js^$script
 ||vk.com/video_ext$3p,frame,redirect=click2load.html
@@ -503,7 +572,7 @@
 ||vk.ru/video_ext$3p,frame,redirect=click2load.html
 ||volume.vox-cdn.com/embed/$3p,frame,redirect=click2load.html
 ||w.soundcloud.com/player/$3p,frame,redirect=click2load.html
-||w.wiki^$document,3p
+||w.wiki^$3p,document
 ||weather.com/*.medalliasurvey.$script
 ||webfont.honda.co.jp^$font,3p
 ||webfonts.creativecloud.com^$font,3p
@@ -522,22 +591,26 @@
 ||widgets.wp.com/likes/master.html^
 ||www-tc.pbs.org^$font,3p
 ||www.google.com/maps/embed*$3p,frame,redirect=click2load.html
-||x.co^$document,3p
+||x.co^$3p,document
 ||x.com/i/embed^$3p,frame,redirect=click2load.html
+||xip.io^$3p,document
 ||yastatic.net/share2/share.js^$script
-||yep.it^$document,3p
+||yep.it^$3p,document
+||your.cvs.com^$3p,document
 ||youtube-nocookie.com/embed^$3p,frame,redirect=click2load.html,domain=~bing.com|~google.com|~duckduckgo.com|~video.search.yahoo.com
 ||youtube.com/subscribe_embed?$3p
 ||youtube.com/youtubei/v1/updated_metadata
 ||youtube.com^$3p,frame,redirect=click2load.html,domain=~bing.com|~chatreplay.stream|~google.com|~duckduckgo.com|~video.search.yahoo.com|~w2g.tv|~thebluealliance.com|~theguardian.com|~songsterr.com
+||z5-pauw.phreesia.net^$3p,document
+||z5-sns.phreesia.net^$3p,document
 ||zapier-fonts-production.s3.amazonaws.com^$font,3p
 ||zdassets.com/ekr/snippet.js^$script
 ||zendesk.com/frontendevents/$xhr
 ||zergnet.com^$3p
-||zi.pe^$document,3p
+||zi.pe^$3p,document
 ||zopim.com^$3p
-||zpag.es^$document,3p
-||zurl.ws^$document,3p
+||zpag.es^$3p,document
+||zurl.ws^$3p,document
 .cookielaw.js^$script
 .cookielaw.min.$script,css,image
 .cookiesdirective.js^$script
@@ -564,9 +637,9 @@ asus.com##+js(set-cookie, isReadCookiePolicyDNT, true)
 aviasales.ru##.s__y2gjNiIS0o1RA_5Ebnkw
 axios.com##.\!bg-blue-core
 axios.com##body,html:style(overflow: auto !important; position: initial !important;)
-baidu.com###con-ar > [tpl="ai_accompanies"]
-baidu.com###content_left > .c-group-wrapper:has([tpl="ai_ask"])
-baidu.com###s_tab_inner > a[href*="chat.baidu.com"]
+baidu.com###con-ar > [tpl="ai_accompanies"]               ! AI accompanies container
+baidu.com###content_left > .c-group-wrapper:has([tpl="ai_ask"]) ! AI Q&A section
+baidu.com###s_tab_inner > a[href*="chat.baidu.com"]       ! AI chat tab
 bang-movies.com##+js(remove-attr, onclick|target, .thumb-in > a, complete)
 bbc.com##+js(adjust-setTimeout, viewClickAttributeId)
 bbc.com##+js(remove-class, tp-modal-open|tp-body-scroll-prevented, body)
@@ -580,13 +653,13 @@ bbc.com##.nw-c-breaking-news-banner
 bbc.com##body:style(overflow: auto !important;)
 benable.com#@#.social-container
 benable.com#@#.social-icons
-bing.com###b-scopeListItem-conv
-bing.com###chat_upsell_bubble_icon
+bing.com###b-scopeListItem-conv                          ! Copilot tab
+bing.com###chat_upsell_bubble_icon                       ! Chat upsell icon
 bing.com##+js(prevent-setInterval, logQueue, 10000)
-bing.com##.b_insights
-bing.com##.cdxCopilotIconBg
-bing.com##.copans_container
-bing.com##a[href*="/discussions/"]
+bing.com##.b_insights                                    ! Insights panel
+bing.com##.cdxCopilotIconBg                               ! Copilot bubble
+bing.com##.copans_container                               ! AI answer container
+bing.com##a[href*="/discussions/"]                       ! Forum/discussion links
 bleepingcomputer.com##+js(set-cookie, sc_cookie_consent, 0)
 blessedprint.com##.t972
 blog.mozilla.org##.ft-c-post-share
@@ -725,6 +798,7 @@ imdb.com##.ipc-feedback-popup
 imdb.com##.ipc-inline-feedback-popup
 imdb.com##.ipc-newsletter-prompt
 imdb.com##.ipc-page-section--imdbPro-upsell
+imdb.com##.ipc-page-section:has([data-testid="autoplay-trailer"])
 imdb.com##.ipc-page-section:has([data-testid="newsletter"])
 imdb.com##.ipc-page-section:has([data-testid="recommendations"])
 imdb.com##.ipc-page-section:has([data-testid="signup"])
@@ -750,6 +824,7 @@ imdb.com##h3:has-text("Related interests"):upward(.ipc-page-section)
 imdb.com##h3:has-text(Soundtrack):upward(.ipc-page-section)
 imdb.com##section[data-testid="Contribute"]
 imdb.com##section[data-testid="TechSpecs"]
+imdb.com##video[autoplay]
 imgur.com##.Gallery-Share
 incibeauty.com##.modal
 incibeauty.com##.modal-backdrop
@@ -985,16 +1060,16 @@ scribd.com##+js(set-constant, docManager.doDynamicBlurring, noopFunc)
 scribd.com##.between_page_portal_root
 scribd.com##button[data-e2e="doc-actions-share-button-sticky_metadata_column"]
 scribd.com##div[data-testid="sticky-wrapper"]
-search.brave.com###llm-snippet
+search.brave.com###llm-snippet                             ! LLM snippet / AI answer
 search.brave.com###usage-metrics-notice
-search.brave.com##.discussion-result
+search.brave.com##.discussion-result                       ! Forum/discussion result
 search.brave.com##.download-cta
-search.brave.com##.llm.suggestion:has-text(Answer with AI)
-search.brave.com##.video-result
-search.brave.com##a[href*="/discussions/"]
-search.yahoo.com##.chat-bubble
-search.yahoo.com##.compList
-search.yahoo.com##.related-video-block
+search.brave.com##.llm.suggestion:has-text(Answer with AI) ! AI suggestion label
+search.brave.com##.video-result                             ! Video clutter
+search.brave.com##a[href*="/discussions/"]                ! Links to discussions
+search.yahoo.com##.chat-bubble                             ! AI chat bubble
+search.yahoo.com##.compList                               ! Component list / clutter
+search.yahoo.com##.related-video-block                     ! Related video block
 shein.com##[class^="_shein_privacy_"]
 shein.com##body:style(overflow: auto !important; position: initial !important;)
 siberianhealth.com##.top-informer-container
@@ -1098,24 +1173,14 @@ wordreference.com##a[title$=" App"]
 wordreference.com##body:style(overflow: auto !important;)
 wowroms.com##body:style(overflow: auto !important;)
 www.amazon.com##+js(remove-node-text, script, /introSplashVideo.+renderStoresWidgetsPendingList/s)
-www.google.*##.g:has(span:has-text("AI"))
-www.google.*##.related-question-pair     
-www.google.*##[data-hveid="CAIQAQ"]
-www.google.*##button:has(path[d^="M17.5 12c0-3.04 2.46-5.5"])
-www.google.*##button:has-text("Chat with AI")
-www.google.*##button:has-text("Try AI")
-www.google.*##div[class*="ai-chat"]
-www.google.*##div[class*="ai-popup"]
-www.google.*##div[class*="assistant-widget"]
-www.google.*##div[class*="chat-widget"]
-www.google.*##div[class*="copilot-container"]
-www.google.*##div[class*="newsletter"]
-www.google.*##div[class*="signup"]
-www.google.*##iframe[src*="ai-assistant"]
-www.google.*##iframe[src*="chatbot"]
-www.google.*##iframe[src*="copilot"]
-www.google.*##li:has-text("AI Answer")
-www.google.*##span:has-text("AI Suggestion")
+www.google.*##.g:has(a[href*="/forum"])                ! Generic forum results
+www.google.*##.g:has(a[href*="quora.com"])             ! Quora results
+www.google.*##.g:has(a[href*="reddit.com"])             ! Reddit results
+www.google.*##.g:has(a[href*="stackexchange.com"])     ! StackExchange results
+www.google.*##.related-question-pair                    ! People Also Ask
+www.google.*##[data-hveid="CAIQAQ"]                     ! AI Overview container
+www.google.*##[data-mcpr]                               ! AI Overview fallback
+www.google.*##button:has(path[d^="M17.5 12c0-3.04 2.46-5.5"])  ! AI chat / overview button
 www.insmind.com##.agree
 www.youtube.com###actions.ytd-watch-metadata button > div[class$="text-content"]:not(:has-text(/[\d]/))
 www.youtube.com###actions.ytd-watch-metadata ytd-button-renderer .yt-spec-button-shape-next__icon:style(margin-right: -6px !important; margin-left: -6px !important;)
@@ -2272,8 +2337,8 @@ youtube.com##ytd-search yt-lockup-view-model:has([href$="&start_radio=1"][aria-l
 ##a[onclick^="window.open('http://vkontakte.ru/share.php"]
 ##bb-cookie-disclaimer
 ##bb-paywall
-##button:has-text("Chat with AI")
-##button:has-text("Try AI")
+##button:has-text("Chat with AI")                          ! Chat with AI buttons
+##button:has-text("Try AI")                                ! Try AI buttons
 ##button[aria-label="Share"]
 ##button[data-a-target="share-button"]
 ##button[data-test="article-share"]
@@ -2283,13 +2348,13 @@ youtube.com##ytd-search yt-lockup-view-model:has([href$="&start_radio=1"][aria-l
 ##div.module-newsletter
 ##div.ot-sdk-container
 ##div[aria-label="Cookie banner"]
-##div[class*="ai-chat"]
-##div[class*="ai-popup"]
-##div[class*="assistant-widget"]
-##div[class*="chat-widget"]
-##div[class*="copilot-container"]
-##div[class*="newsletter"]
-##div[class*="signup"]
+##div[class*="ai-chat"]                                   ! Generic AI chat blocks
+##div[class*="ai-popup"]                                  ! Generic AI popups
+##div[class*="assistant-widget"]                          ! Assistant widget
+##div[class*="chat-widget"]                                ! Chat widget
+##div[class*="copilot-container"]                         ! Copilot container
+##div[class*="newsletter"]                                 ! Newsletter banners
+##div[class*="signup"]                                     ! Signup prompts
 ##div[data-identity="social-share-links"]
 ##div[data-widget-definition="share_page"]
 ##div[id^="___plusone_"]
@@ -2297,16 +2362,16 @@ youtube.com##ytd-search yt-lockup-view-model:has([href$="&start_radio=1"][aria-l
 ##div[x-show="cookies"]
 ##hl-newsletter-cta
 ##iframe[name="googlefcPresent"]
-##iframe[src*="ai-assistant"]
-##iframe[src*="chatbot"]
-##iframe[src*="copilot"]
+##iframe[src*="ai-assistant"]                              ! iFrame assistant
+##iframe[src*="chatbot"]                                   ! iFrame chatbot
+##iframe[src*="copilot"]                                   ! iFrame copilot
 ##iframe[src*="sasomange.rs/widget1.sasomange.rs"]
-##li:has-text("AI Answer")
+##li:has-text("AI Answer")                                  ! AI answer in lists
 ##lib-cookies-consent
 ##santa-notice
 ##section[data-component="Com3Cookie"]
 ##sibbo-cmp-layout
-##span:has-text("AI Suggestion")
+##span:has-text("AI Suggestion")                            ! AI suggestion label
 ##span[data-link="#share-facebook"]
 ##span[data-link="#share-twitter"]
 ##ung-anonymous-consent-management
@@ -2576,7 +2641,6 @@ youporn.*##.warning_block
 /wp-content/plugins/social-warfare/*
 /wrappermessagingwithoutdetection.js^$script,from=~weather.com|~weather.co.uk|~weather.com.au|~weather.ca|~weather.co.nz|~weather.co.in|~weather.co.jp|~weather.co.za|~weather.com.sg|~weather.com.hk|~weather.com.ph|~weather.com.my|~weather.com.br|~weather.com.mx|~weather.com.ar|~weather.com.cl|~weather.com.co|~weather.com.pe
 /zdconsent.js^$script
-============================!
 amp-web-push*js^$script
 cookie-law*.$script,css
 sassy-social-share-public*.$script,css

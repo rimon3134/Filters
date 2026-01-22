@@ -1,6 +1,6 @@
 ! Title: 👻 RK’s AdGhost List
 ! Author: Rimon Hossain
-! Version: 2026.01.22.1
+! Version: 2026.01.23
 ! Description: Neutralizes anti-adblock scripts, overlays, and site-blockades with surgical precision. 🕶️
 ! Homepage: https://rimon3134.github.io
 ! RAW: https://raw.githubusercontent.com/rimon3134/Filters/main/AdGhost.txt
@@ -575,8 +575,10 @@ androidpolice.com##.adsninja-ad-zone:not(.adsninja-valstream)
 androidpolice.com#@#.ad-current
 androidpolice.com#@#.ad-zone
 androidpolice.com#@#.ad-zone-container
+androidpolice.com#@#.ad-zone:not(.textads)
 androidpolice.com#@#.adsninja-ad-zone
 androidpolice.com#@#.ima-ad-container
+androidpolice.com#@#.w-adsninja-video-player
 animedb.in##.full-page
 anonymousemail.me#$#.adsbygoogle { height: 1px!important; width: 1px!important; }
 anonymousemail.me#$#.adsense { height: 1px!important; }
@@ -621,6 +623,7 @@ aruble.net#@#.ad-placement
 asd.homes#$#.main-content-xfs { display: block !important; }
 asd.homes#$#.watch__area { display: block !important; }
 asd.homes#$#body > .ad-container { display: block !important; }
+asianporn.li#@#.ad-unit:not(.textads)
 asiaon.top#@##ad-top
 asiaon.top#@#.ad-bottom
 asiaon.top#@#.ad-right
@@ -946,6 +949,7 @@ emulatorgames.onl###cg > #button
 emurom.net#$##adsense { display: block!important; height: 1px!important; }
 engineeringtoolbox.com##.adblo
 ensenchat.com,itopmusics.com,webcamfuengirola.com,newzjunky.com##body > div[class][style="display:none;"] + div[id][class*=" "]
+epic.hellosports.live##.popSc
 erotikclub35.pw###aa-wp + div[id][class*=" "]
 euronews.com#$#div.pub.ad.advertising.adzone.sponsored[data-ad-name] { display: block !important; }
 evaki.fun,sportshub.to,sportnews.to###adblock-overlay
@@ -1195,6 +1199,7 @@ indexsubtitle.cc#$##adblockModal[style] { display: none !important; }
 indexsubtitle.cc#$##adblockModal[style] ~ .modal-backdrop { display: none !important; }
 indexsubtitle.cc#$#body { overflow: auto !important; padding-right: 0 !important; }
 indexsubtitle.cc#@#.ad-unit:not(.textads)
+indexsubtitle.cc#@#.google_ads
 indgovtjobs.in,techiesavi.com,magesy.blog###superadblocker
 infinityscans.org,infinityscans.net,infinityscans.xyz#?#.user-select-none > .alert:has(> .p-3:contains(/^Advertisement blockers/))
 informatudo.com.br###musesContextMenuContainer + div[id][class*=" "]
@@ -1270,6 +1275,7 @@ key-hub.eu###overlay
 keybr.com##div[class^="Supporter"]
 kiemlua24h.co###d7b2
 kireicosplay.com##.main-wrap ~ div[id][class*=" "]:not(.Ad-Container)
+kissjav.com#@#.ad-unit:not(.textads)
 kituweh.xyz#@#.ad-placeholder:not(#filter_ads_by_classname):not(#detect_ad_empire):not(#detect):not(.adsbox)
 kituweh.xyz#@#.ad-placement
 kituweh.xyz#@#.adbadge
