@@ -1,6 +1,6 @@
 ! Title: 🚫 RK’s Phantom List
 ! Author: Rimon Hossain
-! Version: 2026.01.23.1
+! Version: 2026.01.23.2
 ! Description: RK's Phantom-List — Removes overlays, social widgets, cookies, delays, and UI clutter — keeping pages fast, readable, and distraction-free.
 ! Homepage: https://rimon3134.github.io
 ! RAW: https://raw.githubusercontent.com/rimon3134/Filters/main/Phantom-List.txt
