@@ -1,6 +1,6 @@
 ! Title: 👻 RK’s AdGhost List
 ! Author: Rimon Hossain
-! Version: 2026.01.24
+! Version: 2026.01.24.2
 ! Description: Neutralizes anti-adblock scripts, overlays, and site-blockades with surgical precision. 🕶️
 ! Homepage: https://rimon3134.github.io
 ! RAW: https://raw.githubusercontent.com/rimon3134/Filters/main/AdGhost.txt

@@ -1,6 +1,6 @@
 ! Title: 🌐 RK’s ZeroDNS List
 ! Author: Rimon Hossain
-! Version: 2026.01.24
+! Version: 2026.01.24.1
 ! Description: Root-level shield against ads, trackers, and telemetry — purges digital parasites before they even reach your browser. Fast, silent, absolute.
 ! Homepage: https://rimon3134.github.io
 ! RAW: https://raw.githubusercontent.com/rimon3134/Filters/main/ZeroDNS.txt
