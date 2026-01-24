@@ -9,12 +9,6 @@
 !
 !
 !
-||*/analytics$third-party,beacon
-||*/collect$third-party,beacon
-||*/event$third-party,beacon
-||*/events$third-party,beacon
-||*/pixel$third-party,beacon
-||*/track$third-party,beacon
 ||7tiv.net^$document,third-party
 ||7z9g.mjt.lu^$document,third-party
 ||a.mailmunch.co/app/$script,third-party
@@ -2649,3 +2643,4 @@ sassy-social-share-public*.$script,css
 @@|recaptchaenterprise.googleapis.com^
 @@|recaptchaenterprise.mtls.googleapis.com^
 @@|v2.cutcaptcha.net^
+
