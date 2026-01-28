@@ -61,7 +61,6 @@ The modern web is overloaded — ads, trackers, popups, overlays, telemetry, AI 
 | **ZeroAds** | Active | Hybrid cosmetic + network filter list that complements ZeroHosts by removing modern web annoyances such as popups, overlays, forced dialogs, widgets, and slow scripts. Ensures smooth page rendering and faster load times. |
 | **AdGhost** | 🟣 Advanced | Neutralizes anti-adblock overlays, forced dialogs, and access walls **before rendering**, allowing uninterrupted browsing without breakage. Particularly useful on high-noise sites. |
 | **Phantom List** | 🔵 Core | Removes heavy widgets, slow modules, and render-blocking scripts for faster page loads and improved UX. Ideal for performance-sensitive environments. |
-| **uHosts** | 🟢 Active | ZeroHosts optimized specifically for **uBlock Origin** — minimal false positives, maximal compatibility, and tailored for hybrid + cosmetic rules integration. |
 
 > For detailed descriptions, RAW URLs, and installation instructions, visit the [Filter List Portal](https://rimon3134.github.io/Filters).
 
