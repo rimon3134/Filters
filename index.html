@@ -126,10 +126,42 @@ main { max-width: 880px; margin: auto; padding: 40px 20px; }
 .rk-badge.elite { border-color: #d188ff; color: #d188ff; }
 .rk-badge.active { border-color: var(--primary); color: var(--primary); }
 
-.why-rk { border-left: 4px solid var(--accent); padding-left: 15px; }
-.why-rk ul { list-style: none; padding-left: 0; }
-.why-rk li { margin-bottom: 0.6em; position: relative; }
-.why-rk li::before { content: "✔"; position: absolute; left: -20px; color: var(--accent); font-weight: bold; }
+.why-rk {
+  border-left: 4px solid var(--accent);   /* punchy orange */
+  padding: 14px 18px;                     /* same as original */
+  background: var(--surface);             /* card bg */
+  border-radius: 10px;                     /* consistent radius */
+  transition: background var(--trans), transform var(--trans);
+}
+
+.why-rk:hover {
+  background: var(--surface-hover);       /* subtle brighter bg on hover */
+  transform: translateY(-2px);            /* tiny lift */
+}
+
+.why-rk ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.why-rk li {
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 0.7em;
+  line-height: 1.55;
+  color: var(--text);
+}
+
+.why-rk li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  top: 0.05em;
+  font-size: 0.9em;
+  color: var(--accent);                   /* matches border */
+  font-weight: 700;
+}
 
 .copy-box { display: flex; margin-top: 15px; }
 .copy-input {
