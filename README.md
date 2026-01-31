@@ -15,15 +15,14 @@ Take full control of your web experience — **intentionally**.
 
 Central hub for install instructions, RAW URLs, changelogs, and full documentation.  
 All curated lists, hybrid rules, and updates are maintained there — the single source of truth.
-> This repository powers the **Filter Portal**
+
+_**⚡ This repository powers the Filter Portal**_
 
 ---
 
 ## 📊 Repository Status
 
-![Repo Size](https://img.shields.io/github/repo-size/rimon3134/Filters?style=flat-square)  
-![License](https://img.shields.io/github/license/rimon3134/Filters?style=flat-square)  
-![Last Commit](https://img.shields.io/github/last-commit/rimon3134/Filters?style=flat-square)  
+![Repo Size](https://img.shields.io/github/repo-size/rimon3134/Filters?style=flat-square)  ![License](https://img.shields.io/github/license/rimon3134/Filters?style=flat-square)  ![Last Commit](https://img.shields.io/github/last-commit/rimon3134/Filters?style=flat-square)  
 
 ---
 
@@ -39,7 +38,7 @@ The modern web is overloaded — ads, trackers, popups, overlays, telemetry, AI 
 - 🔹 Provide layered filtering — domain-level + hybrid/cosmetic + network  
 - 🔹 Reduce unnecessary bulk: only **high-priority, impactful entries** included  
 
-> _Not about blocking everything — only what actually matters._
+> _**Not about blocking everything — only what actually matters.**_
 
 ---
 
@@ -47,22 +46,22 @@ The modern web is overloaded — ads, trackers, popups, overlays, telemetry, AI 
 
 ### 🏠 Hosts-Based Lists
 
-| List | Status | Description |
-|------|:------:|-------------|
+| List |  Status  | Description |
+|------|:--------:|-------------|
 | **ZeroHosts** | 🟢 Recommended | A curated hosts list blocking ads, trackers, malware, phishing, scam, and spam domains — while preserving site functionality. Ideal for baseline protection with minimal false positives. |
-| **ZeroDNS** | 🟠 Lite | Compact ZeroHosts variant targeting **high-priority ad, tracker, and telemetry domains**. Mobile-friendly, low-resource (~30K entries), optimized for speed and stability. |
+| **ZeroDNS** | 🟠 Lite | Lightweight DNS-style blocklist (~30K entries) **focusing on high-impact domains** — optimized for speed and stability. |
 
 ---
 
-### 🔀 Hybrid / Cosmetic / Network Lists
+### 🔀 Hybrid Lists
 
-| List | Status | Description |
-|------|:------:|-------------|
-| **ZeroAds** | Active | Hybrid cosmetic + network filter list that complements ZeroHosts by removing modern web annoyances such as popups, overlays, forced dialogs, widgets, and slow scripts. Ensures smooth page rendering and faster load times. |
-| **AdGhost** | 🟣 Advanced | Neutralizes anti-adblock overlays, forced dialogs, and access walls **before rendering**, allowing uninterrupted browsing without breakage. Particularly useful on high-noise sites. |
-| **ZeroNoise** | 🔵 Core | Removes heavy widgets, slow modules, render-blocking scripts and other noises for faster page loads and improved UX — with extended security. |
+| List |  Status  | Description |
+|------|:--------:|-------------|
+| **ZeroNoise** | 🟢 Recommended | Removes heavy widgets, slow modules, render-blocking scripts and other noises for faster page loads and improved UX — with extended security. |
+| **AdGhost** | 🟣 Elite | Neutralizes anti-adblock overlays, forced dialogs, and access walls **before rendering**, allowing uninterrupted browsing without breakage. Particularly useful on high-noise sites. |
+| **ZeroAds** | 🔵 Essential | Hybrid cosmetic + network filter list that complements ZeroHosts by removing modern web annoyances such as popups, overlays, forced dialogs, widgets, and slow scripts. Ensures smooth page rendering and faster load times. |
 
-> For detailed descriptions, RAW URLs, and installation instructions, visit the [Filter List Portal](https://rimon3134.github.io/Filters).
+**_For detailed descriptions, RAW URLs, and installation instructions, visit the [Filter List Portal](https://rimon3134.github.io/Filters)._**
 
 ---
 
@@ -78,7 +77,7 @@ The modern web is overloaded — ads, trackers, popups, overlays, telemetry, AI 
 | Layered architecture | ✅ | ❌ |
 | Actively maintained | ✅ | Varies |
 
-> RK’s lists prioritize **precision over sheer volume**, ensuring usability, stability, and minimal false positives.
+**_RK’s lists prioritize **precision over sheer volume**, ensuring usability, stability, and minimal false positives._**
 
 ---
 
@@ -141,7 +140,7 @@ A: Domain-only lists miss same-domain annoyances like popups, redirects, and ove
 A: Minimal false positives — hybrid rules carefully tested. Aggressive elements removed **before rendering**, ensuring smooth experience.
 
 **Q: Mobile compatibility?**  
-A: Yes — Every List is mobile-optimized; hybrid lists work in uBlock Origin, AdGuard, and compatible apps.
+A: Yes — Every list is mobile-optimized; hybrid lists work in uBlock Origin, AdGuard, and compatible apps.
 
 **Q: Update frequency?**  
 A: As needed — sometimes multiple times a day, sometimes weekly. All updates documented on the [Filter List Portal](https://rimon3134.github.io/Filters).
