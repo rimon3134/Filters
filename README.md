@@ -48,8 +48,7 @@ The modern web is overloaded — ads, trackers, popups, overlays, telemetry, AI 
 
 | List |  Status  | Description |
 |------|:--------:|-------------|
-| **ZeroHosts** | 🟢 Recommended | A curated hosts list blocking ads, trackers, malware, phishing, scam, and spam domains — while preserving site functionality. Ideal for baseline protection with minimal false positives. |
-| **ZeroDNS** | 🟠 Lite | Lightweight DNS-style blocklist (~30K entries) **focusing on high-impact domains** — optimized for speed and stability. |
+| **ZeroHosts** | 🟢 Recommended | A curated adblock network filter list blocking ads, trackers, malware, phishing, scam, and spam domains — while preserving site functionality. Ideal for baseline protection with minimal false positives. |
 
 ---
 
@@ -60,6 +59,7 @@ The modern web is overloaded — ads, trackers, popups, overlays, telemetry, AI 
 | **ZeroNoise** | 🟢 Recommended | Removes heavy widgets, slow modules, render-blocking scripts and other noises for faster page loads and improved UX — with extended security. |
 | **AdGhost** | 🟣 Elite | Neutralizes anti-adblock overlays, forced dialogs, and access walls **before rendering**, allowing uninterrupted browsing without breakage. Particularly useful on high-noise sites. |
 | **ZeroAds** | 🔵 Essential | Hybrid cosmetic + network filter list that complements ZeroHosts by removing modern web annoyances such as popups, overlays, forced dialogs, widgets, and slow scripts. Ensures smooth page rendering and faster load times. |
+| **ZeroTrace** | 🟢 Recommended | Blocks trackers, fingerprints, beacons, and sneaky data grabs. Serious privacy, made simple. |
 
 **_For detailed descriptions, RAW URLs, and installation instructions, visit the [Filter List Portal](https://rimon3134.github.io/Filters)._**
 
