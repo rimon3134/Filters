@@ -380,6 +380,7 @@
 ||pornleaks.in/js/sample.js?version=
 ||practicequiz.com/responsive/js/detectAdBlockPC.js
 ||practicequiz.com/responsive/plugins/detectAdBlock.js
+||prebid.smilewanted.com/|$xmlhttprequest,redirect=nooptext,domain=tradingref.com
 ||prod-adops-proxy.dnitv.net^$redirect=nooptext,domain=discoveryplus.*
 ||pubads.g.doubleclick.net/ondemand/*/content/*/vid/*/streams/*/time-events.json$important,domain=cbs.com|paramountplus.com|history.com
 ||pubads.g.doubleclick.net/ondemand/hls/content/*/streams$xmlhttprequest,redirect=nooptext,domain=sbs.com.au
@@ -939,6 +940,9 @@ emulatorgames.onl###cg > #button
 emurom.net#$##adsense { display: block!important; height: 1px!important; }
 engineeringtoolbox.com##.adblo
 ensenchat.com,itopmusics.com,webcamfuengirola.com,newzjunky.com##body > div[class][style="display:none;"] + div[id][class*=" "]
+ensuretips.com,meilblog.com##.adblock_subtitle
+ensuretips.com,meilblog.com,doumura.com##.adblock_title
+ensuretips.com,tioeroge.com,pngcut.com##body > #page ~ div[id][class*=" "]
 epic.hellosports.live##.popSc
 erotikclub35.pw###aa-wp + div[id][class*=" "]
 euronews.com#$#div.pub.ad.advertising.adzone.sponsored[data-ad-name] { display: block !important; }
@@ -1370,7 +1374,6 @@ megaup.net#$#.metaRedirectWrapperBottomAds img { width: 300px !important; }
 megaup.net#$#div[style="display: inline-block"] a[target="_blank"] > img { position: absolute !important; left: -3000px !important; }
 megaup.net#$?#div[id*="ScriptRootC"] > div[id*="PreloadC"] { remove: true; }
 meghalayajobportal.in,constructionmethodology.com,pornincest.net,examscisco.com,game5s.com,reviewmedium.com,stbemuiptvn.com,thesarkariresult.net,ziontutorial.com##a[href="#"] + div[id][class*=" "]
-meilblog.com,doumura.com##.adblock_title
 memoryhackers.org#@#.ads-header
 memoryhackers.org#@#.pub_300x250
 merlinshoujo.com##body > a[style] + div[id][class*=" "]
@@ -1937,7 +1940,6 @@ thurrott.com#$#body { overflow: visible!important; }
 tiger-algebra.com##.ad-blocker-detector
 tiger-algebra.com##.adt-layout-fade
 tikmate.app#$#button#download-hd[onclick="downloadHD(this);"] { display: block !important; }
-tioeroge.com,pngcut.com##body > #page ~ div[id][class*=" "]
 tmail.io#$#body .ad.ads.adsbygoogle { display: block !important; }
 tnaflix.com#$#.adsBox.pub_300x250m.pub_728x90.text-ad { display: block !important; }
 toeic-testpro.com#$#.adsbox.doubleclick.ad-placement { display: block !important; }
