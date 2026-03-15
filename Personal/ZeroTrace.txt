@@ -3893,7 +3893,7 @@
 ||concert.io^
 ||conde.digital^
 ||condenast.com^
-||condenast.map.fastly.net^$denyallow=media.vanityfair.com
+||condenast.map.fastly.net^$domain=~media.vanityfair.com
 ||condenastdigital.com^
 ||conductor.asianet.co.th^
 ||confection-*.netlify.app^
@@ -6427,7 +6427,6 @@
 ||gtaggingservice.alliedpilots.org^
 ||gtlyimg.co^
 ||gtm.$all,domain=~gtm.eset.com|~gtm.iddg.io|~gtm.secure.chase.com.akadns.net|~gtm.www.chase.com.akadns.net
-||gtm.$denyallow=gtm.eset.com|gtm.iddg.io|gtm.secure.chase.com.akadns.net|gtm.www.chase.com.akadns.net
 ||gu-ddm01.gtunet.georgetown.edu^
 ||guardian.github.io^
 ||guardiananapps.co.uk/geolocation
@@ -8514,8 +8513,8 @@
 ||moneo.upc.es^
 ||monetate.com^
 ||monetate.edgekey.net^
-||monitor*.^$script,xmlhttprequest,subdocument,domain=~monitor.f-droid.org|~monitor.firefox.com|~monitor.matrix.catgirl.cloud|~monitor.mozilla.org|~monitoring.solaredge.com|~monitoring-mfecdn-prod.solaredge.com
-||monitor.^$script,xmlhttprequest,subdocument,domain=~monitor.f-droid.org|~monitor.firefox.com|~monitor.matrix.catgirl.cloud|~monitor.mozilla.org
+||monitor.*^$script,xmlhttprequest,subdocument,domain=~monitor.f-droid.org|~monitor.firefox.com|~monitor.matrix.catgirl.cloud|~monitor.mozilla.org|~monitoring.solaredge.com|~monitoring-mfecdn-prod.solaredge.com
+||monitor.*^$script,xmlhttprequest,subdocument,domain=~monitor.f-droid.org|~monitor.firefox.com|~monitor.matrix.catgirl.cloud|~monitor.mozilla.org
 ||monitor.azure.com^$script,xmlhttprequest
 ||monitor.clickcease.com^$script,image,xmlhttprequest,subdocument
 ||monitor.ebay.com^
@@ -12419,7 +12418,6 @@
 ||telemetry.microsoft.com^$xmlhttprequest
 ||telemetry.mozilla.org^
 ||telemetry.mozilla.org^$badfilter
-||telemetry.mozilla.org^$denyallow=dictionary.telemetry.mozilla.org|docs.telemetry.mozilla.org|probeinfo.telemetry.mozilla.org|public-data.telemetry.mozilla.org
 ||telemetry.mozilla.org^$domain=~dictionary.telemetry.mozilla.org|~docs.telemetry.mozilla.org|~probeinfo.telemetry.mozilla.org|~public-data.telemetry.mozilla.org
 ||telemetry.mtls.googleapis.com^
 ||telemetry.urs.microsoft.com^$xmlhttprequest
