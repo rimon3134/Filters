@@ -1,7 +1,7 @@
 ! Title: 🔇 RK’s ZeroVoid List
 ! Author: Rimon Hossain
-! Version: 2026-03-11
-! Description: ZeroVoid — Blocks trackers, malicious sites, fingerprints, AI Junk, slow modules, and render-blocking scripts to reduce page load overhead and improve load performance while preserving site functionality.
+! Version: Still Stable, No updates needed. More info has been provided below!
+! Description: Curating a master list that will ensure as much privacy as possible without 100K~ entries while speed boost will be 2x more.
 ! Homepage: https://rimon3134.github.io/Filters
 ! RAW: https://raw.githubusercontent.com/rimon3134/Filters/main/ZeroVoid.txt
 ! License: MIT
