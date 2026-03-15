@@ -1,9 +1,9 @@
 ! Title: 🔐️ RK’s ZeroTrace List
 ! Author: Rimon Hossain
-! Version: 2026-03-16v1
+! Version: 2026-03-16v2
 ! Description: ZeroTrace — Blocks trackers, fingerprints, beacons, and sneaky data grabs. Serious privacy, made simple.
 ! Homepage: https://rimon3134.github.io/Filters
-! RAW: https://raw.githubusercontent.com/rimon3134/Filters/main/ZeroTrace.txt
+! RAW: https://raw.githubusercontent.com/rimon3134/Filters/main/Personal/ZeroTrace.txt
 ! License: MIT
 ! Note: Brewed with Coffee, Chaos & Cosmic Coincidence ☕✨🤣
 !
@@ -6244,7 +6244,6 @@
 ||ging-chromecontentsuggestions-pa.googleapis.com^
 ||gis-examples.glitch.me^
 ||gisufespipeline22.g.ebay.com^
-||github.com/_private/browser/errors
 ||githubassets.com/assets/chunk-ui_packages_cookie-consent
 ||githubassets.com/assets/chunk-ui_packages_ghcc-consent-element
 ||githubassets.com/assets/chunk-ui_packages_microsoft-analytics
@@ -6966,9 +6965,11 @@
 ||inka.co.kr^
 ||inmobi-choice.io^
 ||inmobi.com^$script,image,xmlhttprequest,subdocument
+||inmobicdn*.azureedge.net^$script,xmlhttprequest
 ||innervate.com^
 ||innocentwax.com^
 ||innovation-perceptive52.com^
+||innovid*.insent.ai^$script,xmlhttprequest
 ||innovid.com.akadns.net^
 ||inpowered.ai^
 ||inpwrd.net^
@@ -8513,8 +8514,8 @@
 ||moneo.upc.es^
 ||monetate.com^
 ||monetate.edgekey.net^
-||monitor.*^$script,xmlhttprequest,subdocument,domain=~monitor.f-droid.org|~monitor.firefox.com|~monitor.matrix.catgirl.cloud|~monitor.mozilla.org|~monitoring.solaredge.com|~monitoring-mfecdn-prod.solaredge.com
 ||monitor.*^$script,xmlhttprequest,subdocument,domain=~monitor.f-droid.org|~monitor.firefox.com|~monitor.matrix.catgirl.cloud|~monitor.mozilla.org
+||monitor.*^$script,xmlhttprequest,subdocument,domain=~monitor.f-droid.org|~monitor.firefox.com|~monitor.matrix.catgirl.cloud|~monitor.mozilla.org|~monitoring.solaredge.com|~monitoring-mfecdn-prod.solaredge.com
 ||monitor.azure.com^$script,xmlhttprequest
 ||monitor.clickcease.com^$script,image,xmlhttprequest,subdocument
 ||monitor.ebay.com^
@@ -8705,7 +8706,6 @@
 ||na.doh.sb^
 ||nacustomerexperience.citi.com^
 ||nakanohito.jp^
-||nakedanalytics.net^
 ||name.jfk1.gblx.net^
 ||name.phx.gblx.net^
 ||name.roc.gblx.net^
@@ -12465,7 +12465,6 @@
 ||therealyellowpages.com^
 ||theta.uoks.uj.edu.pl^
 ||thetradedesk.com^
-||theverge.com/SendEventData
 ||theverge.com/ad-block-service-worker
 ||theverge.com/api/coral-counts
 ||theverge.com/blaize
@@ -12733,7 +12732,6 @@
 ||udc-*.yahoodns.net^$third-party,xmlhttprequest
 ||udc-ats.media.g03.yahoodns.net^
 ||udc.msn.com^$xmlhttprequest
-||udc.yahoo.com^
 ||udcm.yahoo.com^
 ||udmserve.com^
 ||ufind.name^
@@ -13592,8 +13590,6 @@ x.com##+js(set, _sentryDebugIds, undefined)
 x.com##+js(set-cookie, dnt, 1)
 x.com##+js(set-cookie, twtr_pixel_opt_in, N)
 xhamster.com##+js(set-cookie, cookie_accept, yes)
-#/fingerprint*$script
-#/hsts*$script
 *$ping
 */PageHeartbeat^$third-party
 */SendEventData^$third-party
@@ -13785,9 +13781,6 @@ xhamster.com##+js(set-cookie, cookie_accept, yes)
 /wix-thunderbolt/dist/usedPlatformApis
 /wrapperMessagingWithoutDetection
 /zi-tag$script,third-party
-inmobicdn*.azureedge.net
-innovid*.insent.ai
-!~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 @@||aainflight.com^
 @@||abrahamjuliot.github.io^$domain=creepjs-api.web.app
 @@||andybelseymodels.wixsite.com/mysite/_partials/wix-thunderbolt/dist/clientWorker.*.bundle.min.js$script,first-party
