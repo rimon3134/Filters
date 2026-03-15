@@ -13787,7 +13787,7 @@ xhamster.com##+js(set-cookie, cookie_accept, yes)
 /zi-tag$script,third-party
 inmobicdn*.azureedge.net
 innovid*.insent.ai
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+!~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 @@||aainflight.com^
 @@||abrahamjuliot.github.io^$domain=creepjs-api.web.app
 @@||andybelseymodels.wixsite.com/mysite/_partials/wix-thunderbolt/dist/clientWorker.*.bundle.min.js$script,first-party
