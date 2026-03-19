@@ -696,6 +696,50 @@ youtube.com##ytd-ypc-offer-module-renderer
 youtube.com##ytm-media-item:has(a[href^="/shorts/"])
 youtube.com##ytm-reel-shelf-renderer
 streamtape.*##+js(aopw, window.open)
+ !================================================!
+! RK’s ZeroSearch Noise — No AI. No clutter. Just results
+! 2026 — Structured / Sectioned Version
+!================================================!
+
+www.google.*##[data-hveid="CAIQAQ"]
+www.google.*##[data-mcpr]            
+www.google.*##button:has(path[d^="M17.5 12c0-3.04 2.46-5.5"])
+www.google.*##.related-question-pair        
+www.google.*##.g:has(a[href*="reddit.com"])         
+www.google.*##.g:has(a[href*="quora.com"])        
+www.google.*##.g:has(a[href*="stackexchange.com"])  
+www.google.*##.g:has(a[href*="/forum"])
+bing.com###b-scopeListItem-conv     
+bing.com###chat_upsell_bubble_icon              
+bing.com##.b_insights                             
+bing.com##.cdxCopilotIconBg                       
+bing.com##.copans_container                   
+bing.com##a[href*="/discussions/"]                
+search.yahoo.com##.compList                          
+search.yahoo.com##.chat-bubble                      
+search.yahoo.com##.related-video-block              
+search.brave.com###llm-snippet                             
+search.brave.com##.llm.suggestion:has-text(Answer with AI) 
+search.brave.com##.discussion-result                      
+search.brave.com##a[href*="/discussions/"]                
+search.brave.com##.video-result                       
+baidu.com###con-ar > [tpl="ai_accompanies"]            
+baidu.com###content_left > .c-group-wrapper:has([tpl="ai_ask"]) 
+baidu.com###s_tab_inner > a[href*="chat.baidu.com"]  
+##div[class*="ai-popup"]                                 
+##div[class*="ai-chat"]                                 
+##div[class*="assistant-widget"]                         
+##div[class*="copilot-container"]                    
+##div[class*="chat-widget"]                          
+##iframe[src*="ai-assistant"]                       
+##iframe[src*="copilot"]                              
+##iframe[src*="chatbot"]                             
+##button:has-text("Try AI")                          
+##button:has-text("Chat with AI")                     
+##span:has-text("AI Suggestion")                      
+##li:has-text("AI Answer")                          
+##div[class*="newsletter"]                            
+##div[class*="signup"]  
 @@||*.hcaptcha.com^$third-party
 @@||api.hcaptcha.com^
 @@||arkoselabs.com.cdn.cloudflare.net^
