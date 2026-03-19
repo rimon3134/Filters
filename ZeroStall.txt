@@ -1,6 +1,6 @@
 ! Title: ⚡ RK’s ZeroStall List
 ! Author: Rimon Hossain
-! Version: 2026-03-19
+! Version: 2026-03-19v2
 ! Description: ZeroStall — Kills render-blocking scripts, 3p fonts, and web clutter. Optimized for 3x speed and ultra-stable browsing.
 ! Homepage: https://rimon3134.github.io/Filters
 ! RAW: https://raw.githubusercontent.com/rimon3134/Filters/main/ZeroStall.txt
