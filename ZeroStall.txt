@@ -57,7 +57,7 @@
 ||binom.org^$third-party,document
 ||bit.ly^$third-party,document
 ||blueskyweb.xyz/embed^$third-party,frame,redirect=click2load.html
-||bootstrapcdn.com/bootstrap/$xmlhttprequest
+||bootstrapcdn.com^$xmlhttprequest
 ||branch.io^$third-party,document
 ||braze.com^$third-party,document
 ||brevo.com^$third-party,document
