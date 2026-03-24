@@ -1,6 +1,6 @@
 ! Title: ⚡ RK’s ZeroStall List
 ! Author: Rimon Hossain
-! Version: 2026-03-22
+! Version: 2026-03-25
 ! Description: ZeroStall — Kills render-blocking scripts, 3p fonts, and web clutter. Optimized for 3x speed and ultra-stable browsing.
 ! Homepage: https://rimon3134.github.io/Filters
 ! RAW: https://raw.githubusercontent.com/rimon3134/Filters/main/ZeroStall.txt
@@ -22,7 +22,6 @@
 ||7tiv.net^$third-party,document
 ||activehosted.com^$third-party,document
 ||adcash.*^$third-party,document
-||adexchangeclear.com^$script,xmlhttprequest,image,third-party,subdocument
 ||adf.ly^$third-party,document
 ||adform.net^$third-party,document
 ||adjust.com^$third-party,document
@@ -35,10 +34,8 @@
 ||ajax.googleapis.com^$third-party,document
 ||aka.ms^$third-party,document
 ||allfont.net^$font,third-party
-||alluremedia.com.au^$font,third-party
 ||amazon.com/gp/redirect/*$third-party,document
 ||amazon.com/gp/redirect/^$third-party,document
-||amazonaws.com^$font,third-party
 ||amplitude.com^$third-party,document
 ||analytics-gateway.io^$third-party,document
 ||anchor.fm/$third-party,frame,redirect=click2load.html
@@ -57,7 +54,6 @@
 ||binom.org^$third-party,document
 ||bit.ly^$third-party,document
 ||blueskyweb.xyz/embed^$third-party,frame,redirect=click2load.html
-||bootstrapcdn.com^$third-party
 ||branch.io^$third-party,document
 ||braze.com^$third-party,document
 ||brevo.com^$third-party,document
@@ -96,7 +92,6 @@
 ||clk.im^$third-party,document
 ||clk.sh^$third-party,document
 ||clks.link^$third-party,document
-||cloud.typography.com^$font,third-party
 ||cloud.webtype.com^$font,third-party
 ||cloudflareinsights.com^$third-party,document
 ||clyde-fonts.s3.amazonaws.com^$font,third-party
@@ -120,7 +115,6 @@
 ||dexscreener.com/$third-party,frame,redirect=click2load.html
 ||directclicks.*^$third-party,document
 ||discuss.privacyguides.net/embed/$third-party,frame,redirect=click2load.html
-||disquscdn.com/next/assets/font/$font,third-party
 ||docs.google.com/$third-party,frame,redirect=click2load.html
 ||docs.google.com/document/d/e/$third-party,frame,redirect=click2load.html
 ||docs.google.com/forms/$third-party,frame,redirect=click2load.html
@@ -150,9 +144,6 @@
 ||facebook.com/l.php^$third-party,document
 ||facebook.com/plugins/post.php^$third-party,frame,redirect=click2load.html
 ||facebook.com/plugins/video.php^$third-party,frame,redirect=click2load.html
-||fast.fonts.com^$font,third-party
-||fast.fonts.net^$font,third-party
-||fastly.net^$font,third-party
 ||fathom-analytics.com^$third-party,document
 ||fb.me^$third-party,document
 ||fingerprintjs.com^$third-party,document
@@ -162,7 +153,6 @@
 ||fontastic.me^$font,third-party
 ||fontawesome.com^$font,third-party
 ||fontcdn.ir^$font,third-party
-||fontdeck.com^$font,third-party
 ||fontface.me^$font,third-party
 ||fonticons.com^$font,third-party
 ||fontify.nitroapps.co^$font,third-party
@@ -174,15 +164,12 @@
 ||fonts.65twenty.com^$font,third-party
 ||fonts.acer.com^$font,third-party
 ||fonts.adobe.com^$font,third-party
-||fonts.advance.net^$font,third-party
 ||fonts.autodesk.com^$font,third-party
-||fonts.bauernet.me^$font,third-party
 ||fonts.blackbookinformation.com^$font,third-party
 ||fonts.bunny.net^$font,third-party
 ||fonts.cb-intl.tech^$font,third-party
 ||fonts.channel4.com^$font,third-party
 ||fonts.com^$font,third-party
-||fonts.condenast.com^$font,third-party
 ||fonts.coollabs.io^$font,third-party
 ||fonts.cummins.com^$font,third-party
 ||fonts.cursecdn.com^$font,third-party
@@ -193,7 +180,6 @@
 ||fonts.foxsports.com^$font,third-party
 ||fonts.fubo.tv^$font,third-party
 ||fonts.garmin.com^$font,third-party
-||fonts.gotraffic.net^$font,third-party
 ||fonts.hamburg.de^$font,third-party
 ||fonts.intercomcdn.com^$font,third-party
 ||fonts.iu.edu^$font,third-party
@@ -229,7 +215,6 @@
 ||fonts.staticworld.net^$font,third-party
 ||fonts.svc.ui.com^$font,third-party
 ||fonts.tildacdn.com^$font,third-party
-||fonts.timeinc.net^$font,third-party
 ||fonts.twitter.com^$font,third-party
 ||fonts.ub-assets.com^$font,third-party
 ||fonts.voxmedia.com^$font,third-party
@@ -253,8 +238,6 @@
 ||fpjs.io^$third-party,document
 ||fullstory.com^$third-party,document
 ||g1.nyt.com^$font,third-party
-||gannett-cdn.com^*/fonts/$font,third-party
-||gannettdigital.com^*/fonts/$font,third-party
 ||gel.files.bbci.co.uk^$font,third-party
 ||geo.itunes.apple.com^$third-party,document
 ||geo.music.apple.com^$third-party,document
@@ -269,8 +252,6 @@
 ||google.com/url?*&url=*$third-party,document
 ||google.com/url?^$third-party,document
 ||googleadservices.com/pagead/aclk^$third-party,document
-||gotraffic.net^$font,third-party
-||gstatic.com^$xmlhttprequest
 ||gtm-proxy.com^$third-party,document
 ||heap.io^$third-party,document
 ||hilltopads.*^$third-party,document
@@ -298,7 +279,6 @@
 ||jr.prahmnatured.com^$popup
 ||keitaro.io^$third-party,document
 ||kick.com/embed^$third-party,frame,redirect=click2load.html
-||kinja-static.com/assets/fonts/$font,third-party
 ||kochava.com^$third-party,document
 ||l.instagram.com^$third-party,document
 ||l.messenger.com^$third-party,document
@@ -312,7 +292,6 @@
 ||mailgun.org^$third-party,document
 ||maps.google.com/maps/embed*$third-party,frame,redirect=click2load.html
 ||marketo.com^$third-party,document
-||maxcdn.bootstrapcdn.com/font-awesome/$font,third-party
 ||media-amazon.com/*tracking^$image,third-party,document
 ||media.tdameritrade.com^$font,third-party
 ||medium.com/media^$third-party,frame,redirect=click2load.html
@@ -326,10 +305,6 @@
 ||mojidepa.com^$font,third-party
 ||msha.ke^$third-party,document
 ||myfontastic.com^$font,third-party
-||myfonts.net^$font,third-party
-||nagad88f.com^$important
-||netdna-cdn.com^*/webfonts/$font,third-party
-||netdna.bootstrapcdn.com^*/fonts/$font,third-party
 ||newrelic.com^$third-party,document
 ||nimblefonts.nimbledeals.com^$font,third-party
 ||notifications.google.com^$third-party,document
@@ -387,11 +362,9 @@
 ||propu.sh^$third-party,document
 ||prothomalo.com^$removeparam=utm_source
 ||pstatic09.mgo-images.com^$font,third-party
-||qmerce.com/assets/$font,third-party
 ||qmerce.com/assets/$third-party,frame,redirect=click2load.html
 ||qr.ae^$third-party,document
 ||quizlet.com/$third-party,frame,redirect=click2load.html
-||rackcdn.com/fonts/$font,third-party
 ||rbds-static.redbull.com^$font,third-party
 ||rdrct.cc^$third-party,document
 ||rdtrk.com^$third-party,document
@@ -463,15 +436,12 @@
 ||twitch.tv^$third-party,frame,redirect=click2load.html,domain=~thebluealliance.com
 ||twitter.com/i/embed^$third-party,frame,redirect=click2load.html
 ||typeface.nytimes.com^$font,third-party
-||typefront.com^$font,third-party
 ||typekit.com^$font,third-party
 ||typekit.net^$font,third-party
 ||typography.doordash.com^$font,third-party
 ||typotheque.com^$font,third-party
 ||umami.is^$third-party,document
-||use.fonticons.com^$font,third-party
 ||use.typekit.net^$font,third-party
-||vidible.tv/prod/fonts/$font,third-party
 ||view.genial.ly$third-party,frame,redirect=click2load.html
 ||vk.com/video_ext$third-party,frame,redirect=click2load.html
 ||vk.ru/video_ext$third-party,frame,redirect=click2load.html
@@ -483,18 +453,18 @@
 ||webfont.honda.co.jp^$font,third-party
 ||webfonts.creativecloud.com^$font,third-party
 ||webfonts.ru^$font,third-party
-||webfonts.sakura.ne.jp^$font,third-party
 ||webfonts.xserver.jp^$font,third-party
 ||webfonts.zohostatic.com^$font,third-party
 ||webfonts.zohowebstatic.com^$font,third-party
 ||webtype.com^$font,third-party
-||wp.com^*/fonts/$font,third-party
 ||www-tc.pbs.org^$font,third-party
 ||www.google.com/maps/embed*$third-party,frame,redirect=click2load.html
 ||x.com/i/embed^$third-party,frame,redirect=click2load.html
 ||xhamster.com/embed/$third-party,frame,redirect=click2load.html
 ||yandex.ru/clck/*^$third-party,document
 ||youtube-nocookie.com/embed^$third-party,frame,redirect=click2load.html,domain=~bing.com|~google.com|~duckduckgo.com|~video.search.yahoo.com
+||youtube.com/s/*/echo-worker.js$xmlhttprequest,domain=youtube.com
+||youtube.com/s/desktop/*/echo-worker.js$xmlhttprequest,domain=youtube.com
 ||youtube.com/youtubei/v1/updated_metadata
 ||youtube.com^$third-party,frame,redirect=click2load.html,domain=~bing.com|~chatreplay.stream|~google.com|~duckduckgo.com|~video.search.yahoo.com|~w2g.tv|~thebluealliance.com|~theguardian.com|~songsterr.com
 ||zapier-fonts-production.s3.amazonaws.com^$font,third-party
@@ -514,6 +484,8 @@ bdnews24.com##.video-ads
 bdrong24.net,banglamusic24.com,moviemaza24.com##.overlay
 bdrong24.net,banglamusic24.com,moviemaza24.com##.popup
 bdrong24.net,banglamusic24.com,moviemaza24.com##.redirect-ad
+bing.com###b-scopeListItem-conv     
+bing.com##a[href*="/discussions/"]                
 effectivegatecpm.com##+js(aopr, open)
 eporner.com##+js(aopw, window.open)
 ey43.com##+js(aopr, open)
@@ -574,6 +546,11 @@ jr.prahmnatured.com##+js(aopr, open)
 kalerkantho.com##.ad-section
 kalerkantho.com##.sponsor-banner
 leeapk.com##+js(aopw, window.open)
+leeapk.com##.advertisement
+leeapk.com##.entry-content > p:has(img[src*="ads"])
+leeapk.com##.entry-content center:has(img)
+leeapk.com##.entry-content center:has-text(Advertisement)
+leeapk.com##div[class*="adsby"]
 liteapks.com##+js(aopw, window.open)
 m.imdb.com##.bkRdrN
 m.imdb.com##.iCWOBC
@@ -606,58 +583,67 @@ prothomalo.com##.popup-ad
 prothomalo.com##.sponsor-content
 s.click.aliexpress.com##+js(aopr, open)
 s0-greate.net##+js(aopr, open)
+search.brave.com###llm-snippet                             
+search.brave.com##.discussion-result                      
+search.brave.com##.llm.suggestion:has-text(Answer with AI) 
+search.brave.com##.video-result                       
+search.brave.com##a[href*="/discussions/"]                
+search.yahoo.com##.chat-bubble                      
+search.yahoo.com##.compList                          
+search.yahoo.com##.related-video-block              
 showtimebd.com##div[class*="popup"]
 showtimebd.com##div[id*="popup"]
 startech.com.bd##div[class*="popup"]
 startech.com.bd##div[id*="popup"]
+streamtape.to##+js(aopw, window.open)
 tnaflix.com##+js(aopw, window.open)
 ukdevilz.com##+js(aopw, window.open)
 whoreshub.com##+js(aopw, window.open)
+www.google.*##.g:has(a[href*="/forum"])
+www.google.*##.g:has(a[href*="quora.com"])        
+www.google.*##.g:has(a[href*="reddit.com"])         
+www.google.*##.g:has(a[href*="stackexchange.com"])  
+www.google.*##.related-question-pair        
+www.google.*##[data-hveid="CAIQAQ"]
+www.google.*##[data-mcpr]            
+www.google.*##button:has(path[d^="M17.5 12c0-3.04 2.46-5.5"])
 www.youtube.com###actions.ytd-watch-metadata [aria-label="Ask"]
 www.youtube.com###flexible-item-buttons > yt-button-view-model:has(button[aria-label*="Ask"])
-www.youtube.com###teaser-carousel:style(display: none !important;)
-www.youtube.com###ytd-player, #thumbnail, .ytp-preview, .ytp-tooltip-bg, yt-thumbnail-view-model:style( border-radius: 0px !important; )
-www.youtube.com##+js(nano-stb, resolve(1), *, 0.001)
 www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.ab_pl_man, false)
 www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_enable_ab_rsp_cl, false)
-www.youtube.com##:is(head, yt-thumbnail-hover-overlay-toggle-actions-view-model)
 www.youtube.com##[has-video-summary]
 www.youtube.com##div.ytp-panel-menu > div.ytp-menuitem .ytp-premium-label:has-text(/^Super[- ]/):upward(.ytp-menuitem)
 www.youtube.com##div[skip-key-interaction]
 www.youtube.com##yt-button-view-model:has(button[aria-label*="Ask"])
 www.youtube.com##yt-button-view-model:has-text(/Ask/i)
+www.youtube.com##yt-thumbnail-hover-overlay-toggle-actions-view-model
 www.youtube.com##ytd-browse[page-subtype="home"] ytd-rich-item-renderer:has(#video-title-link[aria-label~="views"]:not(:is([aria-label*=",0"],[aria-label*=",1"],[aria-label*=",2"],[aria-label*=",3"],[aria-label*=",4"],[aria-label*=",5"],[aria-label*=",6"],[aria-label*=",7"],[aria-label*=",8"],[aria-label*=",9"])))
 www.youtube.com##ytd-browse[page-subtype="home"] ytd-rich-section-renderer
-youtube.com###cinematics.ytd-watch-flexy:remove()
 youtube.com###clarify-box
 youtube.com###description #info a[href^="/hashtag/"]
 youtube.com###description #items:has(.ytd-video-description-music-section-renderer)
 youtube.com###donation-shelf
-youtube.com##*:style(scrollbar-color: initial !important; scrollbar-width: initial !important;)
 youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.kevlar_watch_max_player_width, 1280)
 youtube.com##.media-item-thumbnail-container[aria-hidden][href^="/shorts/"]
 youtube.com##.ytGridShelfViewModelHost:has-text(Shorts)
-youtube.com##.ytThumbnailOverlayProgressBarHostWatchedProgressBarSegment:style(background: #FF0000 !important)
 youtube.com##.ytd-rich-shelf-renderer:has-text(Shorts)
 youtube.com##.ytp-button.branding-img-container
-youtube.com##.ytp-cairo-refresh-signature-moments .ytp-play-progress:style(background: #FF0000 !important;)
-youtube.com##.ytp-ce-element
+youtube.com##.ytp-ce-element:not([data-is-mix="true"])
+youtube.com##.ytp-ce-element[data-is-mix="true"]:upward(.ytp-videowall-still)
 youtube.com##.ytp-endscreen-content
 youtube.com##.ytp-impression-link
 youtube.com##.ytp-info-panel-preview:has-text(is funded in whole)
-youtube.com##.ytp-play-progress:style(background: #FF0000 !important;)
 youtube.com##.ytp-quality-menu .ytp-menuitem:has(.ytp-premium-label)
 youtube.com##.ytp-quality-menu .ytp-menuitem:has-text(/Premium|Enhanced/)
 youtube.com##.ytp-quality-menu .ytp-menuitem:upward(1):has-text(/Premium|Enhanced/)
+youtube.com##.ytp-related
 youtube.com##.ytp-suggested-action-badge-expanded
+youtube.com##.ytp-suggested-video
 youtube.com##.ytp-upgrade-button
 youtube.com##.ytp-videowall-still
 youtube.com##.ytp-videowall-still[data-is-mix="true"]
 youtube.com##button.ytp-size-button
-youtube.com##html, body:style(--yt-spec-static-brand-red: #FF0000 !important; --yt-spec-static-overlay-background-brand: rgba(255, 0, 0, 0.9) !important;)
-youtube.com##tp-yt-app-header[id="header"]:style(position: static !important;)
 youtube.com##yt-lockup-view-model:has-text(Members only)
-youtube.com##yt-smartimation > *:not(.smartimation__content)
 youtube.com##ytd-banner-promo-renderer
 youtube.com##ytd-button-renderer:has([aria-label^="Give thanks"])
 youtube.com##ytd-compact-playlist-renderer
@@ -665,9 +651,13 @@ youtube.com##ytd-compact-radio-renderer
 youtube.com##ytd-compact-video-renderer:has(.badge-style-type-members-only)
 youtube.com##ytd-compact-video-renderer:has([aria-label="Members first"])
 youtube.com##ytd-emergency-onebox-renderer
+youtube.com##ytd-guide-entry-renderer:has(a[title="Explore"])
+youtube.com##ytd-guide-entry-renderer:has(a[title="Shorts"])
 youtube.com##ytd-horizontal-card-list-renderer:has(#title):has-text(People also search for)
 youtube.com##ytd-horizontal-card-list-renderer:has-text(/Mixes|Playlists/i)
 youtube.com##ytd-horizontal-card-list-renderer:has-text(Searches related to)
+youtube.com##ytd-mini-guide-entry-renderer:has(a[title="Explore"])
+youtube.com##ytd-mini-guide-entry-renderer:has(a[title="Shorts"])
 youtube.com##ytd-playlist-renderer
 youtube.com##ytd-primetime-promo-renderer
 youtube.com##ytd-radio-renderer
@@ -688,94 +678,52 @@ youtube.com##ytd-search yt-lockup-view-model:has([href*="start_radio=1"])
 youtube.com##ytd-shelf-renderer:has(#title):has-text(For you)
 youtube.com##ytd-shelf-renderer:has(#title-text):has-text(/People also watched|Latest YouTube posts|Recommended movies|Breaking news|COVID|Featured|Learn with YouTube|Ready to vote/)
 youtube.com##ytd-shelf-renderer:has-text(/Mixes|Playlists/i)
-youtube.com##ytd-thumbnail-overlay-resume-playback-renderer #progress.ytd-thumbnail-overlay-resume-playback-renderer:style(background: #FF0000 !important;)
 youtube.com##ytd-watch-metadata ytd-button-renderer:has([aria-label^="Clip"])
 youtube.com##ytd-watch-metadata ytd-button-renderer:has([aria-label^="Download"])
 youtube.com##ytd-ypc-offer-module-renderer
 youtube.com##ytm-media-item:has(a[href^="/shorts/"])
 youtube.com##ytm-reel-shelf-renderer
-streamtape.*##+js(aopw, window.open)
- !================================================!
-! RK’s ZeroSearch Noise — No AI. No clutter. Just results
-! 2026 — Structured / Sectioned Version
-!================================================!
-
-www.google.*##[data-hveid="CAIQAQ"]
-www.google.*##[data-mcpr]            
-www.google.*##button:has(path[d^="M17.5 12c0-3.04 2.46-5.5"])
-www.google.*##.related-question-pair        
-www.google.*##.g:has(a[href*="reddit.com"])         
-www.google.*##.g:has(a[href*="quora.com"])        
-www.google.*##.g:has(a[href*="stackexchange.com"])  
-www.google.*##.g:has(a[href*="/forum"])
-bing.com###b-scopeListItem-conv     
-bing.com###chat_upsell_bubble_icon              
-bing.com##.b_insights                             
-bing.com##.cdxCopilotIconBg                       
-bing.com##.copans_container                   
-bing.com##a[href*="/discussions/"]                
-search.yahoo.com##.compList                          
-search.yahoo.com##.chat-bubble                      
-search.yahoo.com##.related-video-block              
-search.brave.com###llm-snippet                             
-search.brave.com##.llm.suggestion:has-text(Answer with AI) 
-search.brave.com##.discussion-result                      
-search.brave.com##a[href*="/discussions/"]                
-search.brave.com##.video-result                       
-baidu.com###con-ar > [tpl="ai_accompanies"]            
-baidu.com###content_left > .c-group-wrapper:has([tpl="ai_ask"]) 
-baidu.com###s_tab_inner > a[href*="chat.baidu.com"]  
-##div[class*="ai-popup"]                                 
-##div[class*="ai-chat"]                                 
-##div[class*="assistant-widget"]                         
-##div[class*="copilot-container"]                    
-##div[class*="chat-widget"]                          
-##iframe[src*="ai-assistant"]                       
-##iframe[src*="copilot"]                              
-##iframe[src*="chatbot"]                             
-##button:has-text("Try AI")                          
 ##button:has-text("Chat with AI")                     
-##span:has-text("AI Suggestion")                      
-##li:has-text("AI Answer")                          
+##button:has-text("Try AI")                          
+##div[class*="ai-chat"]                                 
+##div[class*="ai-popup"]                                 
+##div[class*="assistant-widget"]                         
+##div[class*="chat-widget"]                          
+##div[class*="copilot-container"]                    
 ##div[class*="newsletter"]                            
 ##div[class*="signup"]  
-@@||*.hcaptcha.com^$third-party
+##iframe[src*="ai-assistant"]                       
+##iframe[src*="chatbot"]                             
+##iframe[src*="copilot"]                              
+##li:has-text("AI Answer")                          
+##span:has-text("AI Suggestion")                      
+*##+js(aeld, load, adblock)
+*##+js(aopr, /^(?:ad(?:block|s)|preroll)$/)
+*##+js(aopw, adblockDetected)
+*##+js(rmnt, script, adsbygoogle)
+*##+js(set, /^(?:ad(?:Block(?:Active|Detected|Enabled|er(?:Detected)?)?|block(?:Active|Detected|Enabled|Gate|Installed|Present|Status|WallEnabled|er(?:Detected)?)?|s(?:\.blocked|Blocked|Enabled))|b(?:ab(?:Detected|Enabled)|lockAdBlock)|BlockAdBlock|FuckAdBlock|fuckAdBlock|config\.adblock|detectedAdBlock|hasAdBlock|isAdBlock(?:Active|Enabled)?|p(?:a(?:ge\.adsBlocked|ywallAdblockDetected)|layerAdsEnabled|reroll)|s(?:howAds|ite\.adblock)|window\.ad(?:block(?:Detected)?|sBlocked))$/, false)
+*##+js(set, /^(?:ad(?:blockDisabled|s(?:Enabled|Loaded|R(?:eady|unning)|Visible))|can(?:RunAds|ShowAds)|disableAdblockMessage|showAds)$/, true)
 @@||api.hcaptcha.com^
 @@||arkoselabs.com.cdn.cloudflare.net^
 @@||arkoselabs.com^
-@@||arkoselabs.com^$third-party,script,subdocument
 @@||arkoselabs.roblox.com^
 @@||assets.hcaptcha.starlink.com^
 @@||captcha-backgrounds.s3.yandex.net^
 @@||captcha-delivery.com^
-@@||captcha-delivery.com^$third-party
 @@||challenges.cloudflare.com^
-@@||challenges.cloudflare.com^$third-party,script,subdocument
 @@||check.ddos-guard.net^
-@@||client-api.arkoselabs.com^$third-party,script,subdocument
 @@||cloudflarechallenge.com^
-@@||cloudflarechallenge.com^$third-party,script,subdocument
 @@||cutcaptcha.net^
-@@||cutcaptcha.net^$third-party
 @@||dashboard.hcaptcha.com^
-@@||hcaptcha.com^$third-party
 @@||hcaptcha.starlink.com^
 @@||imgs3.hcaptcha.com^
 @@||js.hcaptcha.com^
-@@||js.hcaptcha.com^$third-party
 @@||mtcaptcha.com^
-@@||mtcaptcha.com^$third-party
 @@||newassets.hcaptcha.com^
-@@||newassets.hcaptcha.com^$third-party
 @@||recaptcha-cn.net^
-@@||recaptcha-cn.net^$third-party
 @@||recaptcha.net.cn^
 @@||recaptcha.net^
-@@||recaptcha.net^$third-party
 @@||recaptchaenterprise.clients6.google.com^
 @@||recaptchaenterprise.googleapis.com^
-@@||recaptchaenterprise.googleapis.com^$third-party
 @@||recaptchaenterprise.mtls.googleapis.com^
 @@||v2.cutcaptcha.net^
-@@||www.google.com/recaptcha/$script,subdocument
-@@||www.gstatic.com/recaptcha/$script,subdocument
