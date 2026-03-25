@@ -694,6 +694,7 @@ youtube.com##ytm-reel-shelf-renderer
 ##span:has-text("AI Suggestion")  
 !~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ||leeapk.com/wp-content/uploads/*/ads*^$image
+||i0.wp.com/leeapk.com/wp-content/uploads/2025/09/ads*^$image
 leeapk.com##.entry-content center:has(img)
 leeapk.com##.entry-content center:has-text(Advertisement)
 leeapk.com##.entry-content > p:has(img[src*="ads"])
