@@ -152,29 +152,30 @@
 ||webtype.com^$font,third-party
 ||www-tc.pbs.org^$font,third-party
 ||zapier-fonts-production.s3.amazonaws.com^$font,third-party
-||effectivegatecpm.com^$popup
-||ey43.com^$popup
-||invl.me^$popup
-||modgaga.com^$popup
-||jaya9bangladesh.com^$popup
-||jr.prahmnatured.com^$popup
-||s0-greate.net^$popup
-||s.click.aliexpress.com^$popup
-||teknoasian.com^$popup
-||mlsbd.co^$popup
-||noodlemagazine.com^$popup
-||ukdevilz.com^$popup
-||porntrex.com^$popup
-||tnaflix.com^$popup
-||whoreshub.com^$popup
-||pervtube.net^$popup
-||pornhoarder.io^$popup
-||mat6tube.com^$popup
-||pahe.ink^$popup
-||advertape.net^$popup
-||streamtape.to^$popup
-||tapecontent.*^$popup
-||streamtape.*^$popup
+||effectivegatecpm.com^$popup,important
+||ey43.com^$popup,important
+||invl.me^$popup,important
+||modgaga.com^$popup,important
+||jaya9bangladesh.com^$popup,important
+||jr.prahmnatured.com^$popup,important
+||s0-greate.net^$popup,important
+||s.click.aliexpress.com^$popup,important
+||teknoasian.com^$popup,important
+||mlsbd.co^$popup,important
+||noodlemagazine.com^$popup,important
+||ukdevilz.com^$popup,important
+||porntrex.com^$popup,important
+||tnaflix.com^$popup,important
+||whoreshub.com^$popup,important
+||pervtube.net^$popup,important
+||pornhoarder.io^$popup,important
+||mat6tube.com^$popup,important
+||pahe.ink^$popup,important
+||advertape.net^$popup,important
+||streamtape.to^$popup,important
+||tapecontent.*^$popup,important
+||streamtape.*^$popup,important
+||leeapk.com^$popup,important
 !
 !~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 !
@@ -185,9 +186,8 @@ leeapk.com##.entry-content center:has-text(Advertisement)
 leeapk.com##.entry-content > p:has(img[src*="ads"])
 leeapk.com##.advertisement
 leeapk.com##div[class*="adsby"]
-||leeapk.com^$popup
 !
-!~~~~~~~~~~~~~~~~~~~~~~~~~~MAY BE OBSOLETE For SI/Vivaldi~~~~~~~~~~~~~~~~~~~~~~~~~~~
+!~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 !
 www.google.*##[data-hveid="CAIQAQ"]
 www.google.*##[data-mcpr]            
@@ -197,58 +197,5 @@ www.google.*##.g:has(a[href*="reddit.com"])
 www.google.*##.g:has(a[href*="quora.com"])        
 www.google.*##.g:has(a[href*="stackexchange.com"])  
 www.google.*##.g:has(a[href*="/forum"])
-bing.com###b-scopeListItem-conv     
-bing.com###chat_upsell_bubble_icon              
-bing.com##.b_insights                             
-bing.com##.cdxCopilotIconBg                       
-bing.com##.copans_container                   
-bing.com##a[href*="/discussions/"]                
-search.yahoo.com##.compList                          
-search.yahoo.com##.chat-bubble                      
-search.yahoo.com##.related-video-block              
-search.brave.com###llm-snippet                             
-search.brave.com##.llm.suggestion:has-text(Answer with AI) 
-search.brave.com##.discussion-result                      
-search.brave.com##a[href*="/discussions/"]                
-search.brave.com##.video-result                       
-baidu.com###con-ar > [tpl="ai_accompanies"]            
-baidu.com###content_left > .c-group-wrapper:has([tpl="ai_ask"]) 
-baidu.com###s_tab_inner > a[href*="chat.baidu.com"]  
-##div[class*="ai-popup"]                                 
-##div[class*="ai-chat"]                                 
-##div[class*="assistant-widget"]                         
-##div[class*="copilot-container"]                    
-##div[class*="chat-widget"]                          
-##iframe[src*="ai-assistant"]                       
-##iframe[src*="copilot"]                              
-##iframe[src*="chatbot"]                             
-##button:has-text("Try AI")                          
-##button:has-text("Chat with AI")                     
-##span:has-text("AI Suggestion")                      
-##li:has-text("AI Answer")                          
-##div[class*="newsletter"]                            
-##div[class*="signup"]   
-effectivegatecpm.com##+js(aopr, open)
-ey43.com##+js(aopr, open)
-modgaga.com##+js(aopr, open)
-invl.me##+js(aopr, open)
-jaya9bangladesh.com##+js(aopr, open)
-jr.prahmnatured.com##+js(aopr, open)
-s0-greate.net##+js(aopr, open)
-s.click.aliexpress.com##+js(aopr, open)
-noodlemagazine.com##+js(aopw, window.open)
-streamtape.to##+js(aopw, window.open)
-advertape.net##+js(aopw, window.open)
-pahe.ink##+js(aopw, window.open)
-leeapk.com##+js(aopw, window.open)
-mlsbd.co##+js(aopw, window.open)
-liteapks.com##+js(aopw, window.open)
-ukdevilz.com##+js(aopw, window.open)
-mat6tube.com##+js(aopw, window.open)
-whoreshub.com##+js(aopw, window.open)
-eporner.com##+js(aopw, window.open)
-porntrex.com##+js(aopw, window.open)
-tnaflix.com##+js(aopw, window.open)
-pervtube.net##+js(aopw, window.open)
-pornhoarder.io##+js(aopw, window.open)
+!
 !==========================THE END==============================================!
