@@ -1,4 +1,3 @@
-[Adblock Plus 2.0]
 ! Title: RK's Personal List
 ! Author: Rimon Hossain
 ! Homepage: https://rimon3134.github.io/Filters
@@ -196,9 +195,8 @@ baidu.com###s_tab_inner > a[href*="chat.baidu.com"]
 ##div[class*="newsletter"]                            
 ##div[class*="signup"]   
 !
-!~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+!~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 !
-
 ||click.*^$third-party,document
 ||trk.*^$third-party,document
 ||track.*^$third-party,document
@@ -288,7 +286,7 @@ baidu.com###s_tab_inner > a[href*="chat.baidu.com"]
 ||cdnjs.cloudflare.com^$third-party,document
 ||ajax.googleapis.com^$third-party,document
 !
-!~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
+!~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 !
 ||effectivegatecpm.com^$popup
 ||ey43.com^$popup
@@ -322,7 +320,7 @@ tnaflix.com##+js(aopw, window.open)
 pervtube.net##+js(aopw, window.open)
 pornhoarder.io##+js(aopw, window.open)
 !
-!~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+!~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 !
 ||airtable.com/embed*$third-party,frame,redirect=click2load.html
 ||anchor.fm/$third-party,frame,redirect=click2load.html
@@ -429,7 +427,7 @@ pornhoarder.io##+js(aopw, window.open)
 ||pornhub.com/embed/$third-party,frame,redirect=click2load.html
 ||s9e.github.io/iframe/$third-party,frame,redirect=click2load.html
 ||xhamster.com/embed/$third-party,frame,redirect=click2load.html
-!~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+!~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ||leeapk.com/wp-content/uploads/*/ads*^$image
 ||*.wp.com/leeapk.com/wp-content/uploads/2025/09/ads*^$image
 leeapk.com##.entry-content center:has(img)
@@ -437,4 +435,4 @@ leeapk.com##.entry-content center:has-text(Advertisement)
 leeapk.com##.entry-content > p:has(img[src*="ads"])
 leeapk.com##.advertisement
 leeapk.com##div[class*="adsby"]
-!~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+!==========================THE END==============================================!
