@@ -546,11 +546,6 @@ jr.prahmnatured.com##+js(aopr, open)
 kalerkantho.com##.ad-section
 kalerkantho.com##.sponsor-banner
 leeapk.com##+js(aopw, window.open)
-leeapk.com##.advertisement
-leeapk.com##.entry-content > p:has(img[src*="ads"])
-leeapk.com##.entry-content center:has(img)
-leeapk.com##.entry-content center:has-text(Advertisement)
-leeapk.com##div[class*="adsby"]
 liteapks.com##+js(aopw, window.open)
 m.imdb.com##.bkRdrN
 m.imdb.com##.iCWOBC
@@ -696,7 +691,15 @@ youtube.com##ytm-reel-shelf-renderer
 ##iframe[src*="chatbot"]                             
 ##iframe[src*="copilot"]                              
 ##li:has-text("AI Answer")                          
-##span:has-text("AI Suggestion")                      
+##span:has-text("AI Suggestion")  
+!~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+||leeapk.com/wp-content/uploads/*/ads*^$image
+leeapk.com##.entry-content center:has(img)
+leeapk.com##.entry-content center:has-text(Advertisement)
+leeapk.com##.entry-content > p:has(img[src*="ads"])
+leeapk.com##.advertisement
+leeapk.com##div[class*="adsby"]
+!~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 @@||api.hcaptcha.com^
 @@||arkoselabs.com.cdn.cloudflare.net^
 @@||arkoselabs.com^
