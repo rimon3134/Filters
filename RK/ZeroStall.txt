@@ -1,0 +1,254 @@
+! Title: RK's Personal List
+! Author: Rimon Hossain
+! Homepage: https://rimon3134.github.io/Filters
+! Note: ☠💀 ~~~~ NOT FOR YOU ~~~~~ ☠💀
+!
+||allfont.net^$font,third-party
+||assets.rivian.com^$font,third-party
+||at.alicdn.com^$font,third-party
+||bunnyfonts.b-cdn.net^$font,third-party
+||cdn.linearicons.com^$font,third-party
+||cloud.webtype.com^$font,third-party
+||clyde-fonts.s3.amazonaws.com^$font,third-party
+||code.ionicframework.com^$font,third-party
+||comm-files-universityofconn.netdna-ssl.com^$font,third-party
+||coolfontsapi.b-cdn.net^$font,third-party
+||d1d5duwb3jk17d.cloudfront.net^$font,third-party
+||d1t6urij26il7f.cloudfront.net^$font,third-party
+||d25purrcgqtc5w.cloudfront.net^$font,third-party
+||d26t7ex48mr4bn.cloudfront.net^$font,third-party
+||d31iqi82ivd0ac.cloudfront.net^$font,third-party
+||d3498ple9xfqkw.cloudfront.net^$font,third-party
+||d3gur3gjo809sk.cloudfront.net^$font,third-party
+||d3s44e87wooplq.cloudfront.net^$font,third-party
+||drh-fonts.img.digitalrivercontent.net^$font,third-party
+||edgefonts.net^$font,third-party
+||encore.scdn.co^$font,third-party
+||f.kinja-static.com^$font,third-party
+||font.im^$font,third-party
+||font-public.canva.com^$font,third-party
+||font.realtype.jp^$font,third-party
+||fontawesome.com^$font,third-party
+||fontastic.me^$font,third-party
+||fontcdn.ir^$font,third-party
+||fontface.me^$font,third-party
+||fonticons.com^$font,third-party
+||fontify.nitroapps.co^$font,third-party
+||fontlibrary.org^$font,third-party
+||fontplus.aem.kao.com^$font,third-party
+||fontplus.dev^$font,third-party
+||fontplus.jp^$font,third-party
+||fontshare.com^$font,third-party
+||fontstatic.com^$font,third-party
+||fontstorage.com^$font,third-party
+||fonts.65twenty.com^$font,third-party
+||fonts.acer.com^$font,third-party
+||fonts.adobe.com^$font,third-party
+||fonts-api.wp.com^$font,third-party
+||fonts.autodesk.com^$font,third-party
+||fonts.blackbookinformation.com^$font,third-party
+||fonts.bunny.net^$font,third-party
+||fonts.cb-intl.tech^$font,third-party
+||fonts.channel4.com^$font,third-party
+||fonts.com^$font,third-party
+||fonts.coollabs.io^$font,third-party
+||fonts.cummins.com^$font,third-party
+||fonts.cursecdn.com^$font,third-party
+||fonts.dzone.com^$font,third-party
+||fonts.ea.com^$font,third-party
+||fonts.evitecdn.com^$font,third-party
+||fonts.fandango.com^$font,third-party
+||fonts.foxsports.com^$font,third-party
+||fonts.fubo.tv^$font,third-party
+||fonts.garmin.com^$font,third-party
+||fonts.hamburg.de^$font,third-party
+||fonts.intercomcdn.com^$font,third-party
+||fonts.iu.edu^$font,third-party
+||fonts.jimstatic.com^$font,third-party
+||fonts.laterpay.net^$font,third-party
+||fonts.logoscdn.com^$font,third-party
+||fonts.loli.net^$font,third-party
+||fonts.macpaw.com^$font,third-party
+||fonts.mailerlite.com^$font,third-party
+||fonts.motorcar.com^$font,third-party
+||fonts.mtx.com^$font,third-party
+||fonts.mybet.com^$font,third-party
+||fonts.nccdn.net^$font,third-party
+||fonts.net^$font,third-party
+||fonts.ngeo.com^$font,third-party
+||fonts.nymag.com^$font,third-party
+||fonts.podia.com^$font,third-party
+||fonts.qmusic.be^$font,third-party
+||fonts.qualifio.com^$font,third-party
+||fonts.r7.com^$font,third-party
+||fonts.ralphlauren.com^$font,third-party
+||fonts.rogersdigitalmedia.com^$font,third-party
+||fonts_rysvarm.storage.googleapis.com^$font,third-party
+||fonts.sage.com^$font,third-party
+||fonts.shopify.com^$font,third-party
+||fonts.shopifycdn.com^$font,third-party
+||fonts.shopltk.com^$font,third-party
+||fonts.sidearmsports.com^$font,third-party
+||fonts.sitebuilderhost.net^$font,third-party
+||fonts.smdg.ca^$font,third-party
+||fonts.softr-files.com^$font,third-party
+||fonts.sony.net^$font,third-party
+||fonts.soundestlink.com^$font,third-party
+||fonts.staticworld.net^$font,third-party
+||fonts.svc.ui.com^$font,third-party
+||fonts.tildacdn.com^$font,third-party
+||fonts.twitter.com^$font,third-party
+||fonts.ub-assets.com^$font,third-party
+||fonts.voxmedia.com^$font,third-party
+||fonts.walmart.com^$font,third-party
+||fonts.wpcdn.pl^$font,third-party
+||fonts.wp.com^$font,third-party
+||fonts.wsj.net^$font,third-party
+||fonts.w.tools^$font,third-party
+||fonts.xidraslbs.com^$font,third-party
+||fonts.xz.style^$font,third-party
+||fonts.ymcart.com^$font,third-party
+||fonts.zapier.com^$font,third-party
+||fonts.zohostatic.com^$font,third-party
+||fonts.zohowebstatic.com^$font,third-party
+||fonts.zumst.com^$font,third-party
+||fortawesome.com^$font,third-party
+||g1.nyt.com^$font,third-party
+||gel.files.bbci.co.uk^$font,third-party
+||gfonts.jwwb.nl^$font,third-party
+||hpefonts.s3.amazonaws.com^$font,third-party
+||iconmonstr.com^$font,third-party
+||ionicframework.com^$font,third-party
+||i.piano.io^$font,third-party
+||linearicons.com^$font,third-party
+||media.tdameritrade.com^$font,third-party
+||minted-fonts.mintedcdn.net^$font,third-party
+||mojidepa.com^$font,third-party
+||myfontastic.com^$font,third-party
+||nimblefonts.nimbledeals.com^$font,third-party
+||onlinewebfonts.com^$font,third-party
+||pls.webtype.com^$font,third-party
+||prod-cdn-library-abblibrary-ebgjc7dxe6ghgfem.a01.azurefd.net^$font,third-party
+||pstatic09.mgo-images.com^$font,third-party
+||rbds-static.redbull.com^$font,third-party
+||realtype.jp^$font,third-party
+||rockomni.com^$font,third-party
+||square-fonts-production-f.squarecdn.com^$font,third-party
+||static-web-assets.gnl-common.bbcverticals.com^$font,third-party
+||static-webfonts.myfonts.com^$font,third-party
+||thefontzone.com^$font,third-party
+||typeface.nytimes.com^$font,third-party
+||typekit.com^$font,third-party
+||typekit.net^$font,third-party
+||typography.doordash.com^$font,third-party
+||typotheque.com^$font,third-party
+||use.typekit.net^$font,third-party
+||webfont.honda.co.jp^$font,third-party
+||webfonts.creativecloud.com^$font,third-party
+||webfonts.ru^$font,third-party
+||webfonts.xserver.jp^$font,third-party
+||webfonts.zohostatic.com^$font,third-party
+||webfonts.zohowebstatic.com^$font,third-party
+||webtype.com^$font,third-party
+||www-tc.pbs.org^$font,third-party
+||zapier-fonts-production.s3.amazonaws.com^$font,third-party
+||effectivegatecpm.com^$popup
+||ey43.com^$popup
+||invl.me^$popup
+||modgaga.com^$popup
+||jaya9bangladesh.com^$popup
+||jr.prahmnatured.com^$popup
+||s0-greate.net^$popup
+||s.click.aliexpress.com^$popup
+||teknoasian.com^$popup
+||mlsbd.co^$popup
+||noodlemagazine.com^$popup
+||ukdevilz.com^$popup
+||porntrex.com^$popup
+||tnaflix.com^$popup
+||whoreshub.com^$popup
+||pervtube.net^$popup
+||pornhoarder.io^$popup
+||mat6tube.com^$popup
+||pahe.ink^$popup
+||advertape.net^$popup
+||streamtape.to^$popup
+||tapecontent.*^$popup
+||streamtape.*^$popup
+!
+!~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+!
+||leeapk.com/wp-content/uploads/*/ads*^$image
+||*.wp.com/leeapk.com/wp-content/uploads/2025/09/ads*^$image
+leeapk.com##.entry-content center:has(img)
+leeapk.com##.entry-content center:has-text(Advertisement)
+leeapk.com##.entry-content > p:has(img[src*="ads"])
+leeapk.com##.advertisement
+leeapk.com##div[class*="adsby"]
+||leeapk.com^$popup
+!
+!~~~~~~~~~~~~~~~~~~~~~~~~~~MAY BE OBSOLETE For SI/Vivaldi~~~~~~~~~~~~~~~~~~~~~~~~~~~
+!
+www.google.*##[data-hveid="CAIQAQ"]
+www.google.*##[data-mcpr]            
+www.google.*##button:has(path[d^="M17.5 12c0-3.04 2.46-5.5"])
+www.google.*##.related-question-pair        
+www.google.*##.g:has(a[href*="reddit.com"])         
+www.google.*##.g:has(a[href*="quora.com"])        
+www.google.*##.g:has(a[href*="stackexchange.com"])  
+www.google.*##.g:has(a[href*="/forum"])
+bing.com###b-scopeListItem-conv     
+bing.com###chat_upsell_bubble_icon              
+bing.com##.b_insights                             
+bing.com##.cdxCopilotIconBg                       
+bing.com##.copans_container                   
+bing.com##a[href*="/discussions/"]                
+search.yahoo.com##.compList                          
+search.yahoo.com##.chat-bubble                      
+search.yahoo.com##.related-video-block              
+search.brave.com###llm-snippet                             
+search.brave.com##.llm.suggestion:has-text(Answer with AI) 
+search.brave.com##.discussion-result                      
+search.brave.com##a[href*="/discussions/"]                
+search.brave.com##.video-result                       
+baidu.com###con-ar > [tpl="ai_accompanies"]            
+baidu.com###content_left > .c-group-wrapper:has([tpl="ai_ask"]) 
+baidu.com###s_tab_inner > a[href*="chat.baidu.com"]  
+##div[class*="ai-popup"]                                 
+##div[class*="ai-chat"]                                 
+##div[class*="assistant-widget"]                         
+##div[class*="copilot-container"]                    
+##div[class*="chat-widget"]                          
+##iframe[src*="ai-assistant"]                       
+##iframe[src*="copilot"]                              
+##iframe[src*="chatbot"]                             
+##button:has-text("Try AI")                          
+##button:has-text("Chat with AI")                     
+##span:has-text("AI Suggestion")                      
+##li:has-text("AI Answer")                          
+##div[class*="newsletter"]                            
+##div[class*="signup"]   
+effectivegatecpm.com##+js(aopr, open)
+ey43.com##+js(aopr, open)
+modgaga.com##+js(aopr, open)
+invl.me##+js(aopr, open)
+jaya9bangladesh.com##+js(aopr, open)
+jr.prahmnatured.com##+js(aopr, open)
+s0-greate.net##+js(aopr, open)
+s.click.aliexpress.com##+js(aopr, open)
+noodlemagazine.com##+js(aopw, window.open)
+streamtape.to##+js(aopw, window.open)
+advertape.net##+js(aopw, window.open)
+pahe.ink##+js(aopw, window.open)
+leeapk.com##+js(aopw, window.open)
+mlsbd.co##+js(aopw, window.open)
+liteapks.com##+js(aopw, window.open)
+ukdevilz.com##+js(aopw, window.open)
+mat6tube.com##+js(aopw, window.open)
+whoreshub.com##+js(aopw, window.open)
+eporner.com##+js(aopw, window.open)
+porntrex.com##+js(aopw, window.open)
+tnaflix.com##+js(aopw, window.open)
+pervtube.net##+js(aopw, window.open)
+pornhoarder.io##+js(aopw, window.open)
+!==========================THE END==============================================!
