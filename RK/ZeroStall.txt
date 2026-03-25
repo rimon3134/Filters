@@ -187,6 +187,7 @@ leeapk.com##.entry-content center:has-text(Advertisement)
 leeapk.com##.entry-content > p:has(img[src*="ads"])
 leeapk.com##.advertisement
 leeapk.com##div[class*="adsby"]
+leeapk.com##div[id*="popup"], div[class*="popup"]
 !
 !~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 !
