@@ -697,12 +697,6 @@ youtube.com##ytm-reel-shelf-renderer
 ##iframe[src*="copilot"]                              
 ##li:has-text("AI Answer")                          
 ##span:has-text("AI Suggestion")                      
-*##+js(aeld, load, adblock)
-*##+js(aopr, /^(?:ad(?:block|s)|preroll)$/)
-*##+js(aopw, adblockDetected)
-*##+js(rmnt, script, adsbygoogle)
-*##+js(set, /^(?:ad(?:Block(?:Active|Detected|Enabled|er(?:Detected)?)?|block(?:Active|Detected|Enabled|Gate|Installed|Present|Status|WallEnabled|er(?:Detected)?)?|s(?:\.blocked|Blocked|Enabled))|b(?:ab(?:Detected|Enabled)|lockAdBlock)|BlockAdBlock|FuckAdBlock|fuckAdBlock|config\.adblock|detectedAdBlock|hasAdBlock|isAdBlock(?:Active|Enabled)?|p(?:a(?:ge\.adsBlocked|ywallAdblockDetected)|layerAdsEnabled|reroll)|s(?:howAds|ite\.adblock)|window\.ad(?:block(?:Detected)?|sBlocked))$/, false)
-*##+js(set, /^(?:ad(?:blockDisabled|s(?:Enabled|Loaded|R(?:eady|unning)|Visible))|can(?:RunAds|ShowAds)|disableAdblockMessage|showAds)$/, true)
 @@||api.hcaptcha.com^
 @@||arkoselabs.com.cdn.cloudflare.net^
 @@||arkoselabs.com^
