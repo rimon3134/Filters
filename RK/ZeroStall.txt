@@ -175,7 +175,8 @@
 ||streamtape.to^$popup,important
 ||tapecontent.*^$popup,important
 ||streamtape.*^$popup,important
-||leeapk.com^$popup,important
+||leeapk.com^$popup,third-party
+||profitablecpmratenetwork.com^$popup,important
 !
 !~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 !
