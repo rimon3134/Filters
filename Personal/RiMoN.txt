@@ -319,6 +319,20 @@ porntrex.com##+js(aopw, window.open)
 tnaflix.com##+js(aopw, window.open)
 pervtube.net##+js(aopw, window.open)
 pornhoarder.io##+js(aopw, window.open)
+||mlsbd.co^$popup
+||noodlemagazine.com^$popup
+||ukdevilz.com^$popup
+||porntrex.com^$popup
+||tnaflix.com^$popup
+||whoreshub.com^$popup
+||pervtube.net^$popup
+||pornhoarder.io^$popup
+||mat6tube.com^$popup
+||pahe.ink^$popup
+||advertape.net^$popup
+||streamtape.to^$popup
+||tapecontent.*^$popup
+||streamtape.*^$popup
 !
 !~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 !
@@ -435,4 +449,5 @@ leeapk.com##.entry-content center:has-text(Advertisement)
 leeapk.com##.entry-content > p:has(img[src*="ads"])
 leeapk.com##.advertisement
 leeapk.com##div[class*="adsby"]
+||leeapk.com^$popup
 !==========================THE END==============================================!
