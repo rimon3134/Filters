@@ -10184,7 +10184,6 @@
 ||suggestplugin.gmx.es^
 ||suggestplugin.gmx.fr^
 ||suggestplugin.ui-portal.de^
-||suggestqueries-clients6.youtube.com^$xmlhttprequest
 ||suggestqueries.google.com^
 ||suggestqueries.l.google.com^
 ||suggests.go.mail.ru^
