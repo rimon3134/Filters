@@ -5055,7 +5055,6 @@
 ||sentry-new.protontech.ch^
 ||sentry-public.stripchat.com^
 ||sentry.$all,important,domain=~sentry.libbyapp.com
-||sentry.$important,denyallow=sentry.libbyapp.com
 ||sentry.archive.org^
 ||sentry.as12as.com^
 ||sentry.comick.io^
@@ -5705,7 +5704,6 @@
 ||telemetry.eyeo.com^
 ||telemetry.googleapis.com^
 ||telemetry.microsoft.com^$xmlhttprequest
-||telemetry.mozilla.org^$important,denyallow=dictionary.telemetry.mozilla.org|docs.telemetry.mozilla.org|probeinfo.telemetry.mozilla.org|public-data.telemetry.mozilla.org
 ||telemetry.mtls.googleapis.com^
 ||telenorstartsiden.112.2o7.net^
 ||telephonyspamprotect-pa.googleapis.com^
