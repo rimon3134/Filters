@@ -5533,7 +5533,7 @@
 ||suggest.sso.dzen.ru^
 ||suggest.yandex.*^$xmlhttprequest
 ||suggestgoogle.biz^
-||suggestqueries-clients6.youtube.com^$xmlhttprequest
+||suggestqueries-clients6.youtube.com^$script,subdocument,third-party
 ||suggestqueries.google.com^
 ||suggestqueries.l.google.com^
 ||suncom.112.2o7.net^
