@@ -155,7 +155,7 @@
 ||l.instagram.com^third-party,important
 ||l.messenger.com^third-party,important
 ||leeapk.com/wp-content/uploads/*/ads*^$image
-||leeapk.com^$popup,important
+||leeapk.com^$popup,third-party,important
 ||link.rottentomatoes.com^third-party,important
 ||linkclick.tailorbrands.com^third-party,important
 ||linkmaker.itunes.apple.com.edgekey.net^third-party,important
