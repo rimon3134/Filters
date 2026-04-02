@@ -15,7 +15,7 @@
 ||adcrun.ch^third-party,important
 ||adf.ly^third-party,important
 ||adj.st^third-party,important
-||advertape.net^$popup,important
+||advertape.net^$popup,third-party,important
 ||airtable.com/embed*third-party,frame,redirect=click2load.html
 ||aka.ms^third-party,important
 ||amplify.link^third-party,important
@@ -155,7 +155,7 @@
 ||l.instagram.com^third-party,important
 ||l.messenger.com^third-party,important
 ||leeapk.com/wp-content/uploads/*/ads*^$image
-||leeapk.com^$popup,third-party,important
+||leeapk.com^$popup,important
 ||link.rottentomatoes.com^third-party,important
 ||linkclick.tailorbrands.com^third-party,important
 ||linkmaker.itunes.apple.com.edgekey.net^third-party,important
@@ -172,7 +172,7 @@
 ||medium.com/media^third-party,frame,redirect=click2load.html
 ||mixcloud.com/widget/third-party,frame,redirect=click2load.html
 ||mjt.lu^third-party,important
-||mlsbd.co^$popup,third-party,important
+||mlsbd.co^$popup,important
 ||modgaga.com^$popup,important
 ||noodlemagazine.com^$popup,third-party,important
 ||notifications.google.com^third-party,important
@@ -223,7 +223,7 @@
 ||s.click.aliexpress.com^$popup,important
 ||s0-greate.net^$popup,important
 ||safe.txmblr.com^third-party,frame,redirect=click2load.html
-||savelinks.me^$popup,important
+||savelinks.me^$popup,third-party,important
 ||scribd.com/embeds/third-party,frame,redirect=click2load.html
 ||sendgrid.net^third-party,important
 ||short.cm^third-party,important
@@ -237,8 +237,8 @@
 ||static.vidgyor.com/player/third-party,frame,redirect=click2load.html
 ||stay22.com/embed/third-party,frame,redirect=click2load.html
 ||strava.com/embed^third-party,frame,redirect=click2load.html
-||streamtape.*^$popup,important
-||streamtape.to^$popup,important
+||streamtape.*^$popup,third-party,important
+||streamtape.to^$popup,third-party,important
 ||substack.com/embed^third-party,frame,redirect=click2load.html
 ||t.co^third-party,important
 ||t.ly^third-party,important
