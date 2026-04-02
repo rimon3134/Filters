@@ -888,3 +888,12 @@ leeapk.com##div[class*="adsby"]
 ##[id*="brave_popup_"]
 ##[id*="web-cookie-consent-banner"]
 ##[id^="ppms_cm_consent_bar_"]
+!
+!========== EXPERIMENT ==========
+!
+leeapk.com##+js(aopw, window.open)
+mlsbd.co##+js(aopw, window.open)
+porntrex.com##+js(aopw, window.open)
+tnaflix.com##+js(aopw, window.open)
+porntrex.com##+js(aopw, window.open)
+savelinks.me##+js(aopw, window.open)
