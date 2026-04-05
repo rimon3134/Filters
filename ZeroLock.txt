@@ -1,6 +1,6 @@
 ! Title: 🔓 RK’s ZeroLock List
 ! Author: Rimon Hossain
-! Version: 2026-04-03
+! Version: 2026-04-05
 ! Description: Neutralizes anti-adblock scripts, overlays, and site-blockades with surgical precision. 🕶️
 ! Homepage: https://rimon3134.github.io/Filters
 ! RAW: https://raw.githubusercontent.com/rimon3134/Filters/main/ZeroLock.txt
@@ -402,6 +402,7 @@
 ||rblx.land/main_scriptx2.js
 ||rbs.ta36.com/wp-content/plugins/chp-ads-block-detector
 ||receivefreesms.co.uk/adblk/adblk_enc.js
+||rf4-stat.ru/js/adblock.js
 ||rimworldbase.com/wp-content/plugins/mireia-tools/assets/js/anti-adblock.js
 ||romgoc.net/*/adblock_fuck.js
 ||ruxox.ru/js/plears.js
@@ -559,6 +560,7 @@ albkinema.in##div[id][class^="popup"][class$="wrap"][style]
 alemdarleech.com###koddostu-com-adblocker-engelleme
 alexbacher.fr,bokugents.com,4horlover.com##body > div[id][class*=" "]:first-child
 alliancex.org#@#.ad-spot
+allindiabullion.com#@#.ad-unit:not(.textads)
 alliptvlinks.com#@#ins.adsbygoogle[data-ad-client]
 alliptvlinks.com#@#ins.adsbygoogle[data-ad-slot]
 allmusic.com#$#.advertising { position: absolute!important; left: -3000px!important; }
@@ -1167,7 +1169,6 @@ homedecoratione.com#@#.advertiser
 hoodtrendspredict.com##.generate-back-to-top + div[class*=" "]
 hortidaily.com,agf.nl,freshplaza.*#$?#input#block-ad-blockers { remove: true; }
 hortidaily.com,agf.nl,freshplaza.*#@#a.banner
-hostserverz.com,cloudhostingz.com##.search-popup + div[id][class*=" "]
 hot-sex-photos.com,myfutanari.com,freemilf.org###ksbnode
 hotcars.com#@#.AdSense
 hotspringsofbc.ca,studybullet.com##body > .clr + div[id][class*=" "]
@@ -1477,6 +1478,7 @@ nitroflare.com#@#div[style="width: 728px; height: 90px; text-align: center;"]
 niyogbd.xyz##.popSc
 nkreport.jp,ncbellu.net,covod.work,lenlino.com,mcspigot.com,nknews.jp##body > div#wp-footer > script + div[id][class*=" "]
 nkreport.jp,nknews.jp###wp-footer > #page-top ~ div[id][class]
+nlcosplay.com##.banner-wrapper + div[id][class*=" "]
 noblessetranslations.com,4allprograms.me##body > script[src] + div[id][class*=" "]:not([id*="_"])
 noni-jav.com,luluvdo.com##div[oncontextmenu="return false;"][style="display: block;"]
 nontonx.com##body > div[style]:has(> div[style] > button[onclick="location.reload()"])
@@ -1718,9 +1720,9 @@ sgxnifty.org###aub_cover
 shabdkosh.com###adblocker-detected-modal
 shabdkosh.com##.modal-backdrop
 shabdkosh.com#$#.textads.adsbox { display: block !important; }
-shahheid4u.net,shhahhed4u.net,shiid4u.day,shaahed4u.net,shah4u.*,sd4u.net,sshahid4u.*,shahid-4u.*,shahid4u.*,shhahid4u.*,shaid4u.day,shahhid4u.cam,batch-kun.comak.sv,nguyenvanbao.com,ak4ar.*,akw.to,xn--mgba7fjn.*,ak4eg.*,adnews.me,traffic1s.com,ipacrack.com,oii.io,paste1s.com,note1s.com,fc.lc#$##ignielAdBlock { display: none !important; }
-shahheid4u.net,shhahhed4u.net,shiid4u.day,shaahed4u.net,shah4u.*,sd4u.net,sshahid4u.*,shahid-4u.*,shahid4u.*,shhahid4u.*,shaid4u.day,shahhid4u.cam,shsaahid4u.net,shahiid4u.net,shahidd4u.net,neosatsu.com,batch-kun.com,shahee4u.cam,indokontraktor.comak.sv,nguyenvanbao.com,ak4ar.*,akw.to,xn--mgba7fjn.*,ak4eg.*,adnews.me,traffic1s.com,ipacrack.com,oii.io,paste1s.com,note1s.com,fc.lc#$#body { overflow: auto !important; }
-shahheid4u.net,shhahhed4u.net,shiid4u.day,shaahed4u.net,shah4u.*,sd4u.net,sshahid4u.*,shahid4u.*,shhahid4u.*,shaid4u.day,shahhid4u.cam,shsaahid4u.net,shahiid4u.net,shahidd4u.net,neosatsu.com,shahee4u.cam,indokontraktor.com#$#.ignielAdBlock { display: none !important; }
+shaheiid4u.net,shahheid4u.net,shhahhed4u.net,shiid4u.day,shaahed4u.net,shah4u.*,sd4u.net,sshahid4u.*,shahid-4u.*,shahid4u.*,shhahid4u.*,shaid4u.day,shahhid4u.cam,batch-kun.comak.sv,nguyenvanbao.com,ak4ar.*,akw.to,xn--mgba7fjn.*,ak4eg.*,adnews.me,traffic1s.com,ipacrack.com,oii.io,paste1s.com,note1s.com,fc.lc#$##ignielAdBlock { display: none !important; }
+shaheiid4u.net,shahheid4u.net,shhahhed4u.net,shiid4u.day,shaahed4u.net,shah4u.*,sd4u.net,sshahid4u.*,shahid-4u.*,shahid4u.*,shhahid4u.*,shaid4u.day,shahhid4u.cam,shsaahid4u.net,shahiid4u.net,shahidd4u.net,neosatsu.com,batch-kun.com,shahee4u.cam,indokontraktor.comak.sv,nguyenvanbao.com,ak4ar.*,akw.to,xn--mgba7fjn.*,ak4eg.*,adnews.me,traffic1s.com,ipacrack.com,oii.io,paste1s.com,note1s.com,fc.lc#$#body { overflow: auto !important; }
+shaheiid4u.net,shahheid4u.net,shhahhed4u.net,shiid4u.day,shaahed4u.net,shah4u.*,sd4u.net,sshahid4u.*,shahid4u.*,shhahid4u.*,shaid4u.day,shahhid4u.cam,shsaahid4u.net,shahiid4u.net,shahidd4u.net,neosatsu.com,shahee4u.cam,indokontraktor.com#$#.ignielAdBlock { display: none !important; }
 shogaisha-techo.com##body > .clearfix + div[id][class*=" "]
 shojoscans.com,en-thunderscans.com##.lm-adblock-notfic-container
 shorterall.com#$#div[id^="42483"] { height: 11px!important; }
@@ -1961,6 +1963,7 @@ toolss.net#$#.adsense.banner_ad.pub_728x90.pub_300x250 { display: block !importa
 top1iq.com#$##levelmaxblock { display: none !important; }
 top1iq.com#$#body { overflow: auto !important; }
 topchineseanime.xyz##body[class*=" "] #footer ~ div[class*=" "][id]:not([id*=" "])
+tophostdeal.com,hostserverz.com,cloudhostingz.com##.search-popup + div[id][class*=" "]
 topnewsshow.com##body > .mdl-layout__container ~ div[id][class*=" "]
 topshare.in,tempmaile.me##b > #scroll-top + div[id][class*=" "]
 toramemoblog.com##.lity-hide + div[id][class*=" "]
