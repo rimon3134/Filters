@@ -199,7 +199,16 @@ main { max-width: 880px; margin: auto; padding: 40px 20px; }
 .about-text { background: rgba(255,255,255,0.04); border-left: 4px solid var(--accent); padding: 18px; border-radius: 12px; }
 
 .faq-rk { background: rgba(255,255,255,0.04); border-left: 4px solid var(--accent); padding: 18px; border-radius: 12px; }
-
+	
+.faq-rk li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  top: 0.05em;
+  font-size: 0.9em;
+  color: var(--accent);                   /* matches border */
+  font-weight: 700;
+}
 footer {
   margin-top: 40px;
   text-align: center;
@@ -297,16 +306,16 @@ footer {
 <div class="faq-rk">
 <h2>🤷‍♀️ FAQ</h2>
 <strong>❓ Why not rely only on large generic lists?</strong>
-	<p>👀 Domain-only lists miss same-domain annoyances like popups, redirects, and overlays. Hybrid rules handle them precisely, while maintaining site functionality.</p>
+	<pli>Domain-only lists miss same-domain annoyances like popups, redirects, and overlays. Hybrid rules handle them precisely, while maintaining site functionality.</li>
 
 	<strong>❓ Will sites break?</strong>
-	<p>👀 Minimal false positives — hybrid rules carefully tested. Aggressive elements removed before rendering, ensuring smooth experience.</p>
+	<li>Minimal false positives — hybrid rules carefully tested. Aggressive elements removed before rendering, ensuring smooth experience.</li>
 
 	<strong>❓ Mobile compatibility?</strong>
-	<p>👀 Yes — Every list is mobile-optimized; hybrid lists work in uBlock Origin, AdGuard, and compatible apps.</p>
+	<li>Yes — Every list is mobile-optimized; hybrid lists work in uBlock Origin, AdGuard, and compatible apps.</li>
 
 	<strong>❓ Update frequency?</strong>
-	<p>👀 As needed — sometimes multiple times a day, sometimes weekly.</p>
+	<li>As needed — sometimes multiple times a day, sometimes weekly.</li>
 </div>
 </section>
 	
