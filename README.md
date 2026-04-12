@@ -84,7 +84,7 @@ The modern web is overloaded — ads, trackers, popups, overlays, telemetry, AI 
 
 | Platform | Steps |
 |---------|------|
-| **uBlock Origin** | Settings → Filter Lists → Custom → Add → Paste RAW URL → Update |
+| **uBlock Origin** | Settings → Filter Lists → Custom → Paste URL → Update |
 | **AdGuard** | Settings → Filters → Custom → Add URL → Save |
 | **AdBlock Plus** | Advanced → Add new subscription → Paste → Apply |
 | **1DM+ / Mobile** | Manage Filters → Delete existing → Add Custom → Force Update |
