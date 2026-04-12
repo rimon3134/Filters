@@ -28,6 +28,7 @@
 ||art19.com/shows/third-party,frame,redirect=click2load.html
 ||autolinkmaker.itunes.apple.com^third-party
 ||awstrack.me^third-party
+||b7510.com^$popup
 ||bandcamp.com/EmbeddedPlayer/third-party,frame,redirect=click2load.html
 ||bc.vc^third-party
 ||bestbuy.7tiv.net^third-party
