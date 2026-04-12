@@ -76,6 +76,7 @@
 ||coherentpath.link^third-party
 ||cp.oldnavy.com^third-party
 ||ct.sendgrid.net^third-party
+||crn77.com^$popup
 ||cutt.ly^third-party
 ||dai.ly^third-party
 ||dailymotion.com/embed^third-party,frame,redirect=click2load.html
