@@ -132,16 +132,16 @@ Contributions are welcome if they follow the RK philosophy:
 
 ## ❓ FAQ
 
-**Q: Why not rely only on large generic lists?**  
+**❓ Why not rely only on large generic lists?**  
 A: Domain-only lists miss same-domain annoyances like popups, redirects, and overlays. Hybrid rules handle them precisely, while maintaining site functionality.
 
-**Q: Will sites break?**  
+**❓ Will sites break?**  
 A: Minimal false positives — hybrid rules carefully tested. Aggressive elements removed **before rendering**, ensuring smooth experience.
 
-**Q: Mobile compatibility?**  
+**❓ Mobile compatibility?**  
 A: Yes — Every list is mobile-optimized; hybrid lists work in uBlock Origin, AdGuard, and compatible apps.
 
-**Q: Update frequency?**  
+**❓ Update frequency?**  
 A: As needed — sometimes multiple times a day, sometimes weekly. All updates documented on the [Filter List Portal](https://rimon3134.github.io/Filters).
 
 ---
