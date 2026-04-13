@@ -192,9 +192,13 @@ main { max-width: 880px; margin: auto; padding: 40px 20px; }
 .instruction-list li {
   margin-bottom: 1.2em;
   padding-left: 1.2em;
-  position: absolute;
+  position: relative;
 }
-.instruction-list li::before { content: "➤"; color: var(--accent); position: absolute; left: 0; }
+.instruction-list li::before { content: "➤"; color: var(--accent); position: relative;   left: 0;
+  top: 0.05em;
+  font-size: 0.9em;
+  color: var(--accent);                   /* matches border */
+  font-weight: 700; }
 
 .about-text { background: rgba(255,255,255,0.04); border-left: 4px solid var(--accent); padding: 18px; border-radius: 12px; }
 
