@@ -130,6 +130,7 @@
 ||giphy.com/embed^third-party,frame,redirect=click2load.html
 ||glitch.com/embed/third-party,frame,redirect=click2load.html
 ||glnk.io^third-party
+||go.gsrv.dev^$popup
 ||go.bsky.app^third-party
 ||go.microsoft.com.edgekey.net^third-party
 ||go.microsoft.com^third-party
