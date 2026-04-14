@@ -154,7 +154,6 @@
 ||fontcdn.ir^$font,third-party
 ||fontdeck.com^$font,third-party
 ||fontface.me^$font,third-party
-||fonticons.com^$font,third-party
 ||fontify.nitroapps.co^$font,third-party
 ||fontlibrary.org^$font,third-party
 ||fontplus.aem.kao.com^$font,third-party
