@@ -24,7 +24,7 @@
 ||adoperator.*^$third-party,document
 ||adsterra.*^$third-party,document
 ||adsterracdn.*^$third-party,document
-||advertape.net^$popup,third-party
+||advertape.net^$popup
 ||airtable.com/embed*$third-party,frame,redirect=click2load.html
 ||ajax.googleapis.com^$third-party,document
 ||aka.ms^$third-party,document
@@ -34,7 +34,7 @@
 ||analytics-gateway.io^$third-party,document
 ||anchor.fm/$third-party,frame,redirect=click2load.html
 ||anchor.fm/embed/$third-party,frame,redirect=click2load.html
-||anjowpoft.in^$popup,third-party
+||anjowpoft.in^$popup
 ||app-measurement.com^$third-party,document
 ||appsflyer.com^$third-party,document
 ||art19.com/shows/$third-party,frame,redirect=click2load.html
@@ -123,7 +123,7 @@
 ||embed.tiktok.com^$third-party,frame,redirect=click2load.html
 ||embed.typeform.com/$third-party,frame,redirect=click2load.html
 ||encore.scdn.co^$font,third-party
-||eporner.com^$popup,third-party
+||eporner.com^$popup
 ||exacttarget.com^$third-party,document
 ||exoclick.*^$third-party,document
 ||ey43.com^$popup
@@ -272,11 +272,11 @@
 ||lnk.to^$third-party,document
 ||lnkd.in^$third-party,document
 ||loom.com/embed/$third-party,frame,redirect=click2load.html
-||luluvdo.com^$popup,third-party
+||luluvdo.com^$popup
 ||mailgun.org^$third-party,document
 ||maps.google.com/maps/embed*$third-party,frame,redirect=click2load.html
 ||marketo.com^$third-party,document
-||mat6tube.com^$popup,third-party
+||mat6tube.com^$popup
 ||media-amazon.com/*tracking^$image,third-party,document
 ||media.tdameritrade.com^$font,third-party
 ||medium.com/media^$third-party,frame,redirect=click2load.html
@@ -291,7 +291,7 @@
 ||myfontastic.com^$font,third-party
 ||newrelic.com^$third-party,document
 ||nimblefonts.nimbledeals.com^$font,third-party
-||noodlemagazine.com^$popup,third-party
+||noodlemagazine.com^$popup
 ||notion.so/embed^$third-party,frame,redirect=click2load.html
 ||nr-data.net^$third-party,document
 ||ok.ru/videoembed^$third-party,frame,redirect=click2load.html
@@ -304,7 +304,7 @@
 ||pardot.com^$third-party,document
 ||partnerize.com^$third-party,document
 ||patreon.com/embed^$third-party,frame,redirect=click2load.html
-||pervtube.net^$popup,third-party
+||pervtube.net^$popup
 ||pirsch.io^$third-party,document
 ||pixel.wp.com^$third-party,document
 ||plausible.io^$third-party,document
@@ -339,10 +339,10 @@
 ||popsup.*^$third-party,document
 ||popunder.*^$third-party,document
 ||popuptraffic.*^$third-party,document
-||pornhoarder.io^$popup,third-party
-||pornhoarder.net^$popup,third-party
+||pornhoarder.io^$popup
+||pornhoarder.net^$popup
 ||pornhub.com/embed/$third-party,frame,redirect=click2load.html
-||porntrex.com^$popup,third-party
+||porntrex.com^$popup
 ||prod-cdn-library-abblibrary-ebgjc7dxe6ghgfem.a01.azurefd.net^$font,third-party
 ||profitablecpmratenetwork.com^$popup
 ||propeller-tracking.*^$third-party,document
@@ -396,8 +396,8 @@
 ||stats.wp.com^$third-party,document
 ||stay22.com/embed/$third-party,frame,redirect=click2load.html
 ||strava.com/embed^$third-party,frame,redirect=click2load.html
-||streamtape.net^$popup,third-party
-||streamtape.to^$popup,third-party
+||streamtape.net^$popup
+||streamtape.to^$popup
 ||substack.com/embed^$third-party,frame,redirect=click2load.html
 ||t.adcell.com^$third-party,document
 ||t.co^$third-party,document
@@ -408,7 +408,7 @@
 ||threads.net/@*/post/^$third-party,frame,redirect=click2load.html
 ||tiny.cc^$third-party,document
 ||tinyurl.com^$third-party,document
-||tnaflix.com^$popup,third-party
+||tnaflix.com^$popup
 ||tracking-api.net^$third-party,document
 ||tracknow.io^$third-party,document
 ||traderjoexyz.com/$third-party,frame,redirect=click2load.html
@@ -428,7 +428,7 @@
 ||typekit.net^$font,third-party
 ||typography.doordash.com^$font,third-party
 ||typotheque.com^$font,third-party
-||ukdevilz.com^$popup,third-party
+||ukdevilz.com^$popup
 ||umami.is^$third-party,document
 ||use.typekit.net^$font,third-party
 ||view.genial.ly$third-party,frame,redirect=click2load.html
