@@ -2181,3 +2181,62 @@ youtube.com,m.youtube.com##ytd-post-renderer, ytm-post-renderer, ytd-shelf-rende
 ##span:has-text("AI Suggestion")                      
 streamtape.*##+js(aopr, open)
 tapecontent.*##+js(aopr, open)
+! --------------------------------------------------------------------
+! ✍ BANGLADESH 🇧🇩 CUSTOM FILTERS
+! --------------------------------------------------------------------
+
+! 🌐 StarTech BD
+startech.com.bd##div[class*="popup"]
+startech.com.bd##div[id*="popup"]
+
+
+! 🎬 ShowTimeBD
+showtimebd.com##div[class*="popup"]
+showtimebd.com##div[id*="popup"]
+
+! 📰 Prothom Alo
+||prothomalo.com^$removeparam=utm_source
+prothomalo.com##.ad-container
+prothomalo.com##.sponsor-content
+prothomalo.com##.overlay-ad
+prothomalo.com##.popup-ad
+
+! 📰 BDNews24
+bdnews24.com##.ad-slot
+bdnews24.com##.sponsor-box
+bdnews24.com##.ad-wrapper
+bdnews24.com##.video-ads
+bdnews24.com##.advertisement
+
+! 📰 Bangla Tribune
+banglatribune.com##.ad-block
+banglatribune.com##.sponsor
+banglatribune.com##.popup-overlay
+banglatribune.com##.social-follow
+
+! 📰 Jago News 24
+jagonews24.com##.ad-area
+jagonews24.com##.sponsor-content
+jagonews24.com##.popup-ads
+jagonews24.com##.cookie-policy
+
+! 📰 Kaler Kantho
+kalerkantho.com##.ad-section
+kalerkantho.com##.sponsor-banner
+
+! 📰 NTVBD / Somoy / RTV / Channel24
+ntvbd.com,somoynews.tv,rtvonline.com,channel24bd.tv##.ad-container
+ntvbd.com,somoynews.tv,rtvonline.com,channel24bd.tv##.popup-overlay
+ntvbd.com,somoynews.tv,rtvonline.com,channel24bd.tv##.sponsor
+ntvbd.com,somoynews.tv,rtvonline.com,channel24bd.tv##.fb-page
+ntvbd.com,somoynews.tv,rtvonline.com,channel24bd.tv##.yt-embed
+ntvbd.com,somoynews.tv,rtvonline.com,channel24bd.tv##.social-like-box
+
+! 🎵 Bangla music / movie sites
+bdrong24.net,banglamusic24.com,moviemaza24.com##.popup
+bdrong24.net,banglamusic24.com,moviemaza24.com##.overlay
+bdrong24.net,banglamusic24.com,moviemaza24.com##.redirect-ad
+
+! --------------------------------------------------------------------
+! 💡 Note: Recommended To Use With EasyList/AdGuard Annoyances. Will keep evolving....!
+! ----
