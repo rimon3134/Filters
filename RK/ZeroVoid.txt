@@ -276,8 +276,8 @@
 ||mailgun.org^$third-party,document
 ||maps.google.com/maps/embed*$third-party,frame,redirect=click2load.html
 ||marketo.com^$third-party,document
-||mat6tube.com^$popup
-||media-amazon.com/*tracking^$image,third-party,document
+||mat6tube.com^$popup,third-party
+||media-amazon.com/*track,ing^$image,third-party,document
 ||media.tdameritrade.com^$font,third-party
 ||medium.com/media^$third-party,frame,redirect=click2load.html
 ||minted-fonts.mintedcdn.net^$font,third-party
@@ -291,7 +291,7 @@
 ||myfontastic.com^$font,third-party
 ||newrelic.com^$third-party,document
 ||nimblefonts.nimbledeals.com^$font,third-party
-||noodlemagazine.com^$popup
+||noodlemagazine.com^$popup,third-party
 ||notion.so/embed^$third-party,frame,redirect=click2load.html
 ||nr-data.net^$third-party,document
 ||ok.ru/videoembed^$third-party,frame,redirect=click2load.html
@@ -339,8 +339,8 @@
 ||popsup.*^$third-party,document
 ||popunder.*^$third-party,document
 ||popuptraffic.*^$third-party,document
-||pornhoarder.io^$popup
-||pornhoarder.net^$popup
+||pornhoarder.io^$popup,third-party
+||pornhoarder.net^$popup,third-party
 ||pornhub.com/embed/$third-party,frame,redirect=click2load.html
 ||porntrex.com^$popup
 ||prod-cdn-library-abblibrary-ebgjc7dxe6ghgfem.a01.azurefd.net^$font,third-party
@@ -408,7 +408,7 @@
 ||threads.net/@*/post/^$third-party,frame,redirect=click2load.html
 ||tiny.cc^$third-party,document
 ||tinyurl.com^$third-party,document
-||tnaflix.com^$popup
+||tnaflix.com^$popup,third-party
 ||tracking-api.net^$third-party,document
 ||tracknow.io^$third-party,document
 ||traderjoexyz.com/$third-party,frame,redirect=click2load.html
@@ -428,7 +428,7 @@
 ||typekit.net^$font,third-party
 ||typography.doordash.com^$font,third-party
 ||typotheque.com^$font,third-party
-||ukdevilz.com^$popup
+||ukdevilz.com^$popup,third-party
 ||umami.is^$third-party,document
 ||use.typekit.net^$font,third-party
 ||view.genial.ly$third-party,frame,redirect=click2load.html
