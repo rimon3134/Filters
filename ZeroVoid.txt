@@ -2153,18 +2153,23 @@ youtube.com##ytd-guide-entry-renderer:has(a[title="Shorts"]), ytd-guide-entry-re
 youtube.com##ytd-horizontal-card-list-renderer:has-text(/People also search for|Searches related to/)
 youtube.com##ytd-mini-guide-entry-renderer:has(a[title="Shorts"]), ytd-mini-guide-entry-renderer:has(a[title="Explore"])
 youtube.com##ytd-radio-renderer, ytd-compact-radio-renderer, ytd-compact-playlist-renderer, ytd-playlist-renderer
-youtube.com##ytd-reel-shelf-renderer, ytm-reel-shelf-renderer
 youtube.com##ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 5 !important; --ytd-rich-grid-posts-per-row: 5 !important;)
 youtube.com##ytd-rich-grid-row, #contents.ytd-rich-grid-row:style(display:contents !important;)
 youtube.com##ytd-rich-item-renderer:has(.badge-style-type-members-only, [aria-label*="Members only"], [aria-label*="Members first"])
 youtube.com##ytd-rich-item-renderer:has([href*="start_radio=1"]), ytd-search yt-lockup-view-model:has([href*="start_radio=1"])
 youtube.com##ytd-rich-item-renderer:has-text(Auto-dubbed)
-youtube.com##ytd-rich-section-renderer:has(a[href^="/shorts/"]), ytd-rich-section-renderer:has-text(Shorts)
 youtube.com##ytd-rich-section-renderer:has-text(/What did you think of this video|YouTube Playables/i)
 youtube.com##ytd-shelf-renderer:has-text(/For you|People also watched|Breaking news|COVID|Featured|Learn with YouTube|Ready to vote/i)
 youtube.com##ytd-shelf-renderer:has-text(/Mixes|Playlists/i)
-youtube.com##ytm-media-item:has(a[href^="/shorts/"]), .media-item-thumbnail-container[aria-hidden][href^="/shorts/"]
 youtube.com,m.youtube.com##ytd-post-renderer, ytm-post-renderer, ytd-shelf-renderer:has([aria-label*="Latest posts from"]), ytd-rich-item-renderer:has([aria-label*="Latest posts from"])
+youtube.com##.media-item-thumbnail-container[aria-hidden][href^="/shorts/"]
+youtube.com##.ytGridShelfViewModelHost:has-text(Shorts)
+youtube.com##.ytd-rich-shelf-renderer:has-text(Shorts)
+youtube.com##ytd-reel-shelf-renderer:has(a[href^="/shorts/"])
+youtube.com##ytd-rich-section-renderer:has(a[href^="/shorts/"])
+youtube.com##ytd-rich-shelf-renderer:has(#title-text:has-text(Shorts))
+youtube.com##ytm-media-item:has(a[href^="/shorts/"])
+youtube.com##ytm-reel-shelf-renderer
 ##button:has-text("Chat with AI")                     
 ##button:has-text("Try AI")                          
 ##div[class*="ai-chat"]                                 
