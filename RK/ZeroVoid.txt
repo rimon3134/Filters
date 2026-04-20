@@ -69,6 +69,8 @@
 ||checkout.shopify.com/$third-party,frame,redirect=click2load.html
 ||chtbl.com^$third-party,document
 ||clarity.ms^$third-party,document
+||omwtadxp.in^$popup
+||egotisticexcavateplywood.com^$popup
 ||clck.ru^$third-party,document
 ||clickadu.*^$third-party,document
 ||clickflare.com^$third-party,document
