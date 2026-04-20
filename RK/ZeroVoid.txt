@@ -24,7 +24,6 @@
 ||adoperator.*^$third-party,document
 ||adsterra.*^$third-party,document
 ||adsterracdn.*^$third-party,document
-||advertape.net^$popup
 ||airtable.com/embed*$third-party,frame,redirect=click2load.html
 ||ajax.googleapis.com^$third-party,document
 ||aka.ms^$third-party,document
@@ -41,7 +40,6 @@
 ||assets.rivian.com^$font,third-party
 ||at.alicdn.com^$font,third-party
 ||awstrack.me^$third-party,document
-||b7510.com^$popup
 ||bandcamp.com/EmbeddedPlayer/$third-party,frame,redirect=click2load.html
 ||bc.vc^$third-party,document
 ||bemobtrk.com^$third-party,document
@@ -69,7 +67,6 @@
 ||checkout.shopify.com/$third-party,frame,redirect=click2load.html
 ||chtbl.com^$third-party,document
 ||clarity.ms^$third-party,document
-||omwtadxp.in^$popup
 ||egotisticexcavateplywood.com^$popup
 ||clck.ru^$third-party,document
 ||clickadu.*^$third-party,document
@@ -86,7 +83,6 @@
 ||codepen.io/hubspot/embed/$third-party,frame,redirect=click2load.html,domain=~theodinproject.com
 ||comm-files-universityofconn.netdna-ssl.com^$font,third-party
 ||coolfontsapi.b-cdn.net^$font,third-party
-||crn77.com^$popup
 ||ct.sendgrid.net^$third-party,document
 ||customer.io^$third-party,document
 ||cutt.ly^$third-party,document
@@ -125,10 +121,8 @@
 ||embed.tiktok.com^$third-party,frame,redirect=click2load.html
 ||embed.typeform.com/$third-party,frame,redirect=click2load.html
 ||encore.scdn.co^$font,third-party
-||eporner.com^$popup
 ||exacttarget.com^$third-party,document
 ||exoclick.*^$third-party,document
-||ey43.com^$popup
 ||f.kinja-static.com^$font,third-party
 ||facebook.com/l.php^$third-party,document
 ||facebook.com/plugins/post.php^$third-party,frame,redirect=click2load.html
@@ -233,7 +227,6 @@
 ||glitch.com/embed/$third-party,frame,redirect=click2load.html
 ||glnk.io^$third-party,document
 ||go-aff.com^$third-party,document
-||go.gsrv.dev^$popup
 ||goo.gl^$third-party,document
 ||google.com/maps/embed$third-party,frame,redirect=click2load.html
 ||google.com/url?^$third-party,document
@@ -257,28 +250,22 @@
 ||instagram.com/p/^$third-party,frame,redirect=click2load.html
 ||instagram.com/reel/^$third-party,frame,redirect=click2load.html
 ||intercom.io^$third-party,document
-||invl.me^$popup
 ||ionicframework.com^$font,third-party
 ||is.gd^$third-party,document
 ||issuu.com/embed^$third-party,frame,redirect=click2load.html
-||jaya9bangladesh.com^$popup
-||jr.prahmnatured.com^$popup
 ||keitaro.io^$third-party,document
 ||kick.com/embed^$third-party,frame,redirect=click2load.html
 ||kochava.com^$third-party,document
 ||leeapk.com/wp-content/uploads/*/ads*^$image
-||leeapk.com^$popup
 ||linearicons.com^$font,third-party
 ||list-manage.com^$third-party,document
 ||lnk.bio^$third-party,document
 ||lnk.to^$third-party,document
 ||lnkd.in^$third-party,document
 ||loom.com/embed/$third-party,frame,redirect=click2load.html
-||luluvdo.com^$popup
 ||mailgun.org^$third-party,document
 ||maps.google.com/maps/embed*$third-party,frame,redirect=click2load.html
 ||marketo.com^$third-party,document
-||mat6tube.com^$popup,third-party
 ||media-amazon.com/*track,ing^$image,third-party,document
 ||media.tdameritrade.com^$font,third-party
 ||medium.com/media^$third-party,frame,redirect=click2load.html
@@ -286,14 +273,11 @@
 ||mixcloud.com/widget/$third-party,frame,redirect=click2load.html
 ||mixpanel.com^$third-party,document
 ||mjt.lu^$third-party,document
-||mlsbd.co^$popup
-||modgaga.com^$popup
 ||mojidepa.com^$font,third-party
 ||msha.ke^$third-party,document
 ||myfontastic.com^$font,third-party
 ||newrelic.com^$third-party,document
 ||nimblefonts.nimbledeals.com^$font,third-party
-||noodlemagazine.com^$popup,third-party
 ||notion.so/embed^$third-party,frame,redirect=click2load.html
 ||nr-data.net^$third-party,document
 ||ok.ru/videoembed^$third-party,frame,redirect=click2load.html
@@ -306,7 +290,6 @@
 ||pardot.com^$third-party,document
 ||partnerize.com^$third-party,document
 ||patreon.com/embed^$third-party,frame,redirect=click2load.html
-||pervtube.net^$popup
 ||pirsch.io^$third-party,document
 ||pixel.wp.com^$third-party,document
 ||plausible.io^$third-party,document
@@ -341,12 +324,8 @@
 ||popsup.*^$third-party,document
 ||popunder.*^$third-party,document
 ||popuptraffic.*^$third-party,document
-||pornhoarder.io^$popup,third-party
-||pornhoarder.net^$popup,third-party
 ||pornhub.com/embed/$third-party,frame,redirect=click2load.html
-||porntrex.com^$popup
 ||prod-cdn-library-abblibrary-ebgjc7dxe6ghgfem.a01.azurefd.net^$font,third-party
-||profitablecpmratenetwork.com^$popup
 ||propeller-tracking.*^$third-party,document
 ||propellerads.*^$third-party,document
 ||propellerclick.*^$third-party,document
@@ -369,12 +348,9 @@
 ||rtbtrack.*^$third-party,document
 ||rumble.com/embed^$third-party,frame,redirect=click2load.html
 ||rutube.ru/play/embed/$third-party,frame,redirect=click2load.html
-||s.click.aliexpress.com^$popup
-||s0-greate.net^$popup
 ||s9e.github.io/iframe/$third-party,frame,redirect=click2load.html
 ||safe.txmblr.com^$third-party,frame,redirect=click2load.html
 ||sailthru.com^$third-party,document
-||savelinks.me^$popup
 ||scribd.com/embeds/$third-party,frame,redirect=click2load.html
 ||segment.io^$third-party,document
 ||sendgrid.net^$third-party,document
@@ -398,19 +374,15 @@
 ||stats.wp.com^$third-party,document
 ||stay22.com/embed/$third-party,frame,redirect=click2load.html
 ||strava.com/embed^$third-party,frame,redirect=click2load.html
-||streamtape.net^$popup
-||streamtape.to^$popup
 ||substack.com/embed^$third-party,frame,redirect=click2load.html
 ||t.adcell.com^$third-party,document
 ||t.co^$third-party,document
 ||t.ly^$third-party,document
 ||t.me^$third-party,document
-||tapecontent.*^$popup,third-party
 ||thefontzone.com^$font,third-party
 ||threads.net/@*/post/^$third-party,frame,redirect=click2load.html
 ||tiny.cc^$third-party,document
 ||tinyurl.com^$third-party,document
-||tnaflix.com^$popup,third-party
 ||tracking-api.net^$third-party,document
 ||tracknow.io^$third-party,document
 ||traderjoexyz.com/$third-party,frame,redirect=click2load.html
@@ -430,7 +402,6 @@
 ||typekit.net^$font,third-party
 ||typography.doordash.com^$font,third-party
 ||typotheque.com^$font,third-party
-||ukdevilz.com^$popup,third-party
 ||umami.is^$third-party,document
 ||use.typekit.net^$font,third-party
 ||view.genial.ly$third-party,frame,redirect=click2load.html
@@ -457,16 +428,41 @@
 ||youtube.com^$third-party,frame,redirect=click2load.html,domain=~bing.com|~chatreplay.stream|~google.com|~duckduckgo.com|~video.search.yahoo.com|~w2g.tv|~thebluealliance.com|~theguardian.com|~songsterr.com
 ||zapier-fonts-production.s3.amazonaws.com^$font,third-party
 ||zeropark.*^$third-party,document
-advertape.net##+js(aopr, open)
-anjowpoft.in##+js(aopr, open)
-b7510.com##+js(aopr, open)
-crn77.com##+js(aopr, open)
-effectivegatecpm.com##+js(aopr, open)
-ey43.com##+js(aopr, open)
-go.gsrv.dev##+js(aopr, open)
-invl.me##+js(aopr, open)
-jaya9bangladesh.com##+js(aopr, open)
-jr.prahmnatured.com##+js(aopr, open)
+mat6tube.com##+js(no-window-open-if-click)
+ukdevilz.com##+js(no-window-open-if-click)
+noodlemagazine.com##+js(no-window-open-if-click)
+tnaflix.com##+js(no-window-open-if-click)
+eporner.com##+js(no-window-open-if-click)
+porntrex.com##+js(no-window-open-if-click)
+savelinks.me##+js(no-window-open-if-click)
+streamtape.to##+js(no-window-open-if-click)
+streamtape.net##+js(no-window-open-if-click)
+whoreshub.com##+js(no-window-open-if-click)
+pervtube.net##+js(no-window-open-if-click)
+mlsbd.co##+js(no-window-open-if-click)
+pornhoarder.net##+js(no-window-open-if-click)
+luluvdo.com##+js(no-window-open-if-click)
+luluvdo.com##iframe:not([id="legit-frame"])
+streamtape.to##iframe:not([id="legit-frame"])
+advertape.net##iframe:not([id="legit-frame"])
+tapecontent.*##iframe:not([id="legit-frame"])
+||teknoasian.com^$popup,third-party
+||leeapk.com^$popup
+||go.gsrv.dev^$popup
+||effectivegatecpm.com^$popup
+||ey43.com^$popup
+||b7510.com^$popup
+||invl.me^$popup
+||modgaga.com^$popup
+||jaya9bangladesh.com^$popup
+||jr.prahmnatured.com^$popup
+||s0-greate.net^$popup
+||crn77.com^$popup
+||omwtadxp.in^$popup
+||anjowpoft.in^$popup
+||egotisticexcavateplywood.com^$popup
+||s.click.aliexpress.com^$popup
+||profitablecpmratenetwork.com^$popup
 leeapk.com##.advertisement
 leeapk.com##.entry-content > p:has(img[src*="ads"])
 leeapk.com##.entry-content center:has(img)
