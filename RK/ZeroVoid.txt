@@ -6,11 +6,11 @@
 ||mat6tube.com^$popup,third-party
 ||ukdevilz.com^$popup,third-party
 ||noodlemagazine.com^$popup,third-party
-||tnaflix.com^$popup
-||eporner.com^$popup,third-party
+||tnaflix.com^$popup,third-party
+||eporner.com^$popup
 ||porntrex.com^$popup
 ||savelinks.me^$popup
-||streamtape.to^$popup
+||streamtape.to^$popup,third-party
 ||whoreshub.com^$popup
 ||pervtube.net^$popup,third-party
 ||mlsbd.co^$popup
