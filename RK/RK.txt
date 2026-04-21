@@ -1,12 +1,18 @@
-!======Special Entries======
 ||mat6tube.com^$popup
+||mat6tube.com^$third-party
 ||ukdevilz.com^$popup
+||ukdevilz.com^$third-party
 ||noodlemagazine.com^$popup
+||noodlemagazine.com^$third-party
 ||tnaflix.com^$popup
+||tnaflix.com^$third-party
 ||eporner.com^$popup
+||eporner.com^$third-party
 ||porntrex.com^$popup
+||porntrex.com^$third-party
 ||savelinks.me^$popup
 ||streamtape.to^$popup
+||streamtape.to^$third-party
 ||whoreshub.com^$popup
 ||pervtube.net^$popup
 ||mlsbd.co^$popup
@@ -33,24 +39,3 @@
 ||egotisticexcavateplywood.com^$popup
 ||s.click.aliexpress.com^$popup
 ||profitablecpmratenetwork.com^$popup
-crn77.com##+js(aopr, open)
-omwtadxp.in##+js(aopr, open)
-anjowpoft.in##+js(aopr, open)
-egotisticexcavateplywood.com##+js(aopr, open)
-advertape.net##+js(aopr, open)
-go.gsrv.dev##+js(aopr, open)
-b7510.com##+js(aopr, open)
-effectivegatecpm.com##+js(aopr, open)
-ey43.com##+js(aopr, open)
-modgaga.com##+js(aopr, open)
-invl.me##+js(aopr, open)
-jaya9bangladesh.com##+js(aopr, open)
-jr.prahmnatured.com##+js(aopr, open)
-s0-greate.net##+js(aopr, open)
-s.click.aliexpress.com##+js(aopr, open)
-streamtape.net##+js(aopr, open)
-pornhoarder.net##+js(aopr, open)
-crn77.com##+js(aopr, open)
-tapecontent.*##+js(aopr, open)
-profitablecpmratenetwork.com##+js(aopr, open)
-!======End of SE======
