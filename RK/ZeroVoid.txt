@@ -37,15 +37,6 @@
 ||egotisticexcavateplywood.com^$popup
 ||s.click.aliexpress.com^$popup
 ||profitablecpmratenetwork.com^$popup
-dood.re##+js(addEventListener-defuser, contextmenu)
-mat6tube.com##+js(nano-setTimeout-booster, download, 1100)
-noodlemagazine.com##+js(adjust-setTimeout, download, 1000)
-noodlemagazine.com##+js(adjust-setTimeout, download, 1100)
-ukdevilz.com##+js(adjust-setTimeout, download, 1100)
-streamtape.*##+js(adjust-setTimeout, counter, , 0.02)
-streamtape.*##+js(nano-setTimeout-booster, counter)
-txxx.com##.jwplayer:style(max-height: initial!important;)
-speedtest.net###modal-overlay
 ||leeapk.com/wp-content/uploads/*/ads*^$image
 ||*.wp.com/leeapk.com/wp-content/uploads/2025/09/ads*^$image
 leeapk.com##.entry-content center:has(img)
