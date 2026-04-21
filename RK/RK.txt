@@ -1,21 +1,20 @@
 !======Special Entries======
-
-||mat6tube.com^$popup,subdocument
-||ukdevilz.com^$popup,subdocument
-||noodlemagazine.com^$popup,subdocument
-||tnaflix.com^$popup,subdocument
-||eporner.com^$popup,subdocument
-||porntrex.com^$popup,subdocument
-||savelinks.me^$popup,subdocument
-||streamtape.to^$popup,subdocument
-||whoreshub.com^$popup,subdocument
-||pervtube.net^$popup,subdocument
-||mlsbd.co^$popup,subdocument
-||pornhoarder.net^$popup,subdocument
-||luluvdo.com^$popup,subdocument
-||advertape.net^$popup,subdocument
-||tapecontent.*^$popup,subdocument
-||streamtape.*^$popup,subdocument
+||mat6tube.com^$popup
+||ukdevilz.com^$popup
+||noodlemagazine.com^$popup
+||tnaflix.com^$popup
+||eporner.com^$popup
+||porntrex.com^$popup
+||savelinks.me^$popup
+||streamtape.to^$popup
+||whoreshub.com^$popup
+||pervtube.net^$popup
+||mlsbd.co^$popup
+||pornhoarder.net^$popup
+||luluvdo.com^$popup
+||advertape.net^$popup
+||tapecontent.*^$popup
+||streamtape.*^$popup
 ||teknoasian.com^$popup,third-party
 ||leeapk.com^$popup
 ||go.gsrv.dev^$popup
@@ -54,5 +53,4 @@ pornhoarder.net##+js(aopr, open)
 crn77.com##+js(aopr, open)
 tapecontent.*##+js(aopr, open)
 profitablecpmratenetwork.com##+js(aopr, open)
-
 !======End of SE======
