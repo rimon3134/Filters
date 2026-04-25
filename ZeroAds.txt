@@ -1,6 +1,6 @@
 ! Title: 🛡️ RK’s ZeroAds
 ! Author: Rimon Hossain
-! Version: 2026-04-25
+! Version: 2026-04-26
 ! Description: ZeroAds — blocks ads, trackers, spam, scams, phishing, popups, overlays, widgets, and beyond, bringing less noise and more cosmic calm to the clickverse.
 ! Homepage: https://rimon3134.github.io/Filters
 ! RAW: https://raw.githubusercontent.com/rimon3134/Filters/main/ZeroAds.txt
@@ -708,6 +708,7 @@
 ||7v6gvx5b5ywlu289zh.cfd^
 ||7vf2llmkf59tl38o4ongf1c7.rest^
 ||7w4f7nvo9j29zl6ptzqn2ft.cfd^
+||7xylvi8v9up5pbxbj.cfd^
 ||7yjb6ihxfk7n57pt7ocmfi4ltbb8.rest^
 ||7yormczmtp3owb3lf6lkk8y5ewovl4387i.rest^
 ||8.www.0ul1wlo58s-vu69us-r1u.xyz^
@@ -4101,6 +4102,7 @@
 ||boutelremendsoily.qpon^
 ||bovinetimingunsaddle.com^
 ||bovxwguos.com^
+||bovzimhugcomc.online^
 ||bowed-tackle.com^
 ||bowerywill.com^
 ||bowessfustily.cfd^
@@ -9014,6 +9016,7 @@
 ||floralrichardapprentice.com^
 ||florulaplumose.cfd^
 ||flossyethanol.com^
+||flotsamreinter.qpon^
 ||flourishingscreencousin.com^
 ||flower-byte.com^
 ||flownetexpress.com^
@@ -9562,6 +9565,7 @@
 ||geegad.com^
 ||geelbecnogaku.cyou^
 ||geesmqgnmzpyq.online^
+||geetecrlxnygu.online^
 ||geeunlessarcade.com^
 ||geeyfircgahp.com^
 ||geggeesublong.shop^
@@ -11126,6 +11130,7 @@
 ||ifvrcwxxbmvoo.website^
 ||igagrrkyfmty.com^
 ||igaming-warp-service.io^
+||igdrcnifypjq.com^
 ||igfpbdwgttdfs.site^
 ||iggfwsbqonyyw.online^
 ||iglesiamincier.cfd^
@@ -11572,6 +11577,7 @@
 ||iptvqiahamw.com^
 ||iqhtdwxlg.com^
 ||iqhukikoozouv.space^
+||iqmkgxasbvnih.space^
 ||iqmrtedkyrgxq.com^
 ||iqoczawzdbpai.space^
 ||iqqhawempnrck.website^
@@ -11723,6 +11729,7 @@
 ||izlenzi.com^
 ||izlz3mewrf7xrb6kj8j52f.rest^
 ||izooto.com^
+||j2cpjr7qipjtjiip.rest^
 ||j2lroqu7.kgyniewjoxgngfw8n.cyou^
 ||j3gb21.com^
 ||j3nk4xq449.l1le6x3v87bjn3b.cfd^
@@ -11916,6 +11923,7 @@
 ||jkjggpgnvlvdf.online^
 ||jkkqvygmqdcop.site^
 ||jklxltljnrvnt.space^
+||jkntebxbvq.com^
 ||jkuhzigovljcc.space^
 ||jkxlzrxhtqrdr.online^
 ||jkydijiclzyan.online^
@@ -12465,6 +12473,7 @@
 ||koiaripolymny.com^
 ||koitapuwone.shop^
 ||kokuminfounderredlegs.qpon^
+||kokuwdvomxaja.website^
 ||kokzjh29wnttolm.cfd^
 ||kolaspravity.qpon^
 ||kollerforce.shop^
@@ -12840,6 +12849,7 @@
 ||lfvsdldinsbn.com^
 ||lfyatgjipbutg.website^
 ||lgidoqcabrwia.website^
+||lgjqtkdvnxfes.space^
 ||lgjuhtsiafi.com^
 ||lglvpblubkfgd.site^
 ||lgoaagbsnpbqw.website^
@@ -13029,6 +13039,7 @@
 ||lltfmlpvyixut.website^
 ||lltvyepqcqelw.space^
 ||lluqlhdvvucid.site^
+||llvfxpjuluyci.site^
 ||llvpn.com^
 ||lmbxvsykkceox.online^
 ||lmbyblmrye.com^
@@ -13805,6 +13816,7 @@
 ||millerthe.com^
 ||milletplentifulcommentary.com^
 ||millionairepilgrim.com^
+||millkenthawers.qpon^
 ||millonard1.info^
 ||millsuspect.com^
 ||milsiesabring.cfd^
@@ -16846,6 +16858,7 @@
 ||pshb.me^
 ||pshmvdobslfrg.website^
 ||psidmjbykhff.com^
+||psidwlsscbfpqci.com^
 ||psilaurgi.net^
 ||psma02.com^
 ||psoabojaksou.net^
@@ -17228,6 +17241,7 @@
 ||qidnanah.in^
 ||qidqmephogw.in^
 ||qigkvucouqnjs.space^
+||qikjqmbxvpdpw.online^
 ||qimyczeqnpsnzo.com^
 ||qingolor.com^
 ||qinvaris.com^
@@ -17251,6 +17265,7 @@
 ||qkwzfobrsku.com^
 ||qkxfqleua.com^
 ||qkywopumttfgd.com^
+||qlankrifncwbd.site^
 ||qlfqkjluvz.com^
 ||qlitics.com^
 ||qljbncscqxlez.online^
@@ -18193,6 +18208,7 @@
 ||rpfbkyek.com^
 ||rpjlfiqub.com^
 ||rpmumphbatubt.space^
+||rpohtzonfvitu.online^
 ||rpokplgddrbjg.site^
 ||rpts.org^
 ||rpyfymluiytke.website^
@@ -19438,6 +19454,7 @@
 ||slipperydesire.pro^
 ||slise.xyz^
 ||slit.lewd.rip^
+||slivegphbana.qpon^
 ||slivesapsago.cfd^
 ||sliwercohue.top^
 ||sljqsjvmwxrnd.com^
@@ -20226,6 +20243,7 @@
 ||suganslurps.shop^
 ||suggestbingo.com^
 ||suggestionemphasiscourage.com^
+||sugpxweikuzls.site^
 ||suicismunscent.shop^
 ||suistoopsstummed.cyou^
 ||suitedeatercrutch.com^
@@ -20516,6 +20534,7 @@
 ||taobwwjmaps.com^
 ||taogbhzmcpf.com^
 ||taoyinbiacid.com^
+||taozzaqjlmzzc.website^
 ||tap-nexus.appspot.com^
 ||tapad.com^
 ||tapasvimuftisemim.cyou^
@@ -21005,6 +21024,7 @@
 ||tokamakshippy.cfd^
 ||tokenads.com^
 ||toksoudsoab.net^
+||tokyotossycay.qpon^
 ||tolerancewarily.com^
 ||tolerantignorancepicturesque.com^
 ||tollwaytabacin.cyou^
@@ -22599,6 +22619,7 @@
 ||vod-mplayer.sooplive.com^
 ||vodobyve.pro^
 ||voetfencedwedgies.cfd^
+||vofztrnxcutcr.com^
 ||vogtmoff.cyou^
 ||voguesebkhabrucina.cyou^
 ||volatintptr.com^
