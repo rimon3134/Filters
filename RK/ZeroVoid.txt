@@ -3,25 +3,27 @@
 ! Homepage: https://rimon3134.github.io/Filters
 ! Note: ☠💀 ~~~~ NOT FOR YOU ~~~~~ ☠💀
 !
-||mat6tube.com^$popup,third-party
-||ukdevilz.com^$popup,third-party
-||noodlemagazine.com^$popup,third-party
+||mat6tube.com^$popup
+||ukdevilz.com^$popup
+||noodlemagazine.com^$popup
 ||tnaflix.com^$popup
-||eporner.com^$popup,third-party
+||eporner.com^$popup
 ||porntrex.com^$popup
 ||savelinks.me^$popup
 ||streamtape.to^$popup
 ||whoreshub.com^$popup
-||pervtube.net^$popup,third-party
+||pervtube.net^$popup
 ||mlsbd.co^$popup
-||pornhoarder.net^$popup
+||pornhoarder.net^$popup,third-party
 ||luluvdo.com^$popup
+||playmogo.com^$popup,third-party
 ||advertape.net^$popup
 ||tapecontent.*^$popup
-||streamtape.*^$popup
+||streamtape.*^$popup,third-party
 ||teknoasian.com^$popup,third-party
 ||leeapk.com^$popup
-||go.gsrv.dev^$popup
+||gsrv.dev^$popup
+||*.gsrv.dev^$popup
 ||pahe.ink^$popup,third-party
 ||effectivegatecpm.com^$popup
 ||ey43.com^$popup
@@ -45,6 +47,8 @@ leeapk.com##.entry-content center:has-text(Advertisement)
 leeapk.com##.entry-content > p:has(img[src*="ads"])
 leeapk.com##.advertisement
 leeapk.com##div[class*="adsby"]
+||*.alicdn.com/kf/*.jpg^$image
+||ae-pic-a1.aliexpress-media.com/kf/*.jpg^$image
 !========== Anti-Trackers ==========
 ||admaven*^$third-party,document
 ||adoperator*^$third-party,document
