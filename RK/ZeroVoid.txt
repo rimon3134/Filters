@@ -317,3 +317,12 @@ leeapk.com##div[class*="adsby"]
 ||webtype.com^$font,third-party
 ||www-tc.pbs.org^$font,third-party
 ||zapier-fonts-production.s3.amazonaws.com^$font,third-party
+! 2026-01-29 https://leeapk.com
+leeapk.com##div[class^="acrp-ad-box-"]
+leeapk.com##a[href*=".daraz."]:upward(a)
+leeapk.com##a[href*="aliexpress."]:upward(a)
+leeapk.com##img[src*=".lazcdn."]
+leeapk.com##img[src*=".alicdn."]
+
+! --- Kill the Redirect Scripts ---
+leeapk.com##+js(nowoif, /daraz|aliexpress/)
