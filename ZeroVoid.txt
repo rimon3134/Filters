@@ -2465,6 +2465,14 @@ www.google.*##.related-question-pair
 www.google.*##[data-hveid="CAIQAQ"]
 www.google.*##[data-mcpr]            
 www.google.*##button:has(path[d^="M17.5 12c0-3.04 2.46-5.5"])
+! --- LeeAPK Master Global Block (Daraz & AliExpress) ---
+leeapk.com##div[class^="acrp-ad-box-"]:remove()
+leeapk.com##a[href*=".daraz."]:remove()
+leeapk.com##a[href*="aliexpress."]:remove()
+leeapk.com##img[src*=".lazcdn."]:remove()
+leeapk.com##img[src*=".alicdn."]:remove()
+! --- Kill the Redirect Scripts ---
+leeapk.com##+js(nowoif, /daraz|aliexpress/)
 www.youtube.com##[has-video-summary]
 www.youtube.com##div.ytp-panel-menu > div.ytp-menuitem .ytp-premium-label:has-text(/^Super[- ]/):upward(.ytp-menuitem)
 www.youtube.com##div[skip-key-interaction], yt-thumbnail-hover-overlay-toggle-actions-view-model
