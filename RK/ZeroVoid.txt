@@ -3,7 +3,7 @@
 ! Homepage: https://rimon3134.github.io/Filters
 ! Note: ☠💀 ~~~~ NOT FOR YOU ~~~~~ ☠💀
 !
-! ===== Malicious Entries =====
+! ===== Unique Entries =====
 ||mat6tube.com^$popup,third-party
 ||ukdevilz.com^$popup,third-party
 ||noodlemagazine.com^$popup,third-party
