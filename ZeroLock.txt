@@ -1,6 +1,6 @@
 ! Title: 🔓 RK’s ZeroLock List
 ! Author: Rimon Hossain
-! Version: 2026-05-15
+! Version: 2026-05-18
 ! Description: Neutralizes anti-adblock scripts, overlays, and site-blockades with surgical precision. 🕶️
 ! Homepage: https://rimon3134.github.io/Filters
 ! RAW: https://raw.githubusercontent.com/rimon3134/Filters/main/ZeroLock.txt
@@ -1596,6 +1596,7 @@ popsci.com#$#.tp-backdrop { display: none!important; }
 popsci.com#$#.tp-modal { display: none!important; }
 popsci.com#$#body.tp-modal-open { overflow: visible!important; }
 pormo.xyz,webseriessex.com#$##myTestAd { height: 1px !important; }
+porndish.com,xvipp.com,4drumkits.com,altselection.com##.g1-canvas + div[id][class*=" "]
 pornhub.com##.videoPremiumBlock
 pornhub.com,pornhub.org,pornhub.net###abAlert
 pornleaks.in,comohoy.com##div[id^="anti-adblock-"]
@@ -2127,7 +2128,6 @@ xtremestream.co#$#.ad { height: 100px !important; }
 xtremestream.xyz#$#body > .ad { height: 20px !important; position: absolute !important; left: -3000px !important; }
 xup.in###xupab
 xup.in#?##xupab
-xvipp.com,4drumkits.com,altselection.com##.g1-canvas + div[id][class*=" "]
 yamsoti.com##body > footer ~ script + div[id][class*=" "]:not(.Ad-Container)
 yasumesi.com,barrier-free.net###page-top + div[id][class*=" "]
 yify-subs.xyz##ab-detector
