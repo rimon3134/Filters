@@ -214,10 +214,8 @@
 ||assets.rivian.com^$font,third-party
 ||at.alicdn.com^$font,third-party
 ||bunnyfonts.b-cdn.net^$font,third-party
-||cdn.linearicons.com^$font,third-party
 ||cloud.webtype.com^$font,third-party
 ||clyde-fonts.s3.amazonaws.com^$font,third-party
-||code.ionicframework.com^$font,third-party
 ||comm-files-universityofconn.netdna-ssl.com^$font,third-party
 ||coolfontsapi.b-cdn.net^$font,third-party
 ||d1d5duwb3jk17d.cloudfront.net^$font,third-party
@@ -238,8 +236,7 @@
 ||fontawesome.com^$font,third-party
 ||fontastic.me^$font,third-party
 ||fontcdn.ir^$font,third-party
-||fontface.me^$font,third-party
-||fonticons.com^$font,third-party
+||fontface.me^$font,third-party
 ||fontify.nitroapps.co^$font,third-party
 ||fontlibrary.org^$font,third-party
 ||fontplus.aem.kao.com^$font,third-party
