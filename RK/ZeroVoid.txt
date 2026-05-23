@@ -22,7 +22,7 @@
 ||advertape.net^$popup,third-party
 ||tapecontent.*^$popup,third-party
 ||streamtape.*^$popup,third-party
-||leeapk.com^$popup,third-party
+||leeapk.com^$popup
 ||gsrv.dev^$popup
 ||*.gsrv.dev^$popup
 ||teknoasian.com^$popup,third-party
