@@ -373,9 +373,10 @@ leeapk.com##img[src*=".alicdn."]
 leeapk.com##img[src*="affiliate"]
 ! ===== NETWORK-LEVEL BLOCKING =====
 ! Block affiliate redirects
-||daraz.com^$domain=leeapk.com
-||aliexpress.com^$domain=leeapk.com
-||lazada.com^$domain=leeapk.com
+||s.daraz.com.bd^$popup
+||*.daraz.com^$popup
+||*.aliexpress.com^$popup
+||lazada.com^$popup
 ! Block CDN resources
 ||lazcdn.com^$domain=leeapk.com
 ||alicdn.com^$domain=leeapk.com
