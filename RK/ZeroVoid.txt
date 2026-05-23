@@ -312,7 +312,6 @@ leeapk.com##div[data-affiliate]
 ||font.im^$font,third-party
 ||font-public.canva.com^$font,third-party
 ||font.realtype.jp^$font,third-party
-||fontastic.me^$font,third-party
 ||fontcdn.ir^$font,third-party
 ||fontface.me^$font,third-party
 ||fontify.nitroapps.co^$font,third-party
@@ -398,13 +397,10 @@ leeapk.com##div[data-affiliate]
 ||gel.files.bbci.co.uk^$font,third-party
 ||gfonts.jwwb.nl^$font,third-party
 ||hpefonts.s3.amazonaws.com^$font,third-party
-||iconmonstr.com^$font,third-party
 ||i.piano.io^$font,third-party
-||linearicons.com^$font,third-party
 ||media.tdameritrade.com^$font,third-party
 ||minted-fonts.mintedcdn.net^$font,third-party
 ||mojidepa.com^$font,third-party
-||myfontastic.com^$font,third-party
 ||nimblefonts.nimbledeals.com^$font,third-party
 ||onlinewebfonts.com^$font,third-party
 ||pls.webtype.com^$font,third-party
@@ -424,4 +420,10 @@ leeapk.com##div[data-affiliate]
 ||typotheque.com^$font,third-party
 ||use.typekit.net^$font,third-party
 ||webfont.honda.co.jp^$font,third-party
-||webfonts.cre
+||webfonts.creativecloud.com^$font,third-party
+||webfonts.ru^$font,third-party
+||webfonts.xserver.jp^$font,third-party
+||webfonts.zohostatic.com^$font,third-party
+||webfonts.zohowebstatic.com^$font,third-party
+||webtype.com^$font,third-party
+||www-tc.pbs.org^$font,third-party
