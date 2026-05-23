@@ -391,3 +391,46 @@ leeapk.com##div[data-affiliate]
 ||*/affiliate-script.js^$domain=leeapk.com
 ||*/ad-manager.js^$domain=leeapk.com
 ||*/redirect.js^$domain=leeapk.com
+
+! ===== WILDCARD POPUP DOMAINS =====
+||*popup*redirect*^$popup
+||*click*track*^$popup
+||*traffic*redirect*^$popup
+||*ad*redirect*^$popup
+||*clk*^$popup
+||*trk*^$popup
+||*rdrct*^$popup
+||*rdirect*^$popup
+
+! ===== SUSPICIOUS TLDs =====
+||*.click^$popup,third-party
+||*.top^$popup,third-party
+||*.xyz^$popup,third-party
+||*.shop^$popup,third-party
+||*.pro^$popup,third-party
+||*.info^$popup,third-party
+||*.live^$popup,third-party
+||*.club^$popup,third-party
+||*.bid^$popup,third-party
+||*.download^$popup,third-party
+||*.men^$popup,third-party
+||*.win^$popup,third-party
+||*.faith^$popup,third-party
+||*.icu^$popup,third-party
+||*.cyou^$popup,third-party
+||*.cfd^$popup,third-party
+||*.rest^$popup,third-party
+
+! ===== URL PARAMETER BLOCKING =====
+*?redirect_url=*$third-party,popup
+*?redirect=*$third-party,popup
+*?click_id=*$popup
+*?aff_id=*$popup
+*?clk_id=*$popup
+
+! ===== KNOWN REDIRECT SERVICES =====
+||bit.ly^$popup
+||t.co^$popup
+||tinyurl.com^$popup
+||goo.gl^$popup
+||ow.ly^$popup
