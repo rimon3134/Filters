@@ -16,6 +16,7 @@
 ||pervtube.net^$popup
 ||mlsbd.co^$popup
 ||pornhoarder.net^$popup,third-party
+||pornhoarder.io^$popup,third-party
 ||luluvdo.com^$popup,third-party
 ||playmogo.com^$popup,third-party
 ||advertape.net^$popup,third-party
@@ -24,33 +25,25 @@
 ||leeapk.com^$popup,third-party
 ||gsrv.dev^$popup
 ||*.gsrv.dev^$popup
-||pahe.ink^$popup,third-party
-||effectivegatecpm.com^
+||teknoasian.com^$popup,third-party
+||effectivegatecpm.com^$popup
 ||ey43.com^$popup
 ||b7510.com^$popup
 ||invl.me^$popup
 ||modgaga.com^$popup
-||jaya9bangladesh.com^
-||jr.prahmnatured.com^
-||s0-greate.net^
+||jaya9bangladesh.com^$popup
+||jr.prahmnatured.com^$popup
+||s0-greate.net^$popup
 ||crn77.com^$popup
 ||omwtadxp.in^$popup
 ||anjowpoft.in^$popup
-||nagad88f.com^
-||egotisticexcavateplywood.com^
-||pumopgsuhacs.in^
-||localnews.click^
+||nagad88f.com^$popup
+||egotisticexcavateplywood.com^$popup
+||pumopgsuhacs.in^$popup
+||localnews.click^$popup
 ||s.click.aliexpress.com^$popup
 ||profitablecpmratenetwork.com^$popup
-||*.click^$popup
-||*.bet^
-||*.vip^
-!!----- PerSonal -----!!!
-leeapk.com##div[class^="acrp-ad-box-"]
-leeapk.com##a[href*=".daraz."]
-leeapk.com##a[href*="aliexpress."]
-leeapk.com##img[src*=".lazcdn."]
-leeapk.com##img[src*=".alicdn."]
+||*.click^$popup
 !========== Anti-Trackers ==========
 ||stape.io^$third-party
 ||gtm-proxy.com^$third-party
@@ -365,13 +358,3 @@ leeapk.com##img[src*=".alicdn."]
 ||webfonts.zohowebstatic.com^$font,third-party
 ||webtype.com^$font,third-party
 ||www-tc.pbs.org^$font,third-party
-||zapier-fonts-production.s3.amazonaws.com^$font,third-party
-! 2026-01-29 https://leeapk.com
-leeapk.com##div[class^="acrp-ad-box-"]
-leeapk.com##a[href*=".daraz."]:upward(a)
-leeapk.com##a[href*="aliexpress."]:upward(a)
-leeapk.com##img[src*=".lazcdn."]
-leeapk.com##img[src*=".alicdn."]
-
-! --- Kill the Redirect Scripts ---
-leeapk.com##+js(nowoif, /daraz|aliexpress/)
