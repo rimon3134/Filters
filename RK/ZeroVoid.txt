@@ -1,134 +1,97 @@
+[Adblock Plus 2.0]
 ! Title: ⚡ RK’s ZeroVoid List
 ! Author: Rimon Hossain
 ! Homepage: https://rimon3134.github.io/Filters
 ! Note: ☠💀 ~~~~ NOT FOR YOU ~~~~~ ☠💀
 !
-! ===== Unique Entries =====
-||mat6tube.com^$popup,third-party
-||ukdevilz.com^$popup,third-party
-||noodlemagazine.com^$popup,third-party
-||tnaflix.com^$popup
-||eporner.com^$popup
-||porntrex.com^$popup
-||savelinks.me^$popup
-||streamtape.to^$popup
-||whoreshub.com^$popup
-||pervtube.net^$popup
-||mlsbd.co^$popup
-||pornhoarder.net^$popup,third-party
-||pornhoarder.io^$popup,third-party
-||luluvdo.com^$popup,third-party
-||playmogo.com^$popup,third-party
-||advertape.net^$popup,third-party
-||tapecontent.*^$popup,third-party
-||streamtape.*^$popup,third-party
-||leeapk.com^$popup
-||gsrv.dev^$popup
-||*.gsrv.dev^$popup
-||teknoasian.com^$popup,third-party
+
+! ===== Special Entries =====
+||go.gsrv.dev^$popup
 ||effectivegatecpm.com^$popup
 ||ey43.com^$popup
-||b7510.com^$popup
 ||invl.me^$popup
 ||modgaga.com^$popup
 ||jaya9bangladesh.com^$popup
 ||jr.prahmnatured.com^$popup
 ||s0-greate.net^$popup
+||s.click.aliexpress.com^$popup
+||noodlemagazine.com^$popup,third-party
+||streamtape.to^$popup
+||streamtape.*^$popup
+||advertape.net^$popup
+||teknoasian^$popup,third-party
+||leeapk.com^$popup
+||mlsbd.co^$popup
+||savelinks.me^$popup,third-party
+||ukdevilz.com^$popup,third-party
+||mat6tube.com^$popup,third-party
+||eporner.com^$popup,third-party
+||porntrex.com^$popup,third-party
+||tnaflix.com^$popup,third-party
+||tapecontent.*^$popup,third-party
+||profitablecpmratenetwork.com^$popup
+||pornhoarder.*^$popup
+||luluvdo.com^$popup
+||playmogo.com^$popup,third-party
+||anjowpoft.in^$popup
+||b7510.com^$popup
 ||crn77.com^$popup
 ||omwtadxp.in^$popup
-||anjowpoft.in^$popup
+||s.daraz.com.bd^$popup
 ||nagad88f.com^$popup
 ||egotisticexcavateplywood.com^$popup
 ||pumopgsuhacs.in^$popup
-||localnews.click^$popup
 ||s.click.aliexpress.com^$popup
 ||profitablecpmratenetwork.com^$popup
-||*.click^$popup
-! ===== LeeAPK =====
-! Hide affiliate/ad containers
+||localnews.click^$popup
+!!----- PerSonal -----!!!
 leeapk.com##div[class^="acrp-ad-box-"]
 leeapk.com##div[class*="ad-banner"]
 leeapk.com##div[class*="ad-container"]
-! Hide affiliate links
 leeapk.com##a[href*=".daraz."]
 leeapk.com##a[href*="aliexpress."]
 leeapk.com##a[href*="affiliate"]
-! Hide affiliate images
 leeapk.com##img[src*=".lazcdn."]
 leeapk.com##img[src*=".alicdn."]
 leeapk.com##img[src*="affiliate"]
-! ===== NETWORK-LEVEL BLOCKING =====
-! Block affiliate redirects
-||s.daraz.com.bd^$popup
 ||*.daraz.com^$popup
 ||*.aliexpress.com^$popup
 ||lazada.com^$popup
-! Block CDN resources
 ||lazcdn.com^$domain=leeapk.com
 ||alicdn.com^$domain=leeapk.com
 ! Block tracking/analytics from affiliates
 ||tracking.daraz.com^
 ||tracking.aliexpress.com^
 ||analytics.lazada.com^
-! Prevent redirect attempts
 leeapk.com##a[onclick*="daraz"]
 leeapk.com##a[onclick*="aliexpress"]
 leeapk.com##div[data-affiliate]
-! Block common ad script patterns
 ||*/affiliate-script.js^$domain=leeapk.com
 ||*/ad-manager.js^$domain=leeapk.com
 ||*/redirect.js^$domain=leeapk.com
+advertape.net##+js(nowoif, /\/(click|track|go|out|redir|jump|pop)/)
+mlsbd.co##+js(nowoif, jaya9)
+noodlemagazine.com##+js(nowoif, /\/(click|track|go|out|redir|jump|pop)/)
+ukdevilz.com##+js(nowoif, /\/(click|track|go|out|redir|jump|pop)/)
+playmogo.com##+js(nowoif, /\/(click|track|go|out|redir|jump|pop)/)
+luluvdo.com##+js(nowoif, /\/(click|track|go|out|redir|jump|pop)/)
+tnaflix.com##+js(nowoif, open.window)
+eporner.com##+js(nowoif, open.window)
+pervtube.net##+js(nowoif, open.window)
+pornhoarder.net##+js(nowoif, /\/(click|track|go|out|redir|jump|pop)/)
 
-! ===== WILDCARD POPUP DOMAINS =====
-||*popup*redirect*^$popup
-||*click*track*^$popup
-||*traffic*redirect*^$popup
-||*ad*redirect*^$popup
-||*clk*^$popup
-||*trk*^$popup
-||*rdrct*^$popup
-||*rdirect*^$popup
+!================================================!
+! RK’s Anti 3P-Fonts List
+!================================================!
 
-! ===== SUSPICIOUS TLDs =====
-||*.click^$popup,third-party
-||*.top^$popup,third-party
-||*.xyz^$popup,third-party
-||*.shop^$popup,third-party
-||*.pro^$popup,third-party
-||*.info^$popup,third-party
-||*.live^$popup,third-party
-||*.club^$popup,third-party
-||*.bid^$popup,third-party
-||*.download^$popup,third-party
-||*.men^$popup,third-party
-||*.win^$popup,third-party
-||*.faith^$popup,third-party
-||*.icu^$popup,third-party
-||*.cyou^$popup,third-party
-||*.cfd^$popup,third-party
-||*.rest^$popup,third-party
-
-! ===== URL PARAMETER BLOCKING =====
-*?redirect_url=*$third-party,popup
-*?redirect=*$third-party,popup
-*?click_id=*$popup
-*?aff_id=*$popup
-*?clk_id=*$popup
-
-! ===== KNOWN REDIRECT SERVICES =====
-||bit.ly^$popup
-||t.co^$popup
-||tinyurl.com^$popup
-||goo.gl^$popup
-||ow.ly^$popup
-
-!========== Anti-3P-Fonts ==========
 ||allfont.net^$font,third-party
 ||assets.rivian.com^$font,third-party
 ||at.alicdn.com^$font,third-party
 ||bunnyfonts.b-cdn.net^$font,third-party
+||cdn.linearicons.com^$font,third-party
 ||cloud.webtype.com^$font,third-party
 ||clyde-fonts.s3.amazonaws.com^$font,third-party
+||code.ionicframework.com^$font,third-party
 ||comm-files-universityofconn.netdna-ssl.com^$font,third-party
 ||coolfontsapi.b-cdn.net^$font,third-party
 ||d1d5duwb3jk17d.cloudfront.net^$font,third-party
@@ -149,7 +112,8 @@ leeapk.com##div[data-affiliate]
 ||fontawesome.com^$font,third-party
 ||fontastic.me^$font,third-party
 ||fontcdn.ir^$font,third-party
-||fontface.me^$font,third-party
+||fontface.me^$font,third-party
+||fonticons.com^$font,third-party
 ||fontify.nitroapps.co^$font,third-party
 ||fontlibrary.org^$font,third-party
 ||fontplus.aem.kao.com^$font,third-party
@@ -268,3 +232,189 @@ leeapk.com##div[data-affiliate]
 ||webfonts.zohowebstatic.com^$font,third-party
 ||webtype.com^$font,third-party
 ||www-tc.pbs.org^$font,third-party
+||zapier-fonts-production.s3.amazonaws.com^$font,third-party
+
+! ========================================================
+! RK’s ANTI CLICK‑TRACK / POPUP / REDIRECT – MEGALODON
+! Version: 2026.05.25 | Mode: Hardened | Scope: FULL COVERAGE
+! ========================================================
+
+! --- [1] 2026 SERVER-SIDE & "PRIVACY" ANALYTICS (NEW) ---
+||stape.io^$third-party,document
+||gtm-proxy.com^$third-party,document
+||sst-collector.com^$third-party,document
+||tracking-api.net^$third-party,document
+||analytics-gateway.io^$third-party,document
+||fathom-analytics.com^$third-party,document
+||plausible.io^$third-party,document
+||simpleanalytics.com^$third-party,document
+||umami.is^$third-party,document
+||pirsch.io^$third-party,document
+
+! --- [2] ANALYTICS & TELEMETRY SDKS (FROM OG + EXTENDED) ---
+||clarity.ms^$third-party,document
+||c.bing.com^$third-party,document
+||hotjar.com^$third-party,document
+||insights.hotjar.com^$third-party,document
+||cloudflareinsights.com^$third-party,document
+||static.cloudflareinsights.com^$third-party,document
+||fingerprintjs.com^$third-party,document
+||fpjs.io^$third-party,document
+||openfpcdn.io^$third-party,document
+||sentry.io^$third-party,document
+||browser.sentry-cdn.com^$third-party,document
+||newrelic.com^$third-party,document
+||nr-data.net^$third-party,document
+||datadoghq.com^$third-party,document
+||optimizely.com^$third-party,document
+||cdn.optimizely.com^$third-party,document
+||vwo.com^$third-party,document
+||app-measurement.com^$third-party,document
+||mixpanel.com^$third-party,document
+||heap.io^$third-party,document
+||amplitude.com^$third-party,document
+||segment.io^$third-party,document
+||intercom.io^$third-party,document
+||fullstory.com^$third-party,document
+||pixel.wp.com^$third-party,document
+||stats.wp.com^$third-party,document
+||appsflyer.com^$third-party,document
+||adjust.com^$third-party,document
+||kochava.com^$third-party,document
+||singular.net^$third-party,document
+||branch.io^$third-party,document
+
+! --- [3] EMAIL / CRM / MARKETING TRACKERS ---
+||marketo.com^$third-party,document
+||hubspot.com^$third-party,document
+||hs-analytics.net^$third-party,document
+||hs-scripts.com^$third-party,document
+||pardot.com^$third-party,document
+||7tiv.net^$third-party,document
+||mjt.lu^$third-party,document
+||awstrack.me^$third-party,document
+||sendgrid.net^$third-party,document
+||ct.sendgrid.net^$third-party,document
+||mailgun.org^$third-party,document
+||list-manage.com^$third-party,document
+||exacttarget.com^$third-party,document
+||sailthru.com^$third-party,document
+||customer.io^$third-party,document
+||braze.com^$third-party,document
+||socketlabs.com^$third-party,document
+||activehosted.com^$third-party,document
+||brevo.com^$third-party,document
+||campaign.aliexpress.com^$third-party,document
+
+! --- [4] AFFILIATE JUMPERS & CLICK BROKERS (2026 HARDENED) ---
+||rdtrk.com^$third-party,document
+||bemobtrk.com^$third-party,document
+||keitaro.io^$third-party,document
+||voluum.com^$third-party,document
+||clickmagick.com^$third-party,document
+||adform.net^$third-party,document
+||t.adcell.com^$third-party,document
+||clickflare.com^$third-party,document
+||tracknow.io^$third-party,document
+||binom.org^$third-party,document
+||impactradius-event.com^$third-party,document
+||rdrct.cc^$third-party,document
+||clks.link^$third-party,document
+||go-aff.com^$third-party,document
+||trk-menu.com^$third-party,document
+||pntrac.com^$third-party,document
+||pntra.com^$third-party,document
+||skimresources.com^$third-party,document
+||shopltk.com^$third-party,document
+||impact.com^$third-party,document
+||partnerize.com^$third-party,document
+
+! --- [5] POPUP & REDIRECT NETWORKS (CORE FROM ULTRA) ---
+||propellerads.*^$third-party,document
+||propellerclick.*^$third-party,document
+||propeller-tracking.*^$third-party,document
+||propu.sh^$third-party,document
+||popads.*^$third-party,document
+||popcash.*^$third-party,document
+||popmyads.*^$third-party,document
+||popsup.*^$third-party,document
+||popunder.*^$third-party,document
+||popuptraffic.*^$third-party,document
+||adsterra.*^$third-party,document
+||adsterracdn.*^$third-party,document
+||hilltopads.*^$third-party,document
+||clickadu.*^$third-party,document
+||directclicks.*^$third-party,document
+||adoperator.*^$third-party,document
+||admaven.*^$third-party,document
+||bidvertiser.*^$third-party,document
+||exoclick.*^$third-party,document
+||adcash.*^$third-party,document
+||plugrush.*^$third-party,document
+||revenuehits.*^$third-party,document
+||richads.*^$third-party,document
+||zeropark.*^$third-party,document
+||trafficstars.*^$third-party,document
+||trafficforce.*^$third-party,document
+||traffichunt.*^$third-party,document
+||trafficrouter.*^$third-party,document
+||trafficbroker.*^$third-party,document
+||rtbredirect.*^$third-party,document
+||rtbtrack.*^$third-party,document
+||rtbserve.*^$third-party,document
+
+! --- [6] SHORTENERS & LINK WRAPPERS (FULL DEDUPED) ---
+||bit.ly^$third-party,document
+||t.co^$third-party,document
+||t.me^$third-party,document
+||wa.me^$third-party,document
+||fb.me^$third-party,document
+||lnkd.in^$third-party,document
+||tinyurl.com^$third-party,document
+||rebrand.ly^$third-party,document
+||cutt.ly^$third-party,document
+||is.gd^$third-party,document
+||t.ly^$third-party,document
+||buff.ly^$third-party,document
+||goo.gl^$third-party,document
+||aka.ms^$third-party,document
+||adf.ly^$third-party,document
+||shorturl.at^$third-party,document
+||tiny.cc^$third-party,document
+||lnk.bio^$third-party,document
+||lnk.to^$third-party,document
+||msha.ke^$third-party,document
+||qr.ae^$third-party,document
+||trib.al^$third-party,document
+||glnk.io^$third-party,document
+||chtbl.com^$third-party,document
+||bc.vc^$third-party,document
+||clck.ru^$third-party,document
+||clk.im^$third-party,document
+||clk.sh^$third-party,document
+||clickmeter.com^$third-party,document
+||sniply.io^$third-party,document
+
+! --- [7] GENERIC DYNAMIC PATTERNS (2026 HARDENED) ---
+||*click*ads.*^$third-party,document
+||*click*track.*^$third-party,document
+||*click*redirect.*^$third-party,document
+||*traffic*redirect.*^$third-party,document
+||*ad*redirect.*^$third-party,document
+||*popup*redirect.*^$third-party,document
+||*redirection_url=*$third-party,document
+||*clk_id=*$third-party,document
+||*aff_id=*$third-party,document
+||*click_id=*$third-party,document
+
+! --- [8] BIG TECH & CDN CLEANUP ---
+||google.com/url?^$third-party,document
+||googleadservices.com/pagead/aclk^$third-party,document
+||amazon.com/gp/redirect/^$third-party,document
+||facebook.com/l.php^$third-party,document
+||media-amazon.com/*tracking^$image,third-party,document
+||cdn.jsdelivr.net/*tracking*$third-party,document
+||cdn.jsdelivr.net/*tracker*$third-party,document
+||cdn.jsdelivr.net/*analytics*$third-party,document
+||cdnjs.cloudflare.com^$third-party,document
+||ajax.googleapis.com^$third-party,document
