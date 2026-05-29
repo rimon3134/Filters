@@ -3114,7 +3114,7 @@
 ||techpump.com^
 ||tectalmammula.casa^
 ||tegleebs.com^
-||teknoasian.com^$popup,third-party
+||teknoasian.com^$third-party
 ||telemetry*.^$script,xmlhttprequest,subdocument,domain=~dictionary.telemetry.mozilla.org|~docs.telemetry.mozilla.org|~probeinfo.telemetry.mozilla.org|~public-data.telemetry.mozilla.org|~telemetry.console.api.aws
 ||telemetry.^$script,xmlhttprequest,subdocument,domain=~dictionary.telemetry.mozilla.org|~docs.telemetry.mozilla.org|~probeinfo.telemetry.mozilla.org|~public-data.telemetry.mozilla.org|~telemetry.console.api.aws
 ||telemetry.api.swiftkey.com^
