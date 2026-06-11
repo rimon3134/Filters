@@ -367,6 +367,7 @@
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=southpark.*|southparkstudios.*
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=swiss-sport.tv
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=titans.com.au
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=ultrapeli.com|worpress.seeks.cloud
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=viki.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=winknews.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=wionews.com|thepublive.com
@@ -1753,6 +1754,8 @@ learngeom.com#$##adblockbyspider { display: none !important; }
 learngeom.com#$#body { overflow: auto !important; }
 lectortaurus.com,manhuakko.com,inventariooculto.com,3xyaoi.com,mangacrab.org,tatakaescan.com,dragontranslation.org,taurus.topmanhuas.org,emperorscan.mundoalterno.org,baxoi.buzz,curiosidadtop.com,j5z.xyz,riwayat-word.com,tsubasatr.org,samuraiscan.cookni.net,galinhasamurai.com,twobluescans.com,swordalada.org,navernovel.com,marcialhub.xyz,infamous-scans.com,ragnarokscanlation.net,yuramanga.my.id,nocfsb.com,scansatlanticos.com,bokugents.com,lscomic.com,samuraiscan.org,nartag.com,mhscans.com,noblessetranslations.com,diamondfansub.com,atlantisscan.com,tecnoscann.com,mantrazscan.com##body > .wrap + div[id][class*=" "]
 leeapk.com###zdn-adblock-overlay
+leeapk.com#$##acrp-adb-overlay { display: none !important; }
+leeapk.com#$#.acrp-adb-blur { overflow: auto !important; pointer-events: auto !important; }
 leechall.com#$##adBanner { height: 25px !important; }
 leechpremium.net#$#.adsbygoogle { position: absolute!important; left: -3000px!important; }
 leechyscripts.com##div[class^="chp_ads_block_modal"]
