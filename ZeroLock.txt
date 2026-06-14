@@ -3055,17 +3055,9 @@ zx-pk.ru##div[style="background-color: yellow; border-width: 2px; border-style: 
 /^https?:\/\/pikabu\.ru\/ajax\/([A-Za-z0-9]{7,})+\?[A-Za-z0-9]+=[0-9a-z-]+[0-9a-z_]/$xmlhttprequest,domain=pikabu.ru
 _adblocker_detected
 _adblock_killer.
-! --- Leeapk Bypass Rules ---
-! 1. Intercept and block any script file that contains the anti-adblock functions
 leeapk.com##+js(set, abdRecheck, noopFunc)
-
-! 2. Defuse common script methods used to detect blocked script tags/divs
 leeapk.com##+js(chg-target, id, abd-overlay, noopFunc)
 leeapk.com##+js(bab)
-
-! 3. Nuke the HTML structure and force the UI layout open
 leeapk.com###abd-box
 leeapk.com###abd-overlay:remove()
-
-! 4. Globally override any forced CSS lockdowns on the layout roots
 leeapk.com##html, body:style(overflow: auto !important; position: static !important; filter: none !important; pointer-events: auto !important;)
