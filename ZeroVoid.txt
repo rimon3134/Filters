@@ -3226,7 +3226,7 @@
 ||techpump.com^
 ||tectalmammula.casa^
 ||tegleebs.com^
-||teknoasian.com^$popup
+||teknoasian.com^$third-party
 ||telemetry.api.swiftkey.com^
 ||telemetry.insights.video.a2z.com^
 ||teopantrivant.shop^
