@@ -18,14 +18,13 @@ All curated lists, hybrid rules, and updates are maintained there — the single
 
 _**⚡ This repository powers the Filter Portal**_
 
----
-
 ## 📊 Repository Status
 
-![Repo Size](https://img.shields.io/github/repo-size/rimon3134/Filters?style=flat-square)  ![License](https://img.shields.io/github/license/rimon3134/Filters?style=flat-square)  ![Last Commit](https://img.shields.io/github/last-commit/rimon3134/Filters?style=flat-square)  
+![License](https://img.shields.io/github/license/rimon3134/Filters?style=flat-square) 
+![Status](https://img.shields.io/badge/status-active-success?style=flat-square)
+![Last Commit](https://img.shields.io/github/last-commit/rimon3134/Filters?style=flat-square&color=blue)
 
 ---
-
 ## ✨ Why RK’s Filter Lists?
 
 The modern web is overloaded — ads, trackers, popups, overlays, telemetry, AI scripts, autoplay media, and anti-adblock mechanisms compete aggressively for control.
