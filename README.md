@@ -22,7 +22,7 @@ _**⚡ This repository powers the Filter Portal**_
 
 ## 📊 Repository Status
 
-![License](https://img.shields.io/github/license/rimon3134/Filters?style=flat-square) ![Status](https://img.shields.io/badge/status-active-success?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/rimon3134/Filters?style=flat-square&color=blue)
+![License](https://img.shields.io/github/license/rimon3134/Filters?style=flat-square) ![Repo Size](https://img.shields.io/github/repo-size/rimon3134/Filters?style=flat-square) ![Status](https://img.shields.io/badge/status-active-success?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/rimon3134/Filters?style=flat-square&color=blue)
 
 ---
 
