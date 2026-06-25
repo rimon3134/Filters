@@ -1,6 +1,6 @@
 ! Title: 🔓 RK’s ZeroLock List
 ! Author: Rimon Hossain
-! Version: 2026-06-24
+! Version: 2026-06-25
 ! Description: Neutralizes anti-adblock scripts, overlays, and site-blockades with surgical precision. 🕶️
 ! Homepage: https://rimon3134.github.io/Filters
 ! RAW: https://raw.githubusercontent.com/rimon3134/Filters/main/ZeroLock.txt
@@ -821,8 +821,6 @@ daemonanime.net#@#div[id^="div-gpt-"]
 daemonanime.net#@#[id^="div-gpt-ad"]
 daemonanime.net,daemon-hentai.com##body > a#scroll-up + div[id][class*=" "]
 dailyjobposting.xyz#@#.clever-core-ads
-dailyjobposting.xyz,tournguide.com,technons.com,jobnoid.net,shrtslug.biz#@#.ad-unit:not(.textads)
-dailyjobposting.xyz,tournguide.com,technons.com,jobnoid.net,shrtslug.biz#@#.ad_wrapper
 dailymotion.com#$#body .ad_box { display: block !important; }
 dailymotion.com#@#.ad_box:not(.text-ad)
 daotekno.com#@#.ad-label
@@ -840,6 +838,7 @@ delicious-audio.com#$#body { overflow: auto !important; }
 delicious-audio.com#$#html { overflow: auto !important; }
 denverbroncos.com#$#body > div:not([class], [id]) > #AdHeader { display: block !important; }
 denverbroncos.com#$#body > div:not([class], [id]) > #AdHeader ~ * { display: block !important; }
+devsoftwr.com,dredyson.com###bloghash-scroll-top + div[id][class*=" "]
 dexterclearance.com#$##ads { height: 1px!important; }
 diarioeducacion.com,tuxnews.it,oracleerpappsguide.com###fb-root + div[id][class*=" "]
 dicoall.com#@##ad-lead
@@ -888,7 +887,6 @@ dragontea.ink#$#body .reading-content img { display: block !important; }
 dragontea.ink#$?#html > body { overflow: visible !important; }
 dragontea.ink#$?#html { overflow: visible !important; }
 dramaviki.com##.blogdata_stt + div[id][class*=" "]
-dredyson.com###bloghash-scroll-top + div[id][class*=" "]
 drivermax.com#$#.ad-block-enabled { visibility: hidden; }
 dropgalaxy.com##.pgAdWrapper
 dropgalaxy.com#@#div[id^="div-gpt-ad"]
@@ -1126,6 +1124,7 @@ gsmware.com#$#body ins.adsbygoogle { display: none !important; }
 gsmware.com#@#ins.adsbygoogle[data-ad-client]
 gsmware.com#@#ins.adsbygoogle[data-ad-slot]
 gtamaxprofit.com#$##wrapfabtest { height: 1px!important; }
+gvhot.net,gvhot.com###adblock-overlay
 gwaher.com###anti_ab
 h-game18.xyz#$#.adsbygoogle.Ad-Container.sidebar-ad.ad-slot.ad.ads.doubleclick.ad-placement.ad-placeholder.adbadge.BannerAd.adsbox { display: block !important; }
 haaretz.com#@#.banner-ad
@@ -1341,6 +1340,7 @@ lookmovie.ag#@#.adbanner
 lottoitaliapronostici.altervista.org##.av-page + div[id][class*=" "]
 luchaonline.com,onworks.net,unitystr.com,azrotv.com,uptoplay.net##.adbn-wrap
 luciferdonghua.in###afu-ab
+luciferdonghua.in##div[data-afuhost]
 ludwig-van.com###ad_blocker
 ludwig-van.com#@##sidebar_ads
 luscious.net###modal-root
@@ -1845,6 +1845,8 @@ ssstik.io#$##overlayimage { display: none !important; }
 ssstik.io#$#body #ad_main { display: block !important; height: 1px !important; min-height: 1px !important; width: 1px !important; }
 ssstik.io#$#body { overflow: auto !important; }
 stereogum.com##div[class^="AdBlockerGate_overlay"]
+stfly.biz,dailyjobposting.xyz,tournguide.com,technons.com,jobnoid.net,shrtslug.biz#@#.ad-unit:not(.textads)
+stfly.biz,dailyjobposting.xyz,tournguide.com,technons.com,jobnoid.net,shrtslug.biz#@#.ad_wrapper
 stockstracker.com#@##googleAds
 streambtw.com#@#.ad-unit:not(.textads)
 streamcash.to##body > div[id][style*="position: fixed; inset: 0px; z-index: 99999;"]
@@ -2227,6 +2229,7 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 *$xmlhttprequest,redirect-rule=nooptext,domain=financemonk.net|rtxkeeda.com|houseofblogger.com|dropgalaxy.com|djxmaza.in
 *$xmlhttprequest,redirect-rule=nooptext,domain=sportshub.to
 *$xmlhttprequest,third-party,redirect-rule=noopjs,domain=asiaon.top
+*$xmlhttprequest,third-party,redirect=nooptext,domain=vidizzy.com
 /468x60/*$object,redirect=1x1-transparent.gif
 /aas/r45d/vki/*$script,redirect=noopjs
 /abb-msg.js$domain=hardocp.com
@@ -2277,7 +2280,6 @@ fag/js/lol.js$~third-party,domain=privatenudes.com|bin.sx
 olamovies.*#$#div.Ad-Container[id^="adblock-bait-element-"] { display: block !important; }
 pinterest.*#$#body[style*="overflow: hidden;"] { overflow: auto !important; }
 pinterest.*#$#div[name="trap-focus"] > div[aria-label="Ad blocker modal"][role="alertdialog"] { display: none !important; }
-leeapk.com##div[class*="adsby"]
 leeapk.com##+js(set, abdRecheck, noopFunc)
 leeapk.com##+js(chg-target, id, abd-overlay, noopFunc)
 leeapk.com##+js(bab)
