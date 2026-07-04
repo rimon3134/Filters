@@ -1,6 +1,6 @@
 ! Title: 🔓 RK’s ZeroLock List
 ! Author: Rimon Hossain
-! Version: 2026-07-02
+! Version: 2026-07-04
 ! Description: Neutralizes anti-adblock scripts, overlays, and site-blockades with surgical precision. 🕶️
 ! Homepage: https://rimon3134.github.io/Filters
 ! RAW: https://raw.githubusercontent.com/rimon3134/Filters/main/ZeroLock.txt
@@ -529,8 +529,6 @@
 1keydata.com#@#.adsbox
 1keydata.com#@#.BannerAd
 1keydata.com#@#.doubleclick
-1xanimes.in#$##pbt { display: none !important; }
-1xanimes.in#$#body { overflow: auto !important; }
 2baksa.ws##.antiblock
 2ip.io,2ip.ru#$#.advMenuTab { visibility: hidden !important; }
 2ip.io,2ip.ru#@#.advMenuTab
@@ -947,6 +945,7 @@ elamigosgamez.net#@#.iframeDiv
 elamigosweb.com#$##notiene { display: block !important; }
 elamigosweb.com#$##sitiene { display: none !important; }
 elaoffcial.com#@#.ad-unit:not(.textads)
+elaoffcial.com,europeelects.eu,telugusexkathalu.com,daemon-hentai.com,teamkong.rf.gd,ad4msan.com,ossels.ai,world-iptv.club###zdn-adblock-overlay
 electricalstudent.com##.dark-switcher + div[id][class*=" "]
 elimucentre.co.ke##body > .back-top + div[id][class*=" "]
 elobservador.com.uy,delfi.lv,forbes.com,epe.es,elperiodico.com,falkirkherald.co.uk,calgaryherald.com,northantstelegraph.co.uk,gazetadopovo.com.br,weather.com,lfpress.com,adage.com,slate.com,thehindu.com,post-gazette.com,tlz.de,lasvegassun.com,thueringer-allgemeine.de#@#.ad
@@ -980,7 +979,6 @@ erotikclub35.pw###aa-wp + div[id][class*=" "]
 estudyme.com#@#ins.adsbygoogle[data-ad-client]
 estudyme.com#@#ins.adsbygoogle[data-ad-slot]
 euronews.com#$#div.pub.ad.advertising.adzone.sponsored[data-ad-name] { display: block !important; }
-europeelects.eu,telugusexkathalu.com,daemon-hentai.com,teamkong.rf.gd,ad4msan.com,ossels.ai,world-iptv.club###zdn-adblock-overlay
 evaki.fun,sportshub.to,sportnews.to###adblock-overlay
 evaki.fun,sportshub.to,sportnews.to##body > div[id]:has(> .keep-lightbox)
 evaki.fun,sportshub.to,sportnews.to##body > div[style*="position: fixed; top:"][style*="z-index:"]
@@ -1418,7 +1416,7 @@ maxstream.video#$#div[id][style*="display"] div[id]:not(#play_limit_box,[class*=
 mcoc-guide.com#@#ins.adsbygoogle[data-ad-client]
 mcoc-guide.com#@#ins.adsbygoogle[data-ad-slot]
 mealcold.com###adb
-medeberiya.net,kailaba.com,servicemassar.ma,lelmak.com,sayphotobooth.com,odiadance.com,bellezashot.com,magesypro.com,pasatiemposparaimprimir.com,assignmentdon.com,berlin-teltow.de,bestofarea.com,coderblog.in,dailytips247.com,davewigstone.com,deutschpersischtv.com,domainregistrationtips.info,friedrichshainblog.de,funztv.com,healthcheckup.com,hindinest.com,infokita17.com,negative.tboys.ro,onestringlab.com,poco.rcccn.in,prensaesports.com,start-to-run.be,stimotion.pl,symboleslowianskie.pl,thegnomishgazette.com,utilidades.ecuadjsradiocorp.com,kakashiyt.com,eldawly.xyz,elbadr.xyz,abda3.xyz,wisw.online,stelux.online,gooltok.com,cgcosplay.org,loiz.store,myprivatejobs.com,towerofgod.me,chevalmag.com,infinityskull.com,audiotools.blog,fattelodasolo.it,koume-in-huistenbosch.net,mens1069.com,english-dubbed.com,businessnews-nigeria.com,day4news.com,net4you.xyz,gameblog.jp,ster-blog.xyz,yazilidayim.net,pandanote.info,forexrw7.com,hyogo.ie-t.net,chatgbt.one,shrinklinker.com,felicetommasino.com,chatgptfree.ai,keroseed.net,ewybory.eu,nghetruyenma.net,azrom.net,mitaku.net,siirtolayhaber.com,japannihon.com,kllproject.lv,telephone-soudan.com###page + div[id][class]
+medeberiya.net,kailaba.com,lelmak.com,sayphotobooth.com,odiadance.com,bellezashot.com,magesypro.com,pasatiemposparaimprimir.com,assignmentdon.com,berlin-teltow.de,bestofarea.com,coderblog.in,dailytips247.com,davewigstone.com,deutschpersischtv.com,domainregistrationtips.info,friedrichshainblog.de,funztv.com,healthcheckup.com,hindinest.com,infokita17.com,negative.tboys.ro,onestringlab.com,poco.rcccn.in,prensaesports.com,start-to-run.be,stimotion.pl,symboleslowianskie.pl,thegnomishgazette.com,utilidades.ecuadjsradiocorp.com,kakashiyt.com,eldawly.xyz,elbadr.xyz,abda3.xyz,wisw.online,stelux.online,gooltok.com,cgcosplay.org,loiz.store,towerofgod.me,chevalmag.com,infinityskull.com,audiotools.blog,fattelodasolo.it,koume-in-huistenbosch.net,mens1069.com,english-dubbed.com,businessnews-nigeria.com,day4news.com,net4you.xyz,gameblog.jp,ster-blog.xyz,yazilidayim.net,pandanote.info,forexrw7.com,hyogo.ie-t.net,chatgbt.one,shrinklinker.com,felicetommasino.com,chatgptfree.ai,keroseed.net,ewybory.eu,nghetruyenma.net,azrom.net,mitaku.net,siirtolayhaber.com,japannihon.com,kllproject.lv,telephone-soudan.com###page + div[id][class]
 medeberiya1.com,free-wargamer.com,trendmagazineonline.com,broadbottomvillage.co.uk,call4cloud.nl,aitoolsfree.org,realpornblogger.com,sirenitashot.com,medeberiya.site,djstar.in,two4storytale.altervista.org,marimo-info.net,bestofchristianity.com,princetechzone.in,clockskin.us,haqem.com,tvappapk.com,violablu.net,villettt.kitchen,aitohuman.org,dailyweb.pl,zerogptai.org,nsw2u.*,game-2u.com,rubyskitchenrecipes.uk,know-how-tree.com##body > #page + div[id][class*=" "]
 mediafire.com#@#.ad_unit
 meetdownload.com#@#.ad-slot
@@ -1473,9 +1471,6 @@ myfxbook.com#@#.ad-box:not(#ad-banner):not(:empty)
 myfxbook.com#@#a[href^="https://pubads.g.doubleclick.net/"]
 myicloud.info,boyfuck.me,casopismetropola.sk,javboys.tv,lacrima.jp,the-mystery.org,airportwebcams.net,animalwebcams.net,naruldonghua.com,chikianimation.com,varnascan.*,summertoon.*,donghuaworld.com###footer + div[id][class*=" "]
 mylifetime.com#@#.block-doubleclick
-myprivatejobs.com###adb
-myprivatejobs.com###overlay
-myprivatejobs.com###popup
 myqqjd.com##body > .wshop-pay-button + div[class][style="display:none;"] + div[id][class*=" "]
 mytemp-mail.com#$#body > div[style^="position: fixed;"][style*="backdrop-filter: blur"][style*="z-index:"] { display: none !important; }
 mytemp-mail.com#$#body { overflow: auto !important; }
@@ -1627,7 +1622,6 @@ playareaz.com,carensureplan.com###custom-background-css > div:not(#wpcp-error-me
 player.amperwave.net##.ad-block__overlay
 player.amperwave.net#$##adblocker-test-ad[class] { display: block !important; }
 playretrogames.com#@##prerollAd
-playwouldyourather.com##.adblock-overlay
 plc247.com#@#.adsbygoogle-noablate
 pngtosvg.com#@##banner-advert-container
 pngtosvg.com#@#.ad-inserter
@@ -2349,14 +2343,11 @@ fag/js/lol.js$~third-party,domain=privatenudes.com|bin.sx
 olamovies.*#$#div.Ad-Container[id^="adblock-bait-element-"] { display: block !important; }
 pinterest.*#$#body[style*="overflow: hidden;"] { overflow: auto !important; }
 pinterest.*#$#div[name="trap-focus"] > div[aria-label="Ad blocker modal"][role="alertdialog"] { display: none !important; }
-leeapk.com##.advertisement
-leeapk.com##.entry-content > p:has(img[src*="ads"])
-leeapk.com##.entry-content center:has(img)
-leeapk.com##.entry-content center:has-text(Advertisement)
-leeapk.com##div[class*="adsby"]
-leeapk.com##+js(set, abdRecheck, noopFunc)
-leeapk.com##+js(chg-target, id, abd-overlay, noopFunc)
-leeapk.com##+js(bab)
+leeapk.com#%#//scriptlet('set', 'abdRecheck', 'noopFunc')
+leeapk.com#%#//scriptlet('bab')
+leeapk.com#$#set abdRecheck noopFunc
+leeapk.com#$#bab
 leeapk.com###abd-box
-leeapk.com###abd-overlay:remove()
-leeapk.com##html, body:style(overflow: auto !important; position: static !important; filter: none !important; pointer-events: auto !important;)
+leeapk.com###abd-overlay
+leeapk.com##html:style(overflow: auto !important; position: static !important; filter: none !important; pointer-events: auto !important;)
+leeapk.com##body:style(overflow: auto !important; position: static !important; filter: none !important; pointer-events: auto !important;)
