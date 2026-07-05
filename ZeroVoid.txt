@@ -4916,11 +4916,11 @@ hclips.com##.wrapper + .partners-wrap + div[class]
 hclips.com##[id^="ntv_"]
 hclips.com##section[style="padding: 20px;"]
 hclips.com##span[style="display:flex !important"] > div:first-child
-hdhub4u.cl##body, html:style(overflow: auto !important; height: auto !important; position: static !important;)
-hdhub4u.cl##div[class*="Overlay"]
-hdhub4u.cl##div[class*="backdrop"]
-hdhub4u.cl##div[class*="ibb-overlay-x7m4q2 is-visible-x7m4q2"]
-hdhub4u.cl##div[id*="popup"]
+hdhub4u.cl###bb-overlay-x7m4q2
+hdhub4u.cl##.bb-overlay-x7m4q2
+hdhub4u.cl##aside.bookmark-banner-x7m4q2
+hdhub4u.cl##html:style(overflow: auto !important; position: static !important; pointer-events: auto !important;)
+hdhub4u.cl##body:style(overflow: auto !important; position: static !important; pointer-events: auto !important;)
 hdsex.org##.player__inline
 healthline.com##+js(remove-class, jw-flag-floating|jw-flag-small-player)
 healthline.com##.css-umsscj
@@ -6487,6 +6487,7 @@ youtube.com##ytd-rich-section-renderer:style(display: none !important;)
 youtube.com##ytd-rich-shelf-renderer:has(#title-text:has-text(Shorts))
 youtube.com##ytd-search yt-lockup-view-model:has([href*="start_radio=1"])
 youtube.com##ytd-shelf-renderer:has([aria-label*="Latest posts from"])
+youtube.com##div[ytSurveyIconsHeader]
 youtube.com##ytd-shelf-renderer:has-text(/For you|People also watched|Breaking news|COVID|Featured|Learn with YouTube|Ready to vote/i)
 youtube.com##ytd-shelf-renderer:has-text(/Mixes|Playlists/i)
 youtube.com##ytd-video-meta-block #byline-container:style(max-width: 100% !important; display: block !important;)
