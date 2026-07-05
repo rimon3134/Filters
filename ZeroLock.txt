@@ -1,9 +1,7 @@
-! Title: 🔓 RK’s ZeroLock List
-! Author: Rimon Hossain
-! Version: 2026-07-04
+! Title: RK’s ZeroLock List
+! Version: 20260706
 ! Description: Neutralizes anti-adblock scripts, overlays, and site-blockades with surgical precision. 🕶️
 ! Homepage: https://rimon3134.github.io/Filters
-! RAW: https://raw.githubusercontent.com/rimon3134/Filters/main/ZeroLock.txt
 ! License: MIT  
 ! Note: Brewed with Coffee, Chaos & Cosmic Coincidence ☕✨🤣
 !
@@ -2343,11 +2341,9 @@ fag/js/lol.js$~third-party,domain=privatenudes.com|bin.sx
 olamovies.*#$#div.Ad-Container[id^="adblock-bait-element-"] { display: block !important; }
 pinterest.*#$#body[style*="overflow: hidden;"] { overflow: auto !important; }
 pinterest.*#$#div[name="trap-focus"] > div[aria-label="Ad blocker modal"][role="alertdialog"] { display: none !important; }
-leeapk.com#%#//scriptlet('set', 'abdRecheck', 'noopFunc')
-leeapk.com#%#//scriptlet('bab')
-leeapk.com#$#set abdRecheck noopFunc
-leeapk.com#$#bab
+leeapk.com##+js(set, abdRecheck, noopFunc)
+leeapk.com##+js(chg-target, id, abd-overlay, noopFunc)
+leeapk.com##+js(bab)
 leeapk.com###abd-box
-leeapk.com###abd-overlay
-leeapk.com##html:style(overflow: auto !important; position: static !important; filter: none !important; pointer-events: auto !important;)
-leeapk.com##body:style(overflow: auto !important; position: static !important; filter: none !important; pointer-events: auto !important;)
+leeapk.com###abd-overlay:remove()
+leeapk.com##html, body:style(overflow: auto !important; position: static !important; filter: none !important; pointer-events: auto !important;)
