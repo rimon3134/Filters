@@ -1,9 +1,7 @@
-! Title: ⚡ RK’s ZeroVoid List
-! Author: Rimon Hossain
-! Version: 2026-07-04
+! Title: RK’s ZeroVoid List
+! Version: 20260706
 ! Description: ZeroVoid — Kills trackers, cookies, widgets, slow modules, and other web clutter. Optimized for max performance with enhanced privacy.
 ! Homepage: https://rimon3134.github.io/Filters
-! RAW: https://raw.githubusercontent.com/rimon3134/Filters/main/ZeroVoid.txt
 ! License: MIT
 ! Note: Brewed with Coffee, Chaos & Cosmic Coincidence ☕✨🤣
 !
