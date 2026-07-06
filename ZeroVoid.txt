@@ -8804,8 +8804,6 @@ zultv.com##.container > div.row:nth-of-type(1)
 ##[title="Share on Tumblr"]
 ##[title="Share on Twitter"]
 ##[title="Share on whatsapp"]
-*##+js(aeld, pagehide)
-*##+js(aeld, visibilitychange)
 1337x.*##+js(abort-on-property-read, AaDetector)
 1337x.*##+js(abort-on-property-read, afScript)
 1337x.*##+js(abort-on-stack-trace, document.createElement, _0x)
