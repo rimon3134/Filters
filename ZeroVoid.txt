@@ -10136,3 +10136,4 @@ zoneid=
 ||.top^$popup,third-party
 ||.win^$popup,third-party
 ||.xyz^$popup,third-party
+@@||gstatic.com^$image
