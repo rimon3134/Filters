@@ -1,5 +1,5 @@
 ! Title: ZeroVoid List
-! Version: 2026-07-14
+! Version: 2026-07-15
 ! Author: Rimon Hossain
 ! Description: ZeroVoid — Kills trackers, widgets, slow modules, and other web clutter. Optimized for max performance with enhanced privacy.
 ! Homepage: https://rimon3134.github.io/Filters
