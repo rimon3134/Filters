@@ -1,5 +1,5 @@
-! Title: ZeroLock List
-! Version: 2026-07-15
+! Title: 🔓 ZeroLock List
+! Version: 2026-07-17
 ! Author: Rimon Hossain
 ! Description: Neutralizes anti-adblock scripts, overlays, and site-blockades with surgical precision. 🕶️
 ! Homepage: https://rimon3134.github.io/Filters
@@ -202,6 +202,7 @@
 ||hanopatch4u.com/wp-content/uploads/aebdbf/ceedad.js
 ||hb.vntsm.com/*/live/$script,redirect=noopjs
 ||hb.wpmucdn.com/thirdeyemedia.wpmudev.host/5a0d26e8-7036-49f5-a883-1fcdaf372013.js
+||hdmovieverse.site/wp-content/plugins/adblock-detector/adblock-detector.js
 ||heardaccumulatebeans.com/*.js$script,redirect-rule=noopjs
 ||hentaihaven.xxx^$referrerpolicy=origin
 ||hicalc.com/Js/PromptShowAD.js
@@ -1345,6 +1346,7 @@ leeapk.com###abd-overlay
 leeapk.com###zdn-adblock-overlay
 leeapk.com#$##acrp-adb-overlay { display: none !important; }
 leeapk.com#$#.acrp-adb-blur { overflow: auto !important; pointer-events: auto !important; }
+leeapk.com#@#.ad-banner
 leechall.com#$##adBanner { height: 25px !important; }
 leechpremium.net#$#.adsbygoogle { position: absolute!important; left: -3000px!important; }
 legionscans.com,mewingzone.com,opchapters.com,tresdaos.com##.mainholder + div[id][class*=" "]
@@ -1494,6 +1496,7 @@ needrom.com#@#ins.adsbygoogle[data-ad-client]
 needrom.com#@#ins.adsbygoogle[data-ad-slot]
 neos-easygames.com,synk-casualgames.com#@##ad_block
 nerdist.com###ndab-modal
+net77.cc#@#.ad-unit:not(.textads)
 new.lewd.ninja#@#.stargate
 newbharatyojna.com###adb
 newscon.org##.adblock-warning
@@ -1566,6 +1569,7 @@ orbispatches.com#@#.ad-area:not(.text-ad)
 orbispatches.com#@#.adsbyvli
 orbispatches.com#@#.ads_container:not(.text-ad)
 osmanonline.co.uk#$#.ad { height: 10px !important; position: absolute !important; left: -3000px !important; }
+osteusfilmestuga.online##body > .modal-backdrop + div[id][class*=" "]
 osuskins.net##body > div[style^="background:"][style*="position: fixed; display: flex; align-items: center; justify-content: center; inset: 0px; z-index:"]
 otakukan.com##body > div[style^="background:"][style*="position: fixed; display: flex; align-items: center; justify-content: center; inset: 0px; z-index:"]
 ourcoincash.xyz###miniFooterWrapper ~ script + style + div[id][class*=" "]
@@ -2113,8 +2117,8 @@ vectogravic.com,rinconpsicologia.com##.site-container + div[id][class*=" "]
 vector-eps.com#$#.download-home + .disableadblock { display: none !important; }
 vector-eps.com#$#.download-home { display: block !important; }
 vedetta.org#@#.adunit
-vidbox.dev#$#div[aria-labelledby="adblock-title"] { display: none !important; }
-vidbox.dev#$#html { overflow: auto !important; }
+vidbox.vc,vidbox.*#$#div[aria-labelledby="adblock-title"] { display: none !important; }
+vidbox.vc,vidbox.*#$#html { overflow: auto !important; }
 video.bestjavporn.com#@#.ad-placement
 videos.tybito.com,videos.pornototale.com,videos.eispop.com,videos.porndig.com#$#body > div:not([class], [id]) > #AdHeader { display: block !important; }
 videos.tybito.com,videos.pornototale.com,videos.eispop.com,videos.porndig.com#$#body > div:not([class], [id]) > #AdHeader ~ * { display: block !important; }
@@ -2346,4 +2350,3 @@ leeapk.com###abd-box
 leeapk.com###abd-overlay
 leeapk.com##html:style(overflow: auto !important; position: static !important; filter: none !important; pointer-events: auto !important;)
 leeapk.com##body:style(overflow: auto !important; position: static !important; filter: none !important; pointer-events: auto !important;)
-
