@@ -1,5 +1,5 @@
 ! Title: 🔓 ZeroLock List
-! Version: 2026-07-17
+! Version: 2026-07-20
 ! Author: Rimon Hossain
 ! Description: Neutralizes anti-adblock scripts, overlays, and site-blockades with surgical precision. 🕶️
 ! Homepage: https://rimon3134.github.io/Filters
@@ -774,7 +774,9 @@ chaturflix.cam#$#.adsbox.doubleclick.ad-placement { display: block !important; }
 cheatography.com#@##bottomAd
 check-plagiarism.com#$#body #detect[class] { display: block !important; }
 check-plagiarism.com#@#.ad-placeholder:not(#filter_ads_by_classname):not(#detect_ad_empire):not(#detect):not(.adsbox)
+checkfiletype.com#@#.ad-slot
 chitralexpress.com,sampledrive.org,rahim-soft.com,veganab.co,inter-news.it,azamericasat.net##.background-overlay + div[id][class*=" "]
+cinecloud.site,cinefreak.nl#@#.ad-content
 cinemablind.com##div[id][class^="popup"][class$="wrap"]
 circle-sports.com#@#.ad-unit:not(.textads)
 ckk.ai,xpshort.com#@#.ad-BANNER
@@ -1317,6 +1319,8 @@ kbb.com#@#.gpt-ad
 keran.co#$##adcontent.adsbygoogle { display: block !important; }
 key-hub.eu###overlay
 keybr.com##div[class^="Supporter"]
+kickbd.org#@#.ad-space:not(.textads)
+kickbd.org#@#.ad-unit:not(.textads)
 kiemlua24h.co###d7b2
 korsrt.eu.org##.cutemag-scroll-top + div[id][class*=" "]
 kpopjams.com###add-blocker-wrapper
