@@ -4972,12 +4972,9 @@ filecr.com##div[class*="modal_wrap__"]
 filecr.com##div[class*="modal_overlay__"]
 filecr.com##div[class*="modal_content__"]
 filecr.com##html, body:style(overflow: auto !important; position: static !important; filter: none !important; pointer-events: auto !important;)
-moviesmod.at##+js(no-window-open-if)
-moviesmod.at##+js(prevent-window-open)
-cloudfam.io##div[id*="popup"]
-cloudfam.io##div[class*="backdrop"]
-cloudfam.io##div[class*="Overlay"]
-cloudfam.io##body, html:style(overflow: auto !important; height: auto !important; position: static !important;)
+moviesmod.at##+js(addEventListener-defuser, click)
+moviesmod.at##+js(no-location-change-if)
+cloudfam.io##+js(addEventListener-defuser, click)
 @@/videojs-social.*.js^$script,domain=vipserije.com
 @@||127.0.0.1^$generichide
 @@||192.168.$generichide
