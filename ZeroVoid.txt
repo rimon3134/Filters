@@ -1,4 +1,4 @@
-! Title: ⚡ ZeroVoid List
+! Title: ZeroVoid List
 ! Version: 2026-07-20
 ! Author: Rimon Hossain
 ! Description: ZeroVoid — Removes trackers, widgets, slow modules, and other web clutter. Optimized for max performance with enhanced privacy.
