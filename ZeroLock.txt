@@ -1,4 +1,4 @@
-! Title: 🔓 ZeroLock List
+! Title: ZeroLock List
 ! Version: 2026-07-21
 ! Author: Rimon Hossain
 ! Description: Neutralizes anti-adblock scripts, overlays, and site-blockades with surgical precision. 🕶️
