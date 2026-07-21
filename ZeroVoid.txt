@@ -4975,6 +4975,8 @@ filecr.com##html, body:style(overflow: auto !important; position: static !import
 moviesmod.at##+js(addEventListener-defuser, click)
 moviesmod.at##+js(no-location-change-if)
 cloudfam.io##+js(addEventListener-defuser, click)
+pahe.ink##+js(addEventListener-defuser, click)
+pahe.ink##+js(no-location-change-if)
 @@/videojs-social.*.js^$script,domain=vipserije.com
 @@||127.0.0.1^$generichide
 @@||192.168.$generichide
