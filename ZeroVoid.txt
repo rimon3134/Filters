@@ -1,5 +1,5 @@
 ! Title: ⚡ RK’s ZeroVoid List
-! Version: 2026-07-21
+! Version: 2026-07-27
 ! Author: Rimon Hossain
 ! Description: ZeroVoid — Kills trackers, widgets, slow modules, and other web clutter. Optimized for max performance with enhanced privacy.
 ! Homepage: https://rimon3134.github.io/Filters
@@ -4972,11 +4972,16 @@ filecr.com##div[class*="modal_wrap__"]
 filecr.com##div[class*="modal_overlay__"]
 filecr.com##div[class*="modal_content__"]
 filecr.com##html, body:style(overflow: auto !important; position: static !important; filter: none !important; pointer-events: auto !important;)
-moviesmod.at##+js(addEventListener-defuser, click)
-moviesmod.at##+js(no-window-open-if)
+moviesmod.*##+js(addEventListener-defuser, click)
+moviesmod.*##+js(prevent-window-open)
 cloudfam.io##+js(addEventListener-defuser, click)
+cloudfam.io##+js(prevent-window-open)
 pahe.ink##+js(addEventListener-defuser, click)
 pahe.ink##+js(no-window-open-if)
+up-4ever.net##+js(addEventListener-defuser, click)
+uploadrar.com##+js(addEventListener-defuser, click)
+uploadrar.com##+js(no-window-open-if)
+modsfire.com##.download-block
 @@/videojs-social.*.js^$script,domain=vipserije.com
 @@||127.0.0.1^$generichide
 @@||192.168.$generichide
