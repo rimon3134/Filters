@@ -1,5 +1,5 @@
 ! Title: 🔓 RK’s ZeroLock List
-! Version: 2026-07-21
+! Version: 2026-07-27
 ! Author: Rimon Hossain
 ! Description: Neutralizes anti-adblock scripts, overlays, and site-blockades with surgical precision. 🕶️
 ! Homepage: https://rimon3134.github.io/Filters
@@ -281,6 +281,7 @@
 ||makefreecallsonline.com/includes/AB-code.min.js
 ||mangasail.com/sites/all/themes/newbird/js/acheck.min.js
 ||mangatail.com/sites/all/themes/newbird/js/adblock-checker.min.js
+||mcalts.fr/js/loader.js
 ||media.lajornadafilipina.com/bheyjmz.js
 ||media.net^$object,redirect=noopjs
 ||megaup.net/imageads/$important
@@ -545,6 +546,7 @@
 85tube.com#@#.ads-iframe
 8muses.com#$#a.t-hover iframe { position: absolute!important; left: -3000px!important; }
 8wayrun.com#$#.happyContainer { height: 1px !important; }
+9-gld.net,bikyonyu-bijo-zukan.com,sumirekeiba.com###container + div[id][class*=" "]
 a2zupload.com,unlockapk.com#$##adsenseimage { height: 1px!important; }
 a2zupload.com,unlockapk.com#$#.adsbygoogle { height: 1px!important; }
 a2zupload.com,unlockapk.com#$#.showads { height: 1px!important; }
@@ -721,7 +723,6 @@ bgmiesports.in#@#.ad-wrap:not(#google_ads_iframe_checktag)
 bgmiesports.in#@#.ads-banner
 bgmiesports.in#@#img[width="728"][height="90"]
 bia2.xyz###adbd
-bikyonyu-bijo-zukan.com,sumirekeiba.com###container + div[id][class*=" "]
 binaryfork.com###blocker-message
 bing.com#$#.b_ad { display: block !important; position: absolute !important; top: -9999px !important; }
 bing.com#$#body .b_adLastChild { display: block !important; position: absolute !important; top: -9999px !important; }
@@ -1002,7 +1003,6 @@ falkirkherald.co.uk#@#.text_ads
 famasocial.site,jobsheel.com,dwert.co.kr,itdmusicy.com,itdmusics.com,evspec.in,bradola.com,paradoxscans.com,hispajav.com,sub69.online,itdmusicy.com,janammusic.in.net##body > div[id][class*=" "]:has(div.adblock_subtitle)
 fansonlinehub.com,teralink.me,teraearn.com,terashare.me,hotmediahub.com,terabox.fun#$#body { overflow: auto !important; }
 fantasiku.com##button.magsoul-scroll-top + div[id][class*=" "]
-fapfapgames.com,pornosubtitula2.com,softdevelopp.com,fitnesstipz.com,stock-rom.com,xporn.to,kodibeginner.com,windbreaker.me,fazy.online,cricket12.com,stimotion.pl,thelastgamestandingexp.com,chart.services,moneysave.info,pornmz.com,yakisurume.com,tehnar.net.ua,rocdacier.com,audiotrip.org,flowsnet.com,brulosophy.com,reprezentacija.rs##body > div#page ~ div[id][class*=" "]
 fastssh.com#@#.ad-box:not(#ad-banner):not(:empty)
 fastssh.com#@#.ad-wrapper
 faucethero.com#$#.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links { display: block !important; }
@@ -1043,6 +1043,7 @@ filmzie.com#$#.textads.textad { display: block !important; }
 filmzie.com#@#.textad
 financemonk.net,rtxkeeda.com,houseofblogger.com,dropgalaxy.com,djxmaza.in#@#.showads
 financewada.com,utkarshonlinetest.com,techbezzie.com#$#.no_display { display: block !important; opacity: 1 !important; }
+fitpractise.com,fapfapgames.com,pornosubtitula2.com,softdevelopp.com,fitnesstipz.com,stock-rom.com,xporn.to,kodibeginner.com,windbreaker.me,fazy.online,cricket12.com,stimotion.pl,thelastgamestandingexp.com,chart.services,moneysave.info,pornmz.com,yakisurume.com,tehnar.net.ua,rocdacier.com,audiotrip.org,flowsnet.com,brulosophy.com,reprezentacija.rs##body > div#page ~ div[id][class*=" "]
 fixno.in##div[id][class^="popup"][class$="wrap"][style]
 flacdownloader.com#@#.adsbygoogle-noablate
 flcity.site,1movierulzhd.*,topshare.in,tempmaile.me,filydot.fun#$##adblock-overlay { display: none !important; }
@@ -1475,6 +1476,8 @@ msguides.com###an-Modal[style*="z-index: 999999"]
 msguides.com##div[id^="ai-adb-"]
 msguides.com#$##msgblogheader { height: 1px!important; }
 mta-resource.com#$#ins.adsbygoogle[data-ad-slot] { display: block !important; height: 1px !important; }
+multishows.top#$?##adBlockModal { display: none !important; }
+multishows.top#$?#body { overflow: auto !important; }
 mummumtime.com,downloader.is##body > .slideout-overlay + div[id][class*=" "]
 myfxbook.com#@#.ad-box:not(#ad-banner):not(:empty)
 myfxbook.com#@#a[href^="https://pubads.g.doubleclick.net/"]
@@ -1582,6 +1585,11 @@ panel.fps.ms#@#.adContent
 panuvideo.com#$#body #myTestAd { height: 1px !important; }
 papergeek.fr##.padb-enabled
 paraanaliz.com##body > div[data-theiastickysidebar-options] + div[id][class*=" "]
+paradoxscans.com##body > div[id][class*="_"]
+paradoxscans.com##body > footer ~ h4[class*="_"]
+paradoxscans.com##body > footer ~ h4[class*="_"] + div[class*="_"]
+paradoxscans.com##body > footer ~ h4[class*="_"] + div[class*="_"] + div[class=""]
+paradoxscans.com##body > footer ~ h4[class*="_"] + div[class*="_"] + div[class=""] + div[class*="_"]
 paraphraser.io#$#body #detect[class] { display: block !important; }
 paraphrasing-tool.com#$#[id^="adsense_"] { height: 80px!important; width: 80px!important; position: absolute!important; left: -3000px!important; }
 paraphrasing-tool.com#@#.ezoic-ad
