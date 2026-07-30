@@ -1,10 +1,8 @@
-! Title: ⚡ RK’s ZeroVoid List
-! Version: 2026-07-30
-! Author: Rimon Hossain
+! Title: ⚡ ZeroVoid
+! Version: 2026-07-31
 ! Description: ZeroVoid — Kills trackers, widgets, slow modules, and other web clutter. Optimized for max performance with enhanced privacy.
 ! Homepage: https://rimon3134.github.io/Filters
 ! License: MIT
-! Note: Brewed with Coffee, Chaos & Cosmic Coincidence ☕✨🤣
 !
 ||02cscosgbuzl.top^
 ||05e11c9f6f.com^
@@ -4982,6 +4980,8 @@ up-4ever.net##+js(addEventListener-defuser, click)
 uploadrar.com##+js(addEventListener-defuser, click)
 uploadrar.com##+js(no-window-open-if)
 modsfire.com##.download-block
+fullvideos.xxx##+js(no-window-open-if)
+fullvideos.xxx##+js(no-location-change-if)
 @@/videojs-social.*.js^$script,domain=vipserije.com
 @@||127.0.0.1^$generichide
 @@||192.168.$generichide
