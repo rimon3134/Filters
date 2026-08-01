@@ -4973,8 +4973,8 @@ filecr.com##div[class*="modal_wrap__"]
 filecr.com##div[class*="modal_overlay__"]
 filecr.com##div[class*="modal_content__"]
 filecr.com##html, body:style(overflow: auto !important; position: static !important; filter: none !important; pointer-events: auto !important;)
-moviesmod.zone*##+js(nowindowopen)
-moviesmod.zone*##+js(no-window-open-if)
+moviesmod.*##+js(nowindowopen)
+moviesmod.*##+js(no-window-open-if)
 cloudfam.io##+js(addEventListener-defuser, click)
 cloudfam.io##+js(no-window-open-if)
 pahe.ink##+js(addEventListener-defuser, click)
