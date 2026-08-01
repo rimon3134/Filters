@@ -1,8 +1,11 @@
-! Title: ⚡ ZeroVoid
-! Version: 2026-07-31
+! Title: RK’s ZeroVoid List
+! Version: 2026-08-01
 ! Description: ZeroVoid — Kills trackers, widgets, slow modules, and other web clutter. Optimized for max performance with enhanced privacy.
 ! Homepage: https://rimon3134.github.io/Filters
 ! License: MIT
+! Note: Brewed with Coffee, Chaos & Cosmic Coincidence ☕✨🤣
+!
+!
 !
 ||02cscosgbuzl.top^
 ||05e11c9f6f.com^
