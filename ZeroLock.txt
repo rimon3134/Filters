@@ -1,8 +1,11 @@
-! Title: 🔓 ZeroLock
+! Title: RK’s ZeroLock List
 ! Version: 2026-07-31
+! Author: Rimon Hossain
 ! Description: Neutralizes anti-adblock scripts, overlays, and site-blockades with surgical precision. 🕶️
 ! Homepage: https://rimon3134.github.io/Filters
 ! License: MIT  
+!
+!
 !
 ||0gomovies-official.site/jss/dectector-2025.js
 ||10minutemail.com/ub/ub.js
