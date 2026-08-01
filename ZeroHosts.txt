@@ -1,5 +1,5 @@
 ! Title: RK’s ZeroHosts
-! Version: 2026-08-01
+! Version: 2026-08-02
 ! Author: Rimon Hossain
 ! Description: ZeroHosts — a carefully curated adblock network filter list that blocks ads, trackers, malware, phishing, scam and spam domains while prioritizing site compatibility and stability.
 ! Homepage: https://rimon3134.github.io/Filters
