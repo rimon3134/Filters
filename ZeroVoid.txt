@@ -4973,17 +4973,15 @@ filecr.com##div[class*="modal_overlay__"]
 filecr.com##div[class*="modal_content__"]
 filecr.com##html, body:style(overflow: auto !important; position: static !important; filter: none !important; pointer-events: auto !important;)
 moviesmod.*##+js(nowindowopen)
-moviesmod.*##+js(no-window-open-if)
 cloudfam.io##+js(addEventListener-defuser, click)
-cloudfam.io##+js(no-window-open-if)
+cloudfam.io##+js(nowindowopen)
 pahe.ink##+js(addEventListener-defuser, click)
-pahe.ink##+js(no-window-open-if)
+pahe.ink##+js(nowindowopen)
 up-4ever.net##+js(addEventListener-defuser, click)
 uploadrar.com##+js(addEventListener-defuser, click)
-uploadrar.com##+js(no-window-open-if)
+uploadrar.com##+js(nowindowopen)
 modsfire.com##.download-block
-fullvideos.xxx##+js(no-window-open-if)
-fullvideos.xxx##+js(no-location-change-if)
+fullvideos.xxx##+js(nowindowopen)
 @@/videojs-social.*.js^$script,domain=vipserije.com
 @@||127.0.0.1^$generichide
 @@||192.168.$generichide
