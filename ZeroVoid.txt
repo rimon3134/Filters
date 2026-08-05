@@ -2832,6 +2832,9 @@ symplr-analytics-
 ||storage.googleapis.com/pickaboo-prod/media/wysiwyg/cmsp/Top-Banner-4.gif$image
 www.pickaboo.com##.application-banner
 ||acceptable.a-ads.com^$all
+||s0-greate.net^$popup,important
+||ey43.com^$popup,important
+||s.click.aliexpress.com^$popup,important
 leeapk.com##div[class^="acrp-ad-box-"]:remove()
 leeapk.com##a[href*=".daraz."]:remove()
 leeapk.com##a[href*="aliexpress."]:remove()
