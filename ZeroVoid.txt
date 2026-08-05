@@ -1,5 +1,5 @@
 ! Title: ⚡ RK’s ZeroVoid List
-! Version: 2026-08-05
+! Version: 2026-08-05v2
 ! Description: ZeroVoid — Kills trackers, widgets, slow modules, and other web clutter. Optimized for max performance with enhanced privacy.
 ! Homepage: https://rimon3134.github.io/Filters
 ! License: MIT
@@ -2831,8 +2831,13 @@ tapecontent.*##+js(no-window-open-if)
 symplr-analytics-
 ||storage.googleapis.com/pickaboo-prod/media/wysiwyg/cmsp/Top-Banner-4.gif$image
 www.pickaboo.com##.application-banner
-||acceptable.a-ads.com/2408142/?size=Adaptive$subdocument
-||img.drz.lazcdn.com/static/bd/p/4b8d71fdb6676b899681246b619ef2db.jpg$image
+||acceptable.a-ads.com^$all
+leeapk.com##div[class^="acrp-ad-box-"]:remove()
+leeapk.com##a[href*=".daraz."]:remove()
+leeapk.com##a[href*="aliexpress."]:remove()
+leeapk.com##img[src*=".lazcdn."]:remove()
+leeapk.com##img[src*=".alicdn."]:remove()
+leeapk.com##+js(nowoif, /daraz|aliexpress/)
 @@||api.hcaptcha.com^
 @@||arkoselabs.com.cdn.cloudflare.net^
 @@||arkoselabs.com^
