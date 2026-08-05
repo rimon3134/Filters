@@ -56,7 +56,7 @@ The modern web is overloaded — ads, trackers, popups, overlays, telemetry, AI 
 
 | List |  Status  | Description |
 |------|:--------:|-------------|
-| **ZeroVoid** | 🟢 Recommended | Kills trackers, fingerprints, beacons, sneaky data grabs, slow modules, social widgets, and other web clutter. Optimized for max performance with enhanced privacy. |
+| **ZeroVoid** | 🟢 Recommended | Blocks trackers, AI Junk, YT and IMDb annoyances, slow module, and other web clutter. Maximum performance with enhanced privacy. |
 | **ZeroLock** | 🟣 Elite | Neutralizes anti-adblock overlays, forced dialogs, and access walls **before rendering**, allowing uninterrupted browsing without breakage. Particularly useful on high-noise sites. |
 | **ZeroAds** | 🔵 Essential | Hybrid cosmetic + network filter list that complements ZeroHosts by removing modern web annoyances such as popups, overlays, forced dialogs, widgets, and slow scripts. Ensures smooth page rendering and faster load times. |
 
