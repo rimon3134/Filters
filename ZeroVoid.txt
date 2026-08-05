@@ -2829,6 +2829,10 @@ tapecontent.*##+js(no-window-open-if)
 /news_widget.js^$script
 /swfobject.js^$script
 symplr-analytics-
+||storage.googleapis.com/pickaboo-prod/media/wysiwyg/cmsp/Top-Banner-4.gif$image
+www.pickaboo.com##.application-banner
+||acceptable.a-ads.com/2408142/?size=Adaptive$subdocument
+||img.drz.lazcdn.com/static/bd/p/4b8d71fdb6676b899681246b619ef2db.jpg$image
 @@||api.hcaptcha.com^
 @@||arkoselabs.com.cdn.cloudflare.net^
 @@||arkoselabs.com^
