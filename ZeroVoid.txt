@@ -1,6 +1,6 @@
 ! Title: ⚡ RK’s ZeroVoid List
-! Version: 2026-08-05v2
-! Description: Blocks trackers, AI Junk, YT and IMDb annoyances, slow module, and other web clutter. Maximum performance with enhanced privacy.
+! Version: 2026-08-07
+! Description: ZeroVoid — Blocks trackers, AI Junk, YT and IMDb annoyances, slow modules, and much more. Maximum performance with enhanced privacy.
 ! Homepage: https://rimon3134.github.io/Filters
 ! License: MIT
 ! Note: Brewed with Coffee, Chaos & Cosmic Coincidence ✨
@@ -50,6 +50,7 @@
 ||abtest.alibaba.com^
 ||abtest-sg.byteoversea.com^
 ||acam-2.com^
+||acceptable.a-ads.com^$all
 ||acemlnb.com^$third-party,document
 ||achageglass.com^
 ||acidprolific.com^
@@ -773,6 +774,7 @@
 ||explorads.media^
 ||exploredefinitely.com^
 ||extanalytics.com^
+||ey43.com^$popup,important
 ||ezodn.com^
 ||ezoic.com^
 ||ezoic.co.uk^
@@ -1325,10 +1327,10 @@
 ||location-*.tiktokv.com^
 ||location-traceroute-*.bytedance.com^
 ||log.amp.dev^
-||logs.datadoghq.eu^
 ||log*.byteoversea.com^
 ||log.fc.yahoo.com^
 ||loggly.com^
+||logs.datadoghq.eu^
 ||logs.ironsrc.mobi^
 ||log*.snssdk.com^
 ||log*.tiktokv.com^
@@ -1607,7 +1609,6 @@
 ||paikoasa.tv^
 ||paintejuke.com^
 ||pakrouci.net^
-||palibzh.tech^
 ||pantsinsieshts.click^
 ||panyinadiin.xyz^
 ||parkingcrew.net^
@@ -1897,6 +1898,7 @@
 ||rvpinform.com^
 ||ryeqnyvbncdvg.com^
 ||rzazukcuwmf.com^
+||s0-greate.net^$popup,important
 ||s3t3d2y8.afcdn.net^
 ||s9e.github.io/iframe/$third-party,frame,redirect=click2load.html
 ||sa.api.intl.miui.com^
@@ -1926,6 +1928,7 @@
 ||scalliontrend.com^
 ||schnell-treffen.com^
 ||s.click.aliexpress.com^
+||s.click.aliexpress.com^$popup,important
 ||scptp1.com^
 ||scribd.com/embeds/$third-party,frame,redirect=click2load.html
 ||scruffsunwoful.com^
@@ -2009,6 +2012,7 @@
 ||smartifai.ai^
 ||smartocto.com^
 ||smart-x.systems^
+||smsgadget.com/images/support.svg$image
 ||snai.it^
 ||snap.licdn.com/li.lms-analytics/
 ||sneezeboring.com^
@@ -2063,6 +2067,7 @@
 ||stilaikr.com^
 ||stionpoults.top^
 ||stoodgogas.xyz^
+||storage.googleapis.com/pickaboo-prod/media/wysiwyg/cmsp/Top-Banner-4.gif$image
 ||stormyacquaintancesteam.com^
 ||stoshewyho.pro^
 ||stotoowu.net^
@@ -2624,17 +2629,25 @@ jagonews24.com##.sponsor-content
 .js.map^
 kalerkantho.com##.ad-section
 kalerkantho.com##.sponsor-banner
+kryinternational.com##.items-end.flex-col.z-45.right-6.bottom-6.fixed.lg\:flex.hidden > .items-center.flex-col.flex.relative
 leeapk.com##.acrp-sticky-close
 leeapk.com##.acrp-sticky-wrap
 leeapk.com##.advertisement
+leeapk.com##a[href*="aliexpress."]:remove()
+leeapk.com##a[href*=".daraz."]:remove()
+leeapk.com##div[class^="acrp-ad-box-"]:remove()
 leeapk.com##div[class*="adsby"]
 leeapk.com##.entry-content center:has(img)
 leeapk.com##.entry-content center:has-text(Advertisement)
 leeapk.com##.entry-content > p:has(img[src*="ads"])
+leeapk.com##img[src*=".alicdn."]:remove()
+leeapk.com##img[src*=".lazcdn."]:remove()
 leeapk.com##+js(addEventListener-defuser, click)
 leeapk.com##+js(nowindowopen)
+leeapk.com##+js(nowoif, /daraz|aliexpress/)
 linegee.net##+js(nowindowopen)
 linegee.net##+js(no-window-open-if)
+.logs.datadoghq.eu^
 mat6tube.com##+js(nowindowopen)
 mat6tube.com##+js(no-window-open-if)
 mega.nz##.application.theme-dark-forced.dl-widget.mega-component > .content
@@ -2680,6 +2693,9 @@ search.yahoo.com##.compList
 search.yahoo.com##.related-video-block
 showtimebd.com##div[class*="popup"]
 showtimebd.com##div[id*="popup"]
+smsgadget.com##.animate-ping
+smsgadget.com##.blink_container
+smsgadget.com##.chat_option > .text
 startech.com.bd##div[class*="popup"]
 startech.com.bd##div[id*="popup"]
 teknoasian.com##+js(nowindowopen)
@@ -2720,6 +2736,7 @@ www.google.*##g-section-with-header:has(h3:has-text(/Videos|Short videos/i))
 www.google.*##.hdzaWe
 www.google.*##.related-question-pair
 www.google.*##.wQiwMc:has-text(/Forums|Discussions/)
+www.pickaboo.com##.application-banner
 www.youtube.com###chat-container
 www.youtube.com##div[skip-key-interaction]
 www.youtube.com##div.ytp-panel-menu > div.ytp-menuitem .ytp-premium-label:has-text(/^Super[- ]/):upward(.ytp-menuitem)
@@ -2829,21 +2846,9 @@ tapecontent.*##+js(no-window-open-if)
 /news_widget.js^$script
 /swfobject.js^$script
 symplr-analytics-
-||storage.googleapis.com/pickaboo-prod/media/wysiwyg/cmsp/Top-Banner-4.gif$image
-www.pickaboo.com##.application-banner
-||acceptable.a-ads.com^$all
-||s0-greate.net^$popup,important
-||ey43.com^$popup,important
-||s.click.aliexpress.com^$popup,important
-leeapk.com##div[class^="acrp-ad-box-"]:remove()
-leeapk.com##a[href*=".daraz."]:remove()
-leeapk.com##a[href*="aliexpress."]:remove()
-leeapk.com##img[src*=".lazcdn."]:remove()
-leeapk.com##img[src*=".alicdn."]:remove()
-leeapk.com##+js(nowoif, /daraz|aliexpress/)
 @@||api.hcaptcha.com^
-@@||arkoselabs.com.cdn.cloudflare.net^
 @@||arkoselabs.com^
+@@||arkoselabs.com.cdn.cloudflare.net^
 @@||arkoselabs.roblox.com^
 @@||assets.hcaptcha.starlink.com^
 @@||captcha-backgrounds.s3.yandex.net^
@@ -2859,10 +2864,10 @@ leeapk.com##+js(nowoif, /daraz|aliexpress/)
 @@||mtcaptcha.com^
 @@||newassets.hcaptcha.com^
 @@||recaptcha-cn.net^
-@@||recaptcha.net.cn^
-@@||recaptcha.net^
 @@||recaptchaenterprise.clients6.google.com^
 @@||recaptchaenterprise.googleapis.com^
 @@||recaptchaenterprise.mtls.googleapis.com^
+@@||recaptcha.net^
+@@||recaptcha.net.cn^
 @@||secure.gravatar.com^$image
 @@||v2.cutcaptcha.net^
