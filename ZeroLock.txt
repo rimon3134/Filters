@@ -1,5 +1,5 @@
 ! Title: 🔓 RK’s ZeroLock List
-! Version: 2026-08-09
+! Version: 2026-08-10
 ! Description: Neutralizes anti-adblock scripts, overlays, and site-blockades with surgical precision. 🕶️
 ! Homepage: https://rimon3134.github.io/Filters
 ! License: MIT  
@@ -1350,11 +1350,11 @@ leeapk.com#$#.acrp-adb-blur { overflow: auto !important; pointer-events: auto !i
 leeapk.com#$##acrp-adb-overlay { display: none !important; }
 leeapk.com###abd-overlay
 leeapk.com#@#.ad-banner
+leeapk.com###zdn-adblock-overlay
 leeapk.com##+js(set, abdRecheck, noopFunc)
 leeapk.com###abd-box
 leeapk.com##html:style(overflow: auto !important; position: static !important; filter: none !important; pointer-events: auto !important;)
 leeapk.com##body:style(overflow: auto !important; position: static !important; filter: none !important; pointer-events: auto !important;)
-leeapk.com###zdn-adblock-overlay
 leechall.com#$##adBanner { height: 25px !important; }
 leechpremium.net#$#.adsbygoogle { position: absolute!important; left: -3000px!important; }
 legionscans.com,mewingzone.com,opchapters.com,tresdaos.com##.mainholder + div[id][class*=" "]
