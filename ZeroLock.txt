@@ -1,5 +1,5 @@
 ! Title: 🔓 RK’s ZeroLock List
-! Version: 2026-08-10
+! Version: 2026-08-10.2
 ! Description: Neutralizes anti-adblock scripts, overlays, and site-blockades with surgical precision. 🕶️
 ! Homepage: https://rimon3134.github.io/Filters
 ! License: MIT  
@@ -607,6 +607,7 @@ androidpolice.com#@#.ad-zone-container
 androidpolice.com#@#.ima-ad-container
 androidpolice.com#@#.w-adsninja-video-player
 animedb.in##.full-page
+anime-jl.top,diyprojectslab.com,italiadascoprire.net##body > .search-modal-wrap + div[id][class*=" "]
 anime.uniquestream.net###__nuxt ~ div[aria-labelledby="usw-title"]:not([id])
 anonymousemail.me#$#.adsbygoogle { height: 1px!important; width: 1px!important; }
 anonymousemail.me#$#.adsense { height: 1px!important; }
@@ -873,7 +874,6 @@ dirtstyle.tv##.lightbox
 discover-sharm.com##.js-antiadblocker
 diyphotography.net#@#.ad-space
 diyphotography.net#@#.ad-unit:not(.textads)
-diyprojectslab.com,italiadascoprire.net##body > .search-modal-wrap + div[id][class*=" "]
 dizajnkonyha.hu,smartinhome.pl,lgcnews.com##body > div[data-elementor-type="footer"] ~ div[id][class*=" "]
 djamix.net#@#.ad-unit:not(.textads)
 djbassking.club,uaeboy.ae,csyildizi.com,mealold.com,pasflav.online,nidbdcheck.com,9sblog.com,newselab.com,glowandglamcorner.com,dadinthemaking.com,listofthis.com,phineypet.com,beautifulfashionnailart.com,americanstylo.com##.card center > .container:has(> .ad)
@@ -1152,6 +1152,10 @@ gold-24.net,bedavahesap.org##.back-top + div[id][class*=" "]
 goodstream.one##body > footer + script + div[class][oncontextmenu]
 goonchan.org#@#ins.adsbygoogle[data-ad-client]
 goonchan.org#@#ins.adsbygoogle[data-ad-slot]
+leeapk.com##+js(set, abdRecheck, noopFunc)
+leeapk.com###abd-box
+leeapk.com##html:style(overflow: auto !important; position: static !important; filter: none !important; pointer-events: auto !important;)
+leeapk.com##body:style(overflow: auto !important; position: static !important; filter: none !important; pointer-events: auto !important;)
 gosugamers.net#@#.ad-placement
 gplinks.co,adomainscan.com##div[id^="__vliadb83"]
 greenocktelegraph.co.uk#@#.plainAd
@@ -1294,6 +1298,8 @@ jiocinema.com#@##videoAd
 jobnoid.net,ceneval.shop,arigl.com,biovetro.net,katoikos.world,freepatternsarea.com,sampledrive.org,sharedwebs.com,fitnessplanss.com,mcxlive.org,okpeliz.com,bluedollar.net,nulljungle.com,cehennemstream.xyz,mangacrab.org,arigl.online,s0ft4pc.com,boyfuck.me,freereadnovel.online,idlixvip.asia,javboys.tv,asianboy.fans,techedubyte.com,yomucomics.com,tuktukcinma.com#$#body > div[class*=" active"][style] { display: none !important; }
 jobnoid.net,ceneval.shop,arigl.com,biovetro.net,katoikos.world,freepatternsarea.com,sampledrive.org,sharedwebs.com,fitnessplanss.com,mcxlive.org,okpeliz.com,bluedollar.net,nulljungle.com,cehennemstream.xyz,mangacrab.org,arigl.online,s0ft4pc.com,boyfuck.me,freereadnovel.online,idlixvip.asia,javboys.tv,asianboy.fans,techedubyte.com,yomucomics.com,tuktukcinma.com#$#body > div[class*=" active"][style] + div[class]:has(> .active > [class*="-content"]) { display: none !important; }
 jobnoid.net,ceneval.shop,arigl.com,biovetro.net,katoikos.world,freepatternsarea.com,sampledrive.org,sharedwebs.com,fitnessplanss.com,mcxlive.org,okpeliz.com,bluedollar.net,nulljungle.com,cehennemstream.xyz,mangacrab.org,arigl.online,s0ft4pc.com,boyfuck.me,freereadnovel.online,idlixvip.asia,javboys.tv,asianboy.fans,techedubyte.com,yomucomics.com,tuktukcinma.com#$#body > * { filter: none !important; }
+jobskimuu.in,skrresults.com,ignoupur.com,newsckp.com,popaar.com,powergam.online,qrixpe.com,ajazijobs.in,bharti26.in,paidpe.com,mfulecollegewarud.org,parivahansewa.live,tezjobs.in,blacksattaking786.com,niraamjob.in,sparktrail.site,sociallytrendz.online,sanadegreecollege.in,stpaulsschool.org.in,timesnewss.com,oreopix.com,jobernnews.com,abresult.in,merainsurance.xyz,coinnai.com,merainsurance.xyz,emipe.online,sankarmusic.in,examsnews.com,general24news.in,arceusxdownload.com,htmlgames.website,iqmastered.com,jobjankari.online,procinehub.com#$##AdbModel { display: none !important; }
+jobskimuu.in,skrresults.com,ignoupur.com,newsckp.com,popaar.com,powergam.online,qrixpe.com,ajazijobs.in,bharti26.in,paidpe.com,mfulecollegewarud.org,parivahansewa.live,tezjobs.in,blacksattaking786.com,niraamjob.in,sparktrail.site,sociallytrendz.online,sanadegreecollege.in,stpaulsschool.org.in,timesnewss.com,oreopix.com,jobernnews.com,abresult.in,merainsurance.xyz,coinnai.com,merainsurance.xyz,emipe.online,sankarmusic.in,examsnews.com,general24news.in,arceusxdownload.com,htmlgames.website,iqmastered.com,jobjankari.online,procinehub.com#$#body { overflow: auto !important; }
 jpopsingles.eu#$#body > div[class*="-blackout"].active { display: none !important; }
 jpopsingles.eu#$#body > div[class*="-blackout"].active + div[class*="-wrapper"] { display: none !important; }
 jpopsingles.eu#$#body > * { filter: none !important; }
@@ -1351,10 +1357,6 @@ leeapk.com#$##acrp-adb-overlay { display: none !important; }
 leeapk.com###abd-overlay
 leeapk.com#@#.ad-banner
 leeapk.com###zdn-adblock-overlay
-leeapk.com##+js(set, abdRecheck, noopFunc)
-leeapk.com###abd-box
-leeapk.com##html:style(overflow: auto !important; position: static !important; filter: none !important; pointer-events: auto !important;)
-leeapk.com##body:style(overflow: auto !important; position: static !important; filter: none !important; pointer-events: auto !important;)
 leechall.com#$##adBanner { height: 25px !important; }
 leechpremium.net#$#.adsbygoogle { position: absolute!important; left: -3000px!important; }
 legionscans.com,mewingzone.com,opchapters.com,tresdaos.com##.mainholder + div[id][class*=" "]
@@ -1420,6 +1422,7 @@ marca.com,forex-nawigator.biz,jakdojade.pl,metro.co.uk,pokeflix.tv,tabiris.com,4
 marca.com,forex-nawigator.biz,jakdojade.pl,metro.co.uk,pokeflix.tv,tabiris.com,4kwallpapers.com,phys.org,gadgetversus.com,guideoftheworld.com,wpteq.org,forocoches.com,0115765.com,graphicget.com,nichepcgamer.com,aquafora.nl,bestreamsports.org,free-play-mahjong.com,toramemoblog.com,plejada.pl,wiki3.jp,3dgifmaker.com,betaprofiles.com,tvonline123.com,sshkit.com,meneame.net,fakt.pl,eggnsemulator.com,nintendoswitchroms.net,tvn.pl,halkarz.com,businessinsider.com.pl,learn-japanese-adventure.com,thetvdb.com,aranzulla.it,drikpanchang.com,ettoday.net,smstome.com,tvp.info,medevel.com,abczdrowie.pl,tvn24.pl,nikkei225jp.com,apuntesdeingles.com,cnbeta.com.tw,lidovky.cz,gazeta.pl,animefillerlist.com,i.pl,interia.pl,japan.techinsight.jp,f1-gate.com,dailymail.co.uk#$#body { overflow: visible !important; }
 marketwatch.com#@#.advertisement
 marketwatch.com#@#div[id="ad_DisplayAd"]
+masrawytrend.com#@#.ad-unit:not(.textads)
 masseurporn.com#@#.ad-body
 masseurporn.com#@#.advertisement
 math4all.es,clownandco.org,modapk48.com,felizmodapk.com,4horlover.com,willcycle.com,pinoyalbums.com,samuraiscan.org,magiskmanager.com,infortechno.com,powerup-gaming.com,lascimmiapensa.com,wanderertl130.id,davescomputertips.com,movies4u.network,sociologicamente.it,textfonts.net,ketubanjiwa.com,ubitennis.com,gaypornhdfree.com,openculture.com##div[id$="-blanket"]
@@ -1707,6 +1710,8 @@ quest.to-travel.net##.popSc
 qwant.com#@#div[class="_2NDle"]:has(div[data-testid="advertiserAdsDisplayUrl"])
 raider.io##.rio-block-message
 rain-alarm.com##div[id^="google"]
+rajcet.com#$#body { overflow: auto !important; }
+rajcet.com#$#div[style^="position: fixed; inset: 0px; z-index: 10001;"] { display: none !important; }
 rakuten.ca#@#.google-ads
 rakuten.com#@#.google-ads
 readallcomics.com##body > div[style^="margin:0px"] + div[id][class*=" "]
@@ -1827,8 +1832,6 @@ skardu.pk,iumkit.net,latinluchas.com,zegtrends.com,sysguides.com##body > .wrappe
 sklinker.in#$#body { overflow: auto !important; }
 sklinker.in#$##modalpop { display: none !important; }
 sklinker.in#$##overlaypop { display: none !important; }
-skrresults.com,ignoupur.com,newsckp.com,popaar.com,powergam.online,qrixpe.com,ajazijobs.in,bharti26.in,paidpe.com,mfulecollegewarud.org,parivahansewa.live,tezjobs.in,blacksattaking786.com,niraamjob.in,sparktrail.site,sociallytrendz.online,sanadegreecollege.in,stpaulsschool.org.in,timesnewss.com,oreopix.com,jobernnews.com,abresult.in,merainsurance.xyz,coinnai.com,merainsurance.xyz,emipe.online,sankarmusic.in,examsnews.com,general24news.in,arceusxdownload.com,htmlgames.website,iqmastered.com,jobjankari.online,procinehub.com#$##AdbModel { display: none !important; }
-skrresults.com,ignoupur.com,newsckp.com,popaar.com,powergam.online,qrixpe.com,ajazijobs.in,bharti26.in,paidpe.com,mfulecollegewarud.org,parivahansewa.live,tezjobs.in,blacksattaking786.com,niraamjob.in,sparktrail.site,sociallytrendz.online,sanadegreecollege.in,stpaulsschool.org.in,timesnewss.com,oreopix.com,jobernnews.com,abresult.in,merainsurance.xyz,coinnai.com,merainsurance.xyz,emipe.online,sankarmusic.in,examsnews.com,general24news.in,arceusxdownload.com,htmlgames.website,iqmastered.com,jobjankari.online,procinehub.com#$#body { overflow: auto !important; }
 skycall.online##body > #page + script + div[id][class*=" "]
 slacker.com#$#body > header { margin-top: 0!important; }
 slacker.com###leaderboard
@@ -2259,6 +2262,13 @@ zpserver.com,devsoftwr.com,dredyson.com###bloghash-scroll-top + div[id][class*="
 165.22.246.130###adb
 38.242.194.12##center + div[id][class*=" "]
 38.242.194.12##footer > script + div[id][class*=" "]
+##.adace-popup-detector
+#?##adbd.overdiv
+##.ads_banner:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"]):not(:empty)
+##.ad-space:not(.textads)
+##.ad-top-728:not([style="width: 10px; height: 10px;"])
+##.ad-unit:not(.textads)
+##a[id][href="https://chpadblock.com/"][rel="noopener noreferrer"]
 autoscout24.*##s24-ad-slot
 bluedownload.*,urlbluemedia.*,bluemediadownload.*,bluemediafile.*,bluemediafiles.*#$##ads-center { height: 250px !important; }
 bluedownload.*,urlbluemedia.*,bluemediadownload.*,bluemediafile.*,bluemediafiles.*#$##ads-right div { height: 604px !important; width: 160px !important; visibility: hidden !important; }
@@ -2267,28 +2277,49 @@ bluedownload.*,urlbluemedia.*,bluemediadownload.*,bluemediafile.*,bluemediafiles
 bluedownload.*,urlbluemedia.*,bluemediadownload.*,bluemediafile.*,bluemediafiles.*#@##ads-left
 bluedownload.*,urlbluemedia.*,bluemediadownload.*,bluemediafile.*,bluemediafiles.*#@##ads-right
 blurayufr.*##body > .bw_footer + div[id][class*=" "]
+##body > div.demo-wrapper[style="display:none;"] + div[id][class]
+###chp_ads_blocker-modal
+###chp_ads_blocker-overlay
+###chp_branding
+###delulu-overlay
+##.demo-wrapper[style="display:none;"] + div.fadeInDown[id]
+##div.fadeInDown[id$="____equal"][class$="____equal"]
 ebay.*#$##gh-bulletin-det[style*="height:1px"] { display: block !important; }
 hdmovie99.*##body > footer.primay-footer + div[id][class*=" "]
 ibomma.*#$##abDisabled { display: block !important; }
 ibomma.*#$##abEnabled { display: none !important; }
+##.jetblocker_overlay
+##.jetblocker-wrapper
+##.mainholder + div[id][class*=" "] > div[id][class*=" "]
 sexkbj.*###adbd
+##.stickyads:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"], [data-freestar-ad="123"]):not(:empty)
 streameast.*##body > div > div[style*="position:"][style*="z-index:"][style*="font-family:"]
+##.wgAdBlockMessage
 1movierulzhd.*,xcandid.top#@#.ad_slot
 1movierulzhd.*,xcandid.top#@#.adslot
 1movierulzhd.*,xcandid.top#@#.adslot_1
 1movierulzhd.*,xcandid.top#@#.ad_unit
 1movierulzhd.*,xcandid.top#@#.adunit
+#@#.ad-box
+#@#.ads_banner
+#@#.ad-space
+#@#.ad-top-728
+#@#.ADV320_50_100
 bluedownload.*,urlbluemedia.*,bluemediadownload.*,bluemediafile.*,bluemediafiles.*#@#a[href^="https://tm-offers.gamingadult.com/"]
 ebay.*#@#.ad-placeholder:not(#filter_ads_by_classname):not(#detect_ad_empire):not(#detect):not(.adsbox)
 gogoanime.*#@#.ad-placement
+#@#.stickyads
 streamta.*#@#.google-ad
 strtape.*#@#.google-ad
 transfermarkt.*#@#.AD-POST
 $cookie=adblock,domain=irishradiolive.com|myonlineradio.at|myonlineradio.de|myonlineradio.hu|myonlineradio.nl|myonlineradio.sk|myradioendirect.fr|myradioenvivo.ar|myradioenvivo.mx|myradioonline.cl|myradioonline.es|myradioonline.it|myradioonline.pl|myradioonline.ro|ukradiolive.com
 $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
+#$#div[class="adsbygoogle"][id="ad-detector"] { display: block !important; }
+#$#div[class*=" "][style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"] { display: block !important; }
 *$image,redirect=1x1-transparent.gif,domain=proviralhost.com
 *$image,redirect-rule=32x32-transparent.png,domain=financemonk.net|rtxkeeda.com|houseofblogger.com|dropgalaxy.com|djxmaza.in
 $image,third-party,denyallow=cdn77.org|globalcdn.co|others-cdn.com|rncdn7.com|sb-cd.com|stream.highwebmedia.com|thumb.live.mmcdn.com|upsiloncdn.net|xvideos-cdn.com|youjizz.com|ypncdn.com,domain=pussyspace.com|pussyspace.net
+#$#.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links { display: block !important; }
 *$redirect-rule=noopjs,xmlhttprequest,domain=werfgt.fun
 $script,redirect-rule=noopjs,domain=anisearch.*
 $script,redirect-rule=noopjs,domain=diudemy.com
