@@ -2671,7 +2671,7 @@ ntvbd.com,somoynews.tv,rtvonline.com,channel24bd.tv##.social-like-box
 ntvbd.com,somoynews.tv,rtvonline.com,channel24bd.tv##.sponsor
 ntvbd.com,somoynews.tv,rtvonline.com,channel24bd.tv##.yt-embed
 pervtube.net##+js(nowindowopen)
-pervtube.net##+js(no-window-open-if)
+pervtube.net##+js(addEventListener-defuser, click)
 -platform-alisg.tiktokv.com^
 pornhoarder.net##+js(addEventListener-defuser, click)
 pornhoarder.net##+js(no-window-open-if)
