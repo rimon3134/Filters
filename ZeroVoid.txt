@@ -2576,6 +2576,8 @@ fullvideos.net##+js(no-window-open-if)
 fullvideos.xxx##+js(nowindowopen)
 imdb.com###content-2-wide:not([class]) #sidebar > div:not(.list-activity-widget)
 imdb.com##div[class*="ipc-rating-prompt__container"]
+imdb.com##div[class*="ipc-title ipc-title--base ipc-title--title ipc-title--on-textPrimary"]
+imdb.com##div[class*="relative overflow-hidden mb-m"]
 imdb.com##div[data-testid="hero-subnav-bar-left-block"]:style(display: flex !important;)
 imdb.com##div[data-testid="hero-subnav-bar-right-block"]
 imdb.com##div:has( > label[aria-label="Toggle language selector"])
@@ -2615,6 +2617,7 @@ imdb.com##section[data-testid="MoreLikeThis"] div:has( > a[aria-label="More info
 imdb.com##section[data-testid="MoreToExplore"]
 imdb.com##section[data-testid="News"]
 imdb.com##section[data-testid="RecentlyViewed"]
+imdb.com##section[data-testid="review-summary-teaser"]
 imdb.com##section[data-testid="Storyline"]
 imdb.com##section[data-testid="TechSpecs"]
 imdb.com##section[data-testid="title-cast"] > ul
@@ -2670,8 +2673,8 @@ ntvbd.com,somoynews.tv,rtvonline.com,channel24bd.tv##.popup-overlay
 ntvbd.com,somoynews.tv,rtvonline.com,channel24bd.tv##.social-like-box
 ntvbd.com,somoynews.tv,rtvonline.com,channel24bd.tv##.sponsor
 ntvbd.com,somoynews.tv,rtvonline.com,channel24bd.tv##.yt-embed
-pervtube.net##+js(nowindowopen)
 pervtube.net##+js(addEventListener-defuser, click)
+pervtube.net##+js(nowindowopen)
 -platform-alisg.tiktokv.com^
 pornhoarder.net##+js(addEventListener-defuser, click)
 pornhoarder.net##+js(no-window-open-if)
@@ -2696,6 +2699,8 @@ showtimebd.com##div[id*="popup"]
 smsgadget.com##.animate-ping
 smsgadget.com##.blink_container
 smsgadget.com##.chat_option > .text
+ssdhostting.com##+js((nowindowopen))
+ssdhostting.com##+js(no-window-open-if)
 startech.com.bd##div[class*="popup"]
 startech.com.bd##div[id*="popup"]
 teknoasian.com##+js(nowindowopen)
@@ -2736,6 +2741,7 @@ www.google.*##g-section-with-header:has(h3:has-text(/Videos|Short videos/i))
 www.google.*##.hdzaWe
 www.google.*##.related-question-pair
 www.google.*##.wQiwMc:has-text(/Forums|Discussions/)
+www.imdb.com##.SignInGateCard_card__ETz8_.ipc-page-section--base.ipc-page-section
 www.pickaboo.com##.application-banner
 www.youtube.com###chat-container
 www.youtube.com##div[skip-key-interaction]
