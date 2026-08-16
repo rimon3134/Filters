@@ -2852,8 +2852,14 @@ tapecontent.*##+js(no-window-open-if)
 /news_widget.js^$script
 /swfobject.js^$script
 symplr-analytics-
-cloudfam.io##+js(addEventListener-defuser, click)
-cloudfam.io##+js(nowindowopen)
+cloudfam.io##+js(prevent-window-open)
+cloudfam.io##+js(disable-newtab-links)
+cloudfam.io##div[id*="popup"]
+cloudfam.io##div[class*="backdrop"]
+cloudfam.io##div[class*="Overlay"]
+cloudfam.io##.adblock
+cloudfam.io##.to-amber-50.via-white.from-amber-50.bg-gradient-to-r.border-amber-300.p-5.cf-card
+cloudfam.io##.justify-between.items-center.flex.text-white.to-indigo-900.from-blue-900.bg-gradient-to-r.p-5.cf-card
 @@||api.hcaptcha.com^
 @@||arkoselabs.com^
 @@||arkoselabs.com.cdn.cloudflare.net^
