@@ -1,5 +1,5 @@
 ! Title: ⚡ RK’s ZeroVoid List
-! Version: 2026-08-14
+! Version: 2026-08-16
 ! Description: ZeroVoid — Blocks trackers, AI Junk, YT and IMDb annoyances, slow modules, and much more. Maximum performance with enhanced privacy.
 ! Homepage: https://rimon3134.github.io/Filters
 ! License: MIT
@@ -2852,6 +2852,8 @@ tapecontent.*##+js(no-window-open-if)
 /news_widget.js^$script
 /swfobject.js^$script
 symplr-analytics-
+cloudfam.io##+js(addEventListener-defuser, click)
+cloudfam.io##+js(nowindowopen)
 @@||api.hcaptcha.com^
 @@||arkoselabs.com^
 @@||arkoselabs.com.cdn.cloudflare.net^

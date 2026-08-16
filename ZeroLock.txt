@@ -1,5 +1,5 @@
 ! Title: 🔓 RK’s ZeroLock List
-! Version: 2026-08-14v2
+! Version: 2026-08-14
 ! Description: Neutralizes anti-adblock scripts, overlays, and site-blockades with surgical precision. 🕶️
 ! Homepage: https://rimon3134.github.io/Filters
 ! License: MIT  
@@ -1201,6 +1201,7 @@ cheatography.com#@##bottomAd
 checkfiletype.com#@#.ad-slot
 check-plagiarism.com#$#body #detect[class] { display: block !important; }
 check-plagiarism.com#@#.ad-placeholder:not(#filter_ads_by_classname):not(#detect_ad_empire):not(#detect):not(.adsbox)
+chefkoch.de$@$script[tag-content="Flags.networkListener"][min-length="20000"][max-length="150000"]
 chess.com##adblocker-check
 chitralexpress.com,sampledrive.org,rahim-soft.com,veganab.co,inter-news.it##.background-overlay + div[id][class*=" "]
 chronicle.com#$#.ArticlePage-articleContainer > .ArticlePage-articleBody.contentBody { display: block !important; visibility: visible !important; opacity: 1 !important; height: auto !important; }
