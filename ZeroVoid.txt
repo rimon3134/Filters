@@ -2676,8 +2676,8 @@ ntvbd.com,somoynews.tv,rtvonline.com,channel24bd.tv##.yt-embed
 pervtube.net##+js(addEventListener-defuser, click)
 pervtube.net##+js(nowindowopen)
 -platform-alisg.tiktokv.com^
-pornhoarder.net##+js(addEventListener-defuser, click)
-pornhoarder.net##+js(no-window-open-if)
+pornhoarder.*##+js(addEventListener-defuser, click)
+pornhoarder.*##+js(prevent-window-open)
 porntrex.com##+js(nowindowopen)
 porntrex.com##+js(no-window-open-if)
 prothomalo.com##.ad-container
